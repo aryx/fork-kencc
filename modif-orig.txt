@@ -1,0 +1,7 @@
+original: https://code.google.com/p/ken-cc/
+
+I've modified:
+- compiled and commited a correct version of MacOSX/386/bin/iyacc
+- got rid of .svn
+
+
