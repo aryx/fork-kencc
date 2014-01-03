@@ -11,6 +11,8 @@ OFILES=\
 	span.$O\
 	list.$O\
 	enam.$O\
+        compat.$O\
+        elf.$O\
 	$TARGMODEL.$O\
 
 HFILES=\

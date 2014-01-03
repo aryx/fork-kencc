@@ -1,0 +1,5 @@
+*.out
+
+y.tab.c
+y.tab.h
+y.debug
