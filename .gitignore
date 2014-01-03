@@ -1,5 +1,10 @@
 *.out
 
+MacOSX/386/bin/
+
 y.tab.c
 y.tab.h
 y.debug
+/bin
+/env
+/mkconfig
