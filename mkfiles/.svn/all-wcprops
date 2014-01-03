@@ -1,0 +1,299 @@
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/17/trunk/mkfiles
+END
+mkfile-Linux-arm
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Linux-arm
+END
+mkfile-Inferno-386
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-386
+END
+mkhost-Nt
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Nt
+END
+mkfile-Irix-mips
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Irix-mips
+END
+mkfile-Solaris-sparc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Solaris-sparc
+END
+mkone-nt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/11/trunk/mkfiles/mkone-nt
+END
+mklibsubdirs
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/mkfiles/mklibsubdirs
+END
+mkfile-Plan9-mips
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-mips
+END
+mkfile-Plan9-sparc
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-sparc
+END
+mkfile-Inferno-power
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-power
+END
+mkfile-Solaris-386
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Solaris-386
+END
+mkfile-NetBSD-386
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-NetBSD-386
+END
+mkhost-Inferno
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Inferno
+END
+mksubdirs
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/mkfiles/mksubdirs
+END
+mksyslib-sh
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/mkfiles/mksyslib-sh
+END
+mkfile-Plan9-386
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-386
+END
+mkfile-Inferno-mips
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-mips
+END
+mkfile-MacOSX-386
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-MacOSX-386
+END
+mkfile-OpenBSD-386
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-OpenBSD-386
+END
+mkhost-Irix
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Irix
+END
+mkhost-Solaris
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Solaris
+END
+mkfile-Inferno-68000
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-68000
+END
+mkone-sh
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/12/trunk/mkfiles/mkone-sh
+END
+mkfile-Linux-386
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Linux-386
+END
+mkfile-Plan9-power
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-power
+END
+mkhost-NetBSD
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-NetBSD
+END
+mkfile-Inferno-arm
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-arm
+END
+mkfile-Inferno-thumb
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-thumb
+END
+mkfile-Unixware-386
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Unixware-386
+END
+mkhost-Plan9
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Plan9
+END
+mkfile-MacOSX-power
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-MacOSX-power
+END
+mkhost-OpenBSD
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-OpenBSD
+END
+mkhost-MacOSX
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-MacOSX
+END
+mkfile-FreeBSD-386
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-FreeBSD-386
+END
+mkfile-Linux-power
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Linux-power
+END
+mksyslib-rc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/mkfiles/mksyslib-rc
+END
+mkfile-Plan9-amd64
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-amd64
+END
+mkhost-Linux
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Linux
+END
+mkfile-Hp-s800
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Hp-s800
+END
+mkfile-Nt-386
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Nt-386
+END
+mkhost-Unixware
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Unixware
+END
+mkfile-Plan9-68020
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/mkfiles/mkfile-Plan9-68020
+END
+mkhost-Hp
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-Hp
+END
+mkfile-Linux-spim
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Linux-spim
+END
+mkfile-Inferno-sparc
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-sparc
+END
+mkone-rc
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/11/trunk/mkfiles/mkone-rc
+END
+mkfile-Inferno-spim
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/17/trunk/mkfiles/mkfile-Inferno-spim
+END
+mksyslib-nt
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/mkfiles/mksyslib-nt
+END
+mkhost-FreeBSD
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/mkfiles/mkhost-FreeBSD
+END

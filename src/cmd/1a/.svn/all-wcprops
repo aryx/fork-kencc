@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/11/trunk/src/cmd/1a
+END
+a.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/1a/a.h
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/src/cmd/1a/mkfile
+END
+a.y
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/1a/a.y
+END
+lex.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/1a/lex.c
+END
+l.s
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/1a/l.s
+END

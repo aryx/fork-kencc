@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 22
+/svn/!svn/ver/28/trunk
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/22/trunk/NOTICE
+END
+configure
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/27/trunk/configure
+END
+NOT.READY
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/25/trunk/NOT.READY
+END
+TODO
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/28/trunk/TODO
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 30
+/svn/!svn/ver/22/trunk/INSTALL
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 29
+/svn/!svn/ver/25/trunk/mkfile
+END
+TODO.REBUILD
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/22/trunk/TODO.REBUILD
+END

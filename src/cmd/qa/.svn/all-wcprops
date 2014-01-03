@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/11/trunk/src/cmd/qa
+END
+a.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/qa/a.h
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/src/cmd/qa/mkfile
+END
+a.y
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/qa/a.y
+END
+Ins
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/qa/Ins
+END
+lex.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/qa/lex.c
+END
+branch
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qa/branch
+END

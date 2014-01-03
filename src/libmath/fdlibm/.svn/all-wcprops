@@ -1,0 +1,287 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm
+END
+s_rint.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_rint.c
+END
+s_erf.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_erf.c
+END
+e_atanh.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_atanh.c
+END
+s_finite.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_finite.c
+END
+e_exp.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_exp.c
+END
+e_acosh.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_acosh.c
+END
+fdlibm.h
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/fdlibm.h
+END
+s_floor.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_floor.c
+END
+e_sinh.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_sinh.c
+END
+s_modf.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_modf.c
+END
+e_atan2.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_atan2.c
+END
+e_remainder.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_remainder.c
+END
+e_jn.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_jn.c
+END
+s_expm1.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_expm1.c
+END
+s_cbrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_cbrt.c
+END
+e_j0.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_j0.c
+END
+s_copysign.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_copysign.c
+END
+e_j1.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_j1.c
+END
+e_rem_pio2.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_rem_pio2.c
+END
+s_nextafter.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_nextafter.c
+END
+e_lgamma_r.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_lgamma_r.c
+END
+e_log.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_log.c
+END
+k_rem_pio2.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/k_rem_pio2.c
+END
+e_log10.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_log10.c
+END
+e_acos.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_acos.c
+END
+s_isnan.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_isnan.c
+END
+k_tan.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/k_tan.c
+END
+s_fabs.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_fabs.c
+END
+e_sqrt.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_sqrt.c
+END
+k_cos.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/k_cos.c
+END
+s_ceil.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_ceil.c
+END
+e_asin.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_asin.c
+END
+e_cosh.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_cosh.c
+END
+k_sin.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/k_sin.c
+END
+s_log1p.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_log1p.c
+END
+s_tan.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_tan.c
+END
+s_atan.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_atan.c
+END
+s_cos.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_cos.c
+END
+e_hypot.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_hypot.c
+END
+e_pow.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_pow.c
+END
+s_sin.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_sin.c
+END
+s_tanh.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_tanh.c
+END
+readme
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/readme
+END
+s_ilogb.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_ilogb.c
+END
+s_scalbn.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_scalbn.c
+END
+s_asinh.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/s_asinh.c
+END
+e_fmod.c
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/11/trunk/src/libmath/fdlibm/e_fmod.c
+END

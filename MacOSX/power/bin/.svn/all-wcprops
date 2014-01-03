@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/17/trunk/MacOSX/power/bin
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/MacOSX/power/bin/mk
+END
+mkext
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/MacOSX/power/bin/mkext
+END
+iyacc
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/17/trunk/MacOSX/power/bin/iyacc
+END
+data2c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/11/trunk/MacOSX/power/bin/data2c
+END

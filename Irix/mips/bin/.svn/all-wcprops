@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/17/trunk/Irix/mips/bin
+END
+awk
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/Irix/mips/bin/awk
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/11/trunk/Irix/mips/bin/mk
+END
+mkext
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/Irix/mips/bin/mkext
+END
+iyacc
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/17/trunk/Irix/mips/bin/iyacc
+END
+data2c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/Irix/mips/bin/data2c
+END

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/11/trunk/src/cmd/qc
+END
+gc.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/10/trunk/src/cmd/qc/gc.h
+END
+txt.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/qc/txt.c
+END
+enam.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/enam.c
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/src/cmd/qc/mkfile
+END
+mkenam
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/mkenam
+END
+peep.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/peep.c
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/list.c
+END
+q.out.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/qc/q.out.h
+END
+cgen.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/cgen.c
+END
+sgen.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/qc/sgen.c
+END
+reg.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/qc/reg.c
+END
+swt.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/qc/swt.c
+END
+mul.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/qc/mul.c
+END

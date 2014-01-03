@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/11/trunk/src/cmd/0l
+END
+l.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/10/trunk/src/cmd/0l/l.h
+END
+asm.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/0l/asm.c
+END
+enam.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/0l/enam.c
+END
+span.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/0l/span.c
+END
+Nt.c
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/10/trunk/src/cmd/0l/Nt.c
+END
+Posix.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/0l/Posix.c
+END
+Plan9.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/0l/Plan9.c
+END
+optab.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/0l/optab.c
+END
+pass.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/0l/pass.c
+END
+sched.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/0l/sched.c
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/src/cmd/0l/mkfile
+END
+obj.c
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/0l/obj.c
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/0l/list.c
+END
+noop.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/0l/noop.c
+END

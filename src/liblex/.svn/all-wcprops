@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/25/trunk/src/liblex
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/25/trunk/src/liblex/main.c
+END
+allprint.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/25/trunk/src/liblex/allprint.c
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/25/trunk/src/liblex/mkfile
+END
+yyless.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/25/trunk/src/liblex/yyless.c
+END
+yywrap.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/25/trunk/src/liblex/yywrap.c
+END
+reject.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/25/trunk/src/liblex/reject.c
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/17/trunk/NetBSD/386/bin
+END
+mk
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/NetBSD/386/bin/mk
+END
+mkext
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/NetBSD/386/bin/mkext
+END
+iyacc
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/17/trunk/NetBSD/386/bin/iyacc
+END
+data2c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/NetBSD/386/bin/data2c
+END

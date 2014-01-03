@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/11/trunk/src/cmd/acid
+END
+arm
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/acid/arm
+END
+386
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/10/trunk/src/cmd/acid/386
+END
+os-Nt.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/10/trunk/src/cmd/acid/os-Nt.c
+END
+os-Plan9.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10/trunk/src/cmd/acid/os-Plan9.c
+END
+port
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/acid/port
+END
+proc.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/proc.c
+END
+acid.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/acid.h
+END
+builtin.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/10/trunk/src/cmd/acid/builtin.c
+END
+rdebug.c
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/src/cmd/acid/rdebug.c
+END
+B.sh
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/acid/B.sh
+END
+list.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/list.c
+END
+util.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/util.c
+END
+expr.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/expr.c
+END
+os-Posix.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10/trunk/src/cmd/acid/os-Posix.c
+END
+dbg.y
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/acid/dbg.y
+END
+main.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/main.c
+END
+exec.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/10/trunk/src/cmd/acid/exec.c
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/src/cmd/acid/mkfile
+END
+dot.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/acid/dot.c
+END
+sparc
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/acid/sparc
+END
+mips
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/10/trunk/src/cmd/acid/mips
+END
+lex.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/10/trunk/src/cmd/acid/lex.c
+END
+print.c
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/10/trunk/src/cmd/acid/print.c
+END

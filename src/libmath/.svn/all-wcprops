@@ -1,0 +1,137 @@
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/11/trunk/src/libmath
+END
+FPcontrol-MacOSX.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-MacOSX.c
+END
+FPcontrol-OpenBSD.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-OpenBSD.c
+END
+NOTICE
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/NOTICE
+END
+FPcontrol-Linux.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Linux.c
+END
+FPcontrol-Inferno.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Inferno.c
+END
+pow10.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/src/libmath/pow10.c
+END
+FPcontrol-Unixware.c
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Unixware.c
+END
+FPcontrol-Hp.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Hp.c
+END
+FPcontrol-FreeBSD.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-FreeBSD.c
+END
+FPcontrol-Irix.c
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Irix.c
+END
+fdim.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/fdim.c
+END
+FPcontrol-Solaris.c
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Solaris.c
+END
+blas.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/blas.c
+END
+gfltconv.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/11/trunk/src/libmath/gfltconv.c
+END
+FPcontrol-NetBSD.c
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-NetBSD.c
+END
+FPcontrol-Nt.c
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Nt.c
+END
+gemm.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/gemm.c
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/mkfile
+END
+FPcontrol-Plan9.c
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-Plan9.c
+END
+dtoa.c
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/11/trunk/src/libmath/dtoa.c
+END
+FPcontrol-DragonFly.c
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/11/trunk/src/libmath/FPcontrol-DragonFly.c
+END
+g_fmt.c
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/11/trunk/src/libmath/g_fmt.c
+END

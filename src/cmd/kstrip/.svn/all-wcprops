@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/11/trunk/src/cmd/kstrip
+END
+mkfile
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/11/trunk/src/cmd/kstrip/mkfile
+END
+kstrip.c
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/10/trunk/src/cmd/kstrip/kstrip.c
+END

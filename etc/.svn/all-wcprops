@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/svn/!svn/ver/23/trunk/etc
+END
+os.dlist
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/11/trunk/etc/os.dlist
+END
+os.arch.dlist.sh
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/11/trunk/etc/os.arch.dlist.sh
+END
+os.arch.dlist
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/11/trunk/etc/os.arch.dlist
+END
+mkconfig.txt
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/22/trunk/etc/mkconfig.txt
+END
+compilers
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/23/trunk/etc/compilers
+END
