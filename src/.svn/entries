@@ -1,49 +1,0 @@
-10
-
-dir
-28
-http://ken-cc.googlecode.com/svn/trunk/src
-http://ken-cc.googlecode.com/svn
-
-
-
-2010-08-27T12:42:16.534290Z
-26
-jdp.ulsf.net
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-31927972-4928-0410-be0f-1199edc0a802
-
-lib9
-dir
-
-liblex
-dir
-
-libmach
-dir
-
-libbio
-dir
-
-libmath
-dir
-
-libregexp
-dir
-
-cmd
-dir
-
