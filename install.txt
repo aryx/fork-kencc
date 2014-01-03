@@ -17,20 +17,6 @@ Installation
         mk             # (build tools for host platform)
         mk install     # (install tools into 'ken-cc/bin')
 
-
-  On Windows
-
-      * Add the directory 'ken-cc/Nt/386/bin' to your PATH
-
-      * Create the text file 'ken-cc/mkconfig' using the template from
-
-        ken-cc/etc/mkconfig.txt
-
-      * Then 'mk' && 'mk install'
-
-        (installs into 'ken-cc/Nt/386/bin').
-
-
 See also...
 
   docs/mk.pdf
