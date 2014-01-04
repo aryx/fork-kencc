@@ -1,6 +1,6 @@
 #define	EXTERN
 #include	"l.h"
-#include	<ar.h>
+#include	"../libmach/ar.h"
 
 #ifndef	DEFAULT
 #define	DEFAULT	'9'

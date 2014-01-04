@@ -27,7 +27,7 @@ OFILES=	arc.$O\
 	word.$O\
 
 HFILES=	fns.h\
-	${ROOT}/include/ar.h\
+	${ROOT}/libmach/ar.h\
 	mk.h\
 
 LIBS=	regexp bio 9

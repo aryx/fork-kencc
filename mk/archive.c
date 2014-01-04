@@ -1,5 +1,5 @@
 #include	"mk.h"
-#include	<ar.h>
+#include	"../libmach/ar.h"
 
 static int dolong;
 

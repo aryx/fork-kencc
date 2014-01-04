@@ -3,8 +3,8 @@
  */
 #include <lib9.h>
 #include <bio.h>
-#include <mach.h>
-#include <ar.h>
+#include "mach.h"
+#include "../libmach/ar.h"
 
 /*
  *	The algorithm uses up to 3 temp files.  The "pivot member" is the

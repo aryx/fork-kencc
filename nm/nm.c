@@ -2,9 +2,9 @@
  * nm.c -- drive nm
  */
 #include <lib9.h>
-#include <ar.h>
+#include "../libmach/ar.h"
 #include <bio.h>
-#include <mach.h>
+#include "mach.h"
 
 enum{
 	CHUNK	=	256	/* must be power of 2 */

@@ -18,7 +18,7 @@ OFILES=\
 HFILES=\
 	l.h\
 	../8c/8.out.h\
-	${ROOT}/include/ar.h\
+	${ROOT}/libmach/ar.h\
 
 LIBS=bio 9			# order is important
 
