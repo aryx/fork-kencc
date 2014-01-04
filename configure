@@ -157,12 +157,12 @@ EOF
   # Generate configuration
   #
   cat<<EOF>mkconfig
+# -*- makefile -*-
 #
 #	Set the following 4 variables.  The host system is the system where
 #	the software will be built; the target system is where it will run.
 #	They are almost always the same.
 
-#	On Nt systems, the ROOT path MUST be of the form 'drive:/path'
 ROOT=${ROOT}
 
 #   build system OS type
