@@ -1,6 +1,6 @@
 #include	<lib9.h>
 #include	<bio.h>
-#include	"../vc/v.out.h"
+#include	"../0c/v.out.h"
 
 #ifndef	EXTERN
 #define	EXTERN	extern

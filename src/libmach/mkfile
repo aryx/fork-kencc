@@ -20,14 +20,8 @@ OFILES=\
 	qdb.$O\
 	tdb.$O\
 	vdb.$O\
-	2obj.$O\
-	5obj.$O\
 	6obj.$O\
 	8obj.$O\
-	kobj.$O\
-	qobj.$O\
-	tobj.$O\
-	vobj.$O\
 	obj.$O\
 	map.$O\
 	swap.$O\

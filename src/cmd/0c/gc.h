@@ -1,5 +1,5 @@
 #include	"../cc/cc.h"
-#include	"../vc/v.out.h"
+#include	"../0c/v.out.h"
 
 /*
  * 0c/spim

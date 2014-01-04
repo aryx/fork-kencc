@@ -16,7 +16,7 @@ OFILES=\
 
 HFILES=\
 	l.h\
-	../vc/v.out.h\
+	../0c/v.out.h\
 	${ROOT}/include/ar.h\
 
 LIBS=bio 9
