@@ -65,22 +65,6 @@ NOTPLAN9=\
 	mkext\
 	ndate\
 
-#
-#	Utils we build on Nt, for build environment compatibility.
-#
-NTONLY=\
-	cp\
-	echo\
-	format\
-	mkdir\
-	mv\
-	ntsrv\
-	rcsh\
-	rm\
-	sed\
-	test\
-	tr\
-
 all:QV:		all-$TARGMODEL
 clean:QV:	clean-$TARGMODEL
 install:QV:	install-$TARGMODEL
@@ -104,11 +88,3 @@ nuke:QV:	nuke-$TARGMODEL
 		(cd $j; mk $MKFLAGS $stem) || exit 1
 	done
 
-%-Nt:QV:
-	for (j in  $ALWAYS $NTONLY $NOTPLAN9)
-	{
-		test -d $j && {
-			echo.exe '@{cd' $j '; mk $MKFLAGS $stem}'
-			@{cd $j; mk $MKFLAGS $stem }
-		} || test ! -e $j
-	}
