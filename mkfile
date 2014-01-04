@@ -7,7 +7,23 @@ DIRS=\
 	libmach\
 	libregexp\
 	libmath\
-	cmd
+	mk\
+	lex\
+	yacc\
+	cc\
+	0a\
+	0c\
+	0l\
+	8a\
+	8c\
+	8l\
+	nm\
+	iar\
+	kprof\
+	ksize\
+	kstrip\
+	ndate\
+	acid\
 
 # mkconfig is included at this point to allow it to override
 # the preceding declarations if need be

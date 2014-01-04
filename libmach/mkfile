@@ -34,4 +34,4 @@ HFILES=\
 	ureg5.h
 
 <$ROOT/mkfiles/mksyslib-$SHELLTYPE
-CFLAGS= $CFLAGS -I../cmd/
+CFLAGS= $CFLAGS -I..
