@@ -50,13 +50,7 @@ typedef struct Exectable{
 } ExecTable;
 
 extern	Mach	mmips;
-extern	Mach	mmips2le;
-extern	Mach	mmips2be;
-extern	Mach	msparc;
-extern	Mach	m68020;
 extern	Mach	mi386;
-extern	Mach	marm;
-extern	Mach	mpower;
 
 ExecTable exectab[] =
 {
@@ -67,94 +61,10 @@ ExecTable exectab[] =
 		sizeof(Exec),
 		beswal,
 		adotout },
-	{ M_MAGIC,			/* Mips 4.out */
-		"mips 4k plan 9 executable BE",
-		FMIPS2BE,
-		&mmips2be,
-		sizeof(Exec),
-		beswal,
-		adotout },
-	{ N_MAGIC,			/* Mips 0.out */
-		"mips 4k plan 9 executable LE",
-		FMIPS2LE,
-		&mmips2le,
-		sizeof(Exec),
-		beswal,
-		adotout },
-	{ 0x160<<16,			/* Mips boot image */
-		"mips plan 9 boot image",
-		FMIPSB,
-		&mmips,
-		sizeof(struct mipsexec),
-		beswal,
-		mipsboot },
-	{ (0x160<<16)|3,		/* Mips boot image */
-		"mips 4k plan 9 boot image",
-		FMIPSB,
-		&mmips,
-		sizeof(struct mips4kexec),
-		beswal,
-		mips4kboot },
-	{ K_MAGIC,			/* Sparc k.out */
-		"sparc plan 9 executable",
-		FSPARC,
-		&msparc,
-		sizeof(Exec),
-		beswal,
-		adotout },
-	{ 0x01030107, 			/* Sparc boot image */
-		"sparc plan 9 boot image",
-		FSPARCB,
-		&msparc,
-		sizeof(struct sparcexec),
-		beswal,
-		sparcboot },
-	{ A_MAGIC,			/* 68020 2.out & boot image */
-		"68020 plan 9 executable",
-		F68020,
-		&m68020,
-		sizeof(Exec),
-		beswal,
-		common },
-	{ 0xFEEDFACE,			/* Next boot image */
-		"next plan 9 boot image",
-		FNEXTB,
-		&m68020,
-		sizeof(struct nextexec),
-		beswal,
-		nextboot },
 	{ I_MAGIC,			/* I386 8.out & boot image */
 		"386 plan 9 executable",
 		FI386,
 		&mi386,
-		sizeof(Exec),
-		beswal,
-		common },
-	{ ELF_MAG,
-		"Irix 5.X Elf executable",
-		FMIPS,
-		&mmips,
-		sizeof(Ehdr),
-		beswal,
-		elfdotout },
-	{ E_MAGIC,			/* Arm 5.out */
-		"Arm plan 9 executable",
-		FARM,
-		&marm,
-		sizeof(Exec),
-		beswal,
-		common },
-	{ (143<<16)|0413,		/* (Free|Net)BSD Arm */
-		"Arm *BSD executable",
-		FARM,
-		&marm,
-		sizeof(Exec),
-		leswal,
-		armdotout },
-	{ Q_MAGIC,			/* PowerPC q.out */
-		"power plan 9 executable",
-		FPOWER,
-		&mpower,
 		sizeof(Exec),
 		beswal,
 		common },

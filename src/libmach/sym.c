@@ -93,7 +93,6 @@ syminit(int fd, Fhdr *fp)
 	Sym *p;
 	int i, size;
 	Biobuf b;
-	extern void thumbpctab(Biobuf*, Fhdr*);
 
 	if(fp->symsz == 0)
 		return 0;
@@ -193,8 +192,6 @@ syminit(int fd, Fhdr *fp)
 		}
 		pclineend = pcline+fp->lnpcsz;
 	}
-	if(fp->type == FARM)	/* thumb pc table */
-		thumbpctab(&b, fp);
 	return nsym;
 }
 

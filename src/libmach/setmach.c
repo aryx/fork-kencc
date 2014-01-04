@@ -15,9 +15,8 @@ struct machtab
 	Machdata	*machdata;		/* machine functions */
 };
 
-extern	Mach		mmips, msparc, m68020, mi386, marm, mmips2be, mmips2le, mpower;
-extern	Machdata	mipsmach, sparcmach, m68020mach, i386mach,
-			armmach, mipsmach2be, mipsmach2le, powermach;
+extern	Mach		mmips, mi386;
+extern	Machdata	mipsmach, i386mach;
 
 /*
  *	machine selection table.  machines with native disassemblers should
@@ -26,54 +25,12 @@ extern	Machdata	mipsmach, sparcmach, m68020mach, i386mach,
  */
 Machtab	machines[] =
 {
-	{	"68020",			/*68020*/
-		F68020,
-		F68020B,
-		A68020,
-		&m68020,
-		&m68020mach,	},
-	{	"68020",			/*Next 68040 bootable*/
-		F68020,
-		FNEXTB,
-		A68020,
-		&m68020,
-		&m68020mach,	},
-	{	"mips2LE",			/*plan 9 mips2 little endian*/
-		FMIPS2LE,
-		0,
-		AMIPS,
-		&mmips2le,
-		&mipsmach2le, 	},
 	{	"mips",				/*plan 9 mips*/
 		FMIPS,
 		FMIPSB,
 		AMIPS,
 		&mmips,
 		&mipsmach, 	},
-	{	"mips2",			/*plan 9 mips2*/
-		FMIPS2BE,
-		FMIPSB,
-		AMIPS,
-		&mmips2be,
-		&mipsmach2be, 	},
-	{	"mipsco",			/*native mips - must follow plan 9*/
-		FMIPS,
-		FMIPSB,
-		AMIPSCO,
-		&mmips,
-		&mipsmach,	},
-	{	"sparc",			/*plan 9 sparc */
-		FSPARC,
-		FSPARCB,
-		ASPARC,
-		&msparc,
-		&sparcmach,	},
-	{	"sunsparc",			/*native sparc - must follow plan 9*/
-		FSPARC,
-		FSPARCB,
-		ASUNSPARC,
-		&msparc,
-		&sparcmach,	},
 	{	"386",				/*plan 9 386*/
 		FI386,
 		FI386B,
@@ -86,18 +43,6 @@ Machtab	machines[] =
 		AI8086,
 		&mi386,
 		&i386mach,	},
-	{	"arm",				/*ARM*/
-		FARM,
-		FNONE,
-		AARM,
-		&marm,
-		&armmach,	},
-	{	"power",			/*PowerPC*/
-		FPOWER,
-		FNONE,
-		APOWER,
-		&mpower,
-		&powermach,	},
 	{	0		},		/*the terminator*/
 };
 
