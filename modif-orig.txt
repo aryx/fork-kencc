@@ -4,3 +4,5 @@ partial list of modifications:
 - compiled and commited a correct version of MacOSX/386/bin/iyacc
 - get rid of old hosts (NetBSD, Irix, etc), except Linux/386, Macos/386, and Plan9
 - get rid of old targets, except 386 (8) and mips (0)
+- moved src/* at the toplevel
+

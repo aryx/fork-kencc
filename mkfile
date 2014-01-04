@@ -1,13 +1,13 @@
 #                                              -*-makefile-*-
 
 DIRS=\
-	src/lib9\
-	src/libbio\
-	src/liblex\
-	src/libmach\
-	src/libregexp\
-	src/libmath\
-	src/cmd
+	lib9\
+	libbio\
+	liblex\
+	libmach\
+	libregexp\
+	libmath\
+	cmd
 
 # mkconfig is included at this point to allow it to override
 # the preceding declarations if need be
