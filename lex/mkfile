@@ -2,6 +2,7 @@
 <../mkconfig
 
 TARG=ilex
+
 OFILES=lmain.$O\
 	y.tab.$O\
 	sub1.$O\

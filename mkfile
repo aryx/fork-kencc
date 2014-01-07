@@ -18,7 +18,7 @@ DIRS=\
 	8c\
 	8l\
 	nm\
-	iar\
+	ar\
 	kprof\
 	ksize\
 	kstrip\
