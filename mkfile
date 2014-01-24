@@ -11,12 +11,15 @@ DIRS=\
 	lex\
 	yacc\
 	cc\
-	0a\
-	0c\
-	0l\
 	8a\
 	8c\
 	8l\
+	5a\
+	5c\
+	5l\
+	va\
+	vc\
+	vl\
 	nm\
 	ar\
 	kprof\
@@ -50,20 +53,6 @@ nukedist:V: nuke
 		(cd $j; mk $MKFLAGS $stem) || exit 1
 	done
 
-&-Nt:QV:
-	for (j in $DIRS)
-	{
-		echo '@{builtin cd' $j '; mk $MKFLAGS $stem}'
-		@{builtin cd $j; mk.exe $MKFLAGS $stem }
-	}
-
-&-Inferno:QV:
-	for (j in $DIRS)
-	{
-		echo '@{builtin cd' $j '; mk $MKFLAGS $stem}'
-		@{builtin cd $j; mk $MKFLAGS $stem }
-	}
-
 &-Plan9:QV:
 	for (j in $DIRS)
 	{
@@ -73,29 +62,8 @@ nukedist:V: nuke
 
 # Convenience targets
 
-Hp-% hp-%:V:
-	mk 'SYSHOST=Hp' 'OBJTYPE=s800' $stem
-
-Inferno-% inferno-% Inferno-386-% inferno-386-%:V:
-	mk 'SYSHOST=Inferno' 'OBJTYPE=386' $stem
-
-Inferno-arm-% inferno-arm-%:V:
-	mk 'SYSHOST=Inferno' 'OBJTYPE=arm' $stem
-
 Plan9-% plan9-%:V:
 	mk 'SYSHOST=Plan9' 'OBJTYPE=386' $stem
 
-Irix-% irix-%:V:
-	mk 'SYSHOST=Irix' 'OBJTYPE=mips' $stem
-
 Linux-% linux-%:V:
 	mk 'SYSHOST=Linux' 'OBJTYPE=386' $stem
-
-NetBSD-% netbsd-%:V:
-	mk 'SYSHOST=NetBSD' 'OBJTYPE=386' $stem
-
-Nt-% nt-% Win95-% win95-%:V:
-	mk 'SYSHOST=Nt' 'OBJTYPE=386' $stem
-
-Solaris-% solaris-%:V:
-	mk 'SYSHOST=Solaris' 'OBJTYPE=sparc' $stem
