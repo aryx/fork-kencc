@@ -1,0 +1,15 @@
+#                                              -*-makefile-*-
+<../mkconfig
+
+#TARG=data2s
+#OFILES=	data2s.$O\
+
+TARG=mklatinkbd
+OFILES=mklatinkbd.$O
+
+LIBS=	bio 9
+
+BIN=$ROOT/$OBJDIR/bin
+
+<$ROOT/mkfiles/mkone-$SHELLTYPE
+
