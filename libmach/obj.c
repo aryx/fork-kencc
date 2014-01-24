@@ -19,27 +19,16 @@ enum
 	HASHMUL	= 79L,
 };
 
-int
-//	_is2(char*),		/* in [$OS].c */
-//	_is5(char*),
+int /* in [$OS].c */
+	_is5(char*),
 	_is6(char*),
 	_is8(char*),
 	_is9(char*),
-//	_isk(char*),
-//	_isq(char*),
-	_ist(char*),
 	_isv(char*),
-	_isx(char*),
-//	_read2(Biobuf*, Prog*),
-//	_read5(Biobuf*, Prog*),
+	_read5(Biobuf*, Prog*),
 	_read6(Biobuf*, Prog*),
 	_read8(Biobuf*, Prog*),
-	_read9(Biobuf*, Prog*),
-//	_readk(Biobuf*, Prog*),
-//	_readq(Biobuf*, Prog*),
-	_readt(Biobuf*, Prog*),
-//	_readv(Biobuf*, Prog*),
-	_readx(Biobuf*, Prog*);
+        _readv(Biobuf*, Prog*);
 
 typedef struct Obj	Obj;
 typedef struct Symtab	Symtab;
@@ -53,17 +42,14 @@ struct	Obj		/* functions to handle each intermediate (.$O) file */
 
 static Obj	obj[] =
 {			/* functions to identify and parse each type of obj */
-  //	/*[Obj68020]*/	"68020 .2",	_is2, _read2,
-  //	/*[ObjSparc]*/	"sparc .k",	_isk, _readk,
-  //	/*[ObjMips]*/	"mips .v",	_isv, _readv,
+  	/*[ObjMips]*/	"mips .v",	_isv, _readv,
 	/*[Obj386]*/	"386 .8",	_is8, _read8,
 	/*[Obj960]*/	"960 .6",	0, 0, 
 	/*[Obj3210]*/	"3210 .x",	0, 0,
 	/*[ObjMips2]*/	"mips2 .4",	0, 0,
 	/*[Obj29000]*/	"29000 .9",	0, 0,
-        //	/*[ObjArm]*/	"arm .5",	_is5, _read5,
-        //	/*[ObjPower]*/	"power .q",	_isq, _readq,
-	/*[ObjMips2le]*/	"mips2 .0",	0, 0,
+        /*[ObjArm]*/	"arm .5",	_is5, _read5,
+  	/*[ObjMips2le]*/	"mips2 .0",	0, 0,
 	/*[Maxobjtype]*/	0, 0
 };
 

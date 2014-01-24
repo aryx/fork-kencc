@@ -3,13 +3,17 @@
 
 LIB=libmach.a
 OFILES=\
+        5.$O\
 	6.$O\
 	8.$O\
 	v.$O\
+	5db.$O\
 	8db.$O\
 	vdb.$O\
+	5obj.$O\
 	6obj.$O\
 	8obj.$O\
+	vobj.$O\
 	obj.$O\
 	map.$O\
 	swap.$O\

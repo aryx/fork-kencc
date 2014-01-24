@@ -1,7 +1,7 @@
 #                                              -*-makefile-*-
 TARGMODEL=	Posix
 TARGSHTYPE=	sh
-CPUS=		386
+CPUS=		386 mips arm
 
 O=		o
 OS=		o
