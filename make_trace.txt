@@ -1,0 +1,2543 @@
+(cd lib9; mk  all)
+DIR: lib9
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os convD2M.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os convM2D.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os convM2S.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os convS2M.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fcallfmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os qsort.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os runestrlen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os strtoll.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os rune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os argv0.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os charstod.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os cistrcmp.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os cistrncmp.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os cistrstr.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cistrstr.c:15:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(; c = *s; s++){
+              ~~^~~~
+cistrstr.c:15:10: note: place parentheses around the assignment to silence this
+      warning
+        for(; c = *s; s++){
+                ^
+              (     )
+cistrstr.c:15:10: note: use '==' to turn this assignment into an equality
+      comparison
+        for(; c = *s; s++){
+                ^
+                ==
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os cleanname.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os create.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dirwstat.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dofmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dorfmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os errfmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os exits.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtfd.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtlock.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtquote.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtrune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtstr.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fmtvprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os getfields.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os nulldir.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os pow10.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os print.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os readn.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os rerrstr.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os runeseprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os runesmprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os runesnprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os runevseprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os seek.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os seprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os smprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os snprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os sprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os strdup.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os strecpy.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os sysfatal.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os tokenize.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os u16.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os u32.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os u64.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os utflen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os utfnlen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os utfrrune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os utfrune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os utfecpy.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os vfprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os vseprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os vsmprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os vsnprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dirstat-posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os errstr-posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os getuser-posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386  getcallerpc-MacOSX-386.s
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os getwd-posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os sbrk-posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a convD2M.o convM2D.o convM2S.o convS2M.o fcallfmt.o qsort.o runestrlen.o strtoll.o rune.o argv0.o charstod.o cistrcmp.o cistrncmp.o cistrstr.o cleanname.o create.o dirwstat.o dofmt.o dorfmt.o errfmt.o exits.o fmt.o fmtfd.o fmtlock.o fmtprint.o fmtquote.o fmtrune.o fmtstr.o fmtvprint.o fprint.o getfields.o nulldir.o pow10.o print.o readn.o rerrstr.o runeseprint.o runesmprint.o runesnprint.o runevseprint.o seek.o seprint.o smprint.o snprint.o sprint.o strdup.o strecpy.o sysfatal.o tokenize.o u16.o u32.o u64.o utflen.o utfnlen.o utfrrune.o utfrune.o utfecpy.o vfprint.o vseprint.o vsmprint.o vsnprint.o dirstat-posix.o errstr-posix.o getuser-posix.o getcallerpc-MacOSX-386.o getwd-posix.o sbrk-posix.o
+r - convD2M.o
+r - convM2D.o
+r - convM2S.o
+r - convS2M.o
+r - fcallfmt.o
+r - qsort.o
+r - runestrlen.o
+r - strtoll.o
+r - rune.o
+r - argv0.o
+r - charstod.o
+r - cistrcmp.o
+r - cistrncmp.o
+r - cistrstr.o
+r - cleanname.o
+r - create.o
+r - dirwstat.o
+r - dofmt.o
+r - dorfmt.o
+r - errfmt.o
+r - exits.o
+r - fmt.o
+r - fmtfd.o
+r - fmtlock.o
+r - fmtprint.o
+r - fmtquote.o
+r - fmtrune.o
+r - fmtstr.o
+r - fmtvprint.o
+r - fprint.o
+r - getfields.o
+r - nulldir.o
+r - pow10.o
+r - print.o
+r - readn.o
+r - rerrstr.o
+r - runeseprint.o
+r - runesmprint.o
+r - runesnprint.o
+r - runevseprint.o
+r - seek.o
+r - seprint.o
+r - smprint.o
+r - snprint.o
+r - sprint.o
+r - strdup.o
+r - strecpy.o
+r - sysfatal.o
+r - tokenize.o
+r - u16.o
+r - u32.o
+r - u64.o
+r - utflen.o
+r - utfnlen.o
+r - utfrrune.o
+r - utfrune.o
+r - utfecpy.o
+r - vfprint.o
+r - vseprint.o
+r - vsmprint.o
+r - vsnprint.o
+r - dirstat-posix.o
+r - errstr-posix.o
+r - getuser-posix.o
+r - getcallerpc-MacOSX-386.o
+r - getwd-posix.o
+r - sbrk-posix.o
+(cd libbio; mk  all)
+DIR: libbio
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bbuffered.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bfildes.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bflush.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bgetrune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bgetc.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bgetd.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os binit.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os boffset.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bputrune.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bputc.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os brdline.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bread.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bseek.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bwrite.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a bbuffered.o bfildes.o bflush.o bgetrune.o bgetc.o bgetd.o binit.o boffset.o bprint.o bputrune.o bputc.o brdline.o bread.o bseek.o bwrite.o
+r - bbuffered.o
+r - bfildes.o
+r - bflush.o
+r - bgetrune.o
+r - bgetc.o
+r - bgetd.o
+r - binit.o
+r - boffset.o
+r - bprint.o
+r - bputrune.o
+r - bputc.o
+r - brdline.o
+r - bread.o
+r - bseek.o
+r - bwrite.o
+(cd liblex; mk  all)
+DIR: liblex
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os allprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+allprint.c:19:3: warning: implicit declaration of function 'fprintf' is invalid in
+      C99 [-Wimplicit-function-declaration]
+                fprintf(yyout,"\\n");
+                ^
+allprint.c:19:3: warning: declaration of built-in function 'fprintf' requires
+      inclusion of the header <stdio.h> [-Wbuiltin-requires-header]
+allprint.c:34:8: warning: implicit declaration of function 'putc' is invalid in C99
+      [-Wimplicit-function-declaration]
+                        c = putc(c,yyout);
+                            ^
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os main.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+main.c:7:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os reject.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os yyless.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os yywrap.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libl.a allprint.o main.o reject.o yyless.o yywrap.o
+r - allprint.o
+r - main.o
+r - reject.o
+r - yyless.o
+r - yywrap.o
+(cd libmach; mk  all)
+DIR: libmach
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. 6.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. 8.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. v.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. 8db.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. vdb.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+vdb.c:432:13: warning: unused variable 'mipscofp3' [-Wunused-variable]
+static char mipscofp3[] = "f%a,f%d,f%t";        /* fd,fs,ft */
+            ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. 6obj.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. 8obj.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. obj.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+obj.c:282:14: warning: implicit declaration of function 'tolower' is invalid in C99
+      [-Wimplicit-function-declaration]
+                        s->type = tolower(type);
+                                  ^
+obj.c:281:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else if (s->type == 'b')
+                ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. map.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. swap.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. sym.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+sym.c:476:38: warning: incompatible pointer types passing 'int (void *, void *)' to
+      parameter of type 'int (*)(const void *, const void *)'
+      [-Wincompatible-pointer-types]
+        qsort(globals, nglob, sizeof(Sym*), symcomp);
+                                            ^~~~~~~
+/usr/include/stdlib.h:175:12: note: passing argument to parameter here
+            int (*)(const void *, const void *));
+                  ^
+sym.c:477:35: warning: incompatible pointer types passing 'int (void *, void *)' to
+      parameter of type 'int (*)(const void *, const void *)'
+      [-Wincompatible-pointer-types]
+        qsort(txt, ntxt, sizeof(Txtsym), txtcomp);
+                                         ^~~~~~~
+/usr/include/stdlib.h:175:12: note: passing argument to parameter here
+            int (*)(const void *, const void *));
+                  ^
+sym.c:478:37: warning: incompatible pointer types passing 'int (void *, void *)' to
+      parameter of type 'int (*)(const void *, const void *)'
+      [-Wincompatible-pointer-types]
+        qsort(files, nfiles, sizeof(File), filecomp);
+                                           ^~~~~~~~
+/usr/include/stdlib.h:175:12: note: passing argument to parameter here
+            int (*)(const void *, const void *));
+                  ^
+sym.c:963:16: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for (i = 1; j = (cp[i]<<8)|cp[i+1]; i += 2) {
+                    ~~^~~~~~~~~~~~~~~~~~~~
+sym.c:963:16: note: place parentheses around the assignment to silence this warning
+        for (i = 1; j = (cp[i]<<8)|cp[i+1]; i += 2) {
+                      ^
+                    (                     )
+sym.c:963:16: note: use '==' to turn this assignment into an equality comparison
+        for (i = 1; j = (cp[i]<<8)|cp[i+1]; i += 2) {
+                      ^
+                      ==
+sym.c:1105:15: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(i = 1; j = (cp[i]<<8)|cp[i+1]; i+=2){
+                   ~~^~~~~~~~~~~~~~~~~~~~
+sym.c:1105:15: note: place parentheses around the assignment to silence this
+      warning
+        for(i = 1; j = (cp[i]<<8)|cp[i+1]; i+=2){
+                     ^
+                   (                     )
+sym.c:1105:15: note: use '==' to turn this assignment into an equality comparison
+        for(i = 1; j = (cp[i]<<8)|cp[i+1]; i+=2){
+                     ^
+                     ==
+5 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. access.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. machdata.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. setmach.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. executable.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+executable.c:291:1: warning: unused function 'nextboot' [-Wunused-function]
+nextboot(int fd, Fhdr *fp, ExecHdr *hp)
+^
+executable.c:274:1: warning: unused function 'sparcboot' [-Wunused-function]
+sparcboot(int fd, Fhdr *fp, ExecHdr *hp)
+^
+executable.c:218:1: warning: unused function 'mipsboot' [-Wunused-function]
+mipsboot(int fd, Fhdr *fp, ExecHdr *hp)
+^
+executable.c:246:1: warning: unused function 'mips4kboot' [-Wunused-function]
+mips4kboot(int fd, Fhdr *fp, ExecHdr *hp)
+^
+executable.c:327:1: warning: unused function 'elfdotout' [-Wunused-function]
+elfdotout(int fd, Fhdr *fp, ExecHdr *hp)
+^
+executable.c:424:1: warning: unused function 'armdotout' [-Wunused-function]
+armdotout(int fd, Fhdr *fp, ExecHdr *hp)
+^
+6 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I.. vcodas.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a 6.o 8.o v.o 8db.o vdb.o 6obj.o 8obj.o obj.o map.o swap.o sym.o access.o machdata.o setmach.o executable.o vcodas.o
+r - 6.o
+r - 8.o
+r - v.o
+r - 8db.o
+r - vdb.o
+r - 6obj.o
+r - 8obj.o
+r - obj.o
+r - map.o
+r - swap.o
+r - sym.o
+r - access.o
+r - machdata.o
+r - setmach.o
+r - executable.o
+r - vcodas.o
+(cd libregexp; mk  all)
+DIR: libregexp
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os regcomp.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os regerror.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os regexec.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os regsub.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os regaux.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os rregexec.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os rregsub.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libregexp.a regcomp.o regerror.o regexec.o regsub.o regaux.o rregexec.o rregsub.o
+r - regcomp.o
+r - regerror.o
+r - regexec.o
+r - regsub.o
+r - regaux.o
+r - rregexec.o
+r - rregsub.o
+(cd libmath; mk  all)
+DIR: libmath
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os blas.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dtoa.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+dtoa.c:96:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (rv = freelist[k]) {
+            ~~~^~~~~~~~~~~~~
+dtoa.c:96:9: note: place parentheses around the assignment to silence this warning
+        if (rv = freelist[k]) {
+               ^
+            (               )
+dtoa.c:96:9: note: use '==' to turn this assignment into an equality comparison
+        if (rv = freelist[k]) {
+               ^
+               ==
+dtoa.c:296:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (y = *xb & 0xffff) {
+                    ~~^~~~~~~~~~~~~~
+dtoa.c:296:9: note: place parentheses around the assignment to silence this warning
+                if (y = *xb & 0xffff) {
+                      ^
+                    (               )
+dtoa.c:296:9: note: use '==' to turn this assignment into an equality comparison
+                if (y = *xb & 0xffff) {
+                      ^
+                      ==
+dtoa.c:309:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (y = *xb >> 16) {
+                    ~~^~~~~~~~~~~
+dtoa.c:309:9: note: place parentheses around the assignment to silence this warning
+                if (y = *xb >> 16) {
+                      ^
+                    (            )
+dtoa.c:309:9: note: use '==' to turn this assignment into an equality comparison
+                if (y = *xb >> 16) {
+                      ^
+                      ==
+dtoa.c:340:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (i = k & 3)
+            ~~^~~~~~~
+dtoa.c:340:8: note: place parentheses around the assignment to silence this warning
+        if (i = k & 3)
+              ^
+            (        )
+dtoa.c:340:8: note: use '==' to turn this assignment into an equality comparison
+        if (i = k & 3)
+              ^
+              ==
+dtoa.c:400:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (*x1 = z)
+                    ~~~~^~~
+dtoa.c:400:11: note: place parentheses around the assignment to silence this
+      warning
+                if (*x1 = z)
+                        ^
+                    (      )
+dtoa.c:400:11: note: use '==' to turn this assignment into an equality comparison
+                if (*x1 = z)
+                        ^
+                        ==
+dtoa.c:572:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (de = (int)(d0 >> Exp_shift))
+            ~~~^~~~~~~~~~~~~~~~~~~~~~~~
+dtoa.c:572:9: note: place parentheses around the assignment to silence this warning
+        if (de = (int)(d0 >> Exp_shift))
+               ^
+            (                          )
+dtoa.c:572:9: note: use '==' to turn this assignment into an equality comparison
+        if (de = (int)(d0 >> Exp_shift))
+               ^
+               ==
+dtoa.c:575:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (y = d1) {
+            ~~^~~~
+dtoa.c:575:8: note: place parentheses around the assignment to silence this warning
+        if (y = d1) {
+              ^
+            (     )
+dtoa.c:575:8: note: use '==' to turn this assignment into an equality comparison
+        if (y = d1) {
+              ^
+              ==
+dtoa.c:576:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (k = lo0bits(&y)) {
+                    ~~^~~~~~~~~~~~~
+dtoa.c:576:9: note: place parentheses around the assignment to silence this warning
+                if (k = lo0bits(&y)) {
+                      ^
+                    (              )
+dtoa.c:576:9: note: use '==' to turn this assignment into an equality comparison
+                if (k = lo0bits(&y)) {
+                      ^
+                      ==
+dtoa.c:654:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while (d = *t++) {
+               ~~^~~~~~
+dtoa.c:654:11: note: place parentheses around the assignment to silence this
+      warning
+        while (d = *t++) {
+                 ^
+               (       )
+dtoa.c:654:11: note: use '==' to turn this assignment into an equality comparison
+        while (d = *t++) {
+                 ^
+                 ==
+dtoa.c:853:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (i = e1 & 15)
+                    ~~^~~~~~~~~
+dtoa.c:853:9: note: place parentheses around the assignment to silence this warning
+                if (i = e1 & 15)
+                      ^
+                    (          )
+dtoa.c:853:9: note: use '==' to turn this assignment into an equality comparison
+                if (i = e1 & 15)
+                      ^
+                      ==
+dtoa.c:887:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if (i = e1 & 15)
+                    ~~^~~~~~~~~
+dtoa.c:887:9: note: place parentheses around the assignment to silence this warning
+                if (i = e1 & 15)
+                      ^
+                    (          )
+dtoa.c:887:9: note: use '==' to turn this assignment into an equality comparison
+                if (i = e1 & 15)
+                      ^
+                      ==
+dtoa.c:1135:4: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                        else
+                        ^
+dtoa.c:1246:12: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while (*t = *s++) 
+               ~~~^~~~~~
+dtoa.c:1246:12: note: place parentheses around the assignment to silence this
+      warning
+        while (*t = *s++) 
+                  ^
+               (        )
+dtoa.c:1246:12: note: use '==' to turn this assignment into an equality comparison
+        while (*t = *s++) 
+                  ^
+                  ==
+dtoa.c:1373:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (i = (int)(word0(d) >> Exp_shift1 & (Exp_mask >> Exp_shift1))) {
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dtoa.c:1373:8: note: place parentheses around the assignment to silence this
+      warning
+        if (i = (int)(word0(d) >> Exp_shift1 & (Exp_mask >> Exp_shift1))) {
+              ^
+            (                                                           )
+dtoa.c:1373:8: note: use '==' to turn this assignment into an equality comparison
+        if (i = (int)(word0(d) >> Exp_shift1 & (Exp_mask >> Exp_shift1))) {
+              ^
+              ==
+dtoa.c:1501:17: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                } else if (j1 = -k) {
+                           ~~~^~~~
+dtoa.c:1501:17: note: place parentheses around the assignment to silence this
+      warning
+                } else if (j1 = -k) {
+                              ^
+                           (      )
+dtoa.c:1501:17: note: use '==' to turn this assignment into an equality comparison
+                } else if (j1 = -k) {
+                              ^
+                              ==
+dtoa.c:1570:27: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                if (d > ds || d == ds && L & 1) {
+                                           ~~ ~~~~~~~~^~~~~~~~
+dtoa.c:1570:27: note: place parentheses around the '&&' expression to silence this
+      warning
+                                if (d > ds || d == ds && L & 1) {
+                                                      ^
+                                              (               )
+dtoa.c:1630:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                        if (j = b5 - m5)
+                            ~~^~~~~~~~~
+dtoa.c:1630:10: note: place parentheses around the assignment to silence this
+      warning
+                        if (j = b5 - m5)
+                              ^
+                            (          )
+dtoa.c:1630:10: note: use '==' to turn this assignment into an equality comparison
+                        if (j = b5 - m5)
+                              ^
+                              ==
+dtoa.c:1662:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if (i = ((s5 ? 32 - hi0bits(S->x[S->wds-1]) : 1) + s2) & 0x1f)
+            ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+dtoa.c:1662:8: note: place parentheses around the assignment to silence this
+      warning
+        if (i = ((s5 ? 32 - hi0bits(S->x[S->wds-1]) : 1) + s2) & 0x1f)
+              ^
+            (                                                        )
+dtoa.c:1662:8: note: use '==' to turn this assignment into an equality comparison
+        if (i = ((s5 ? 32 - hi0bits(S->x[S->wds-1]) : 1) + s2) & 0x1f)
+              ^
+              ==
+dtoa.c:1733:9: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                             && !(word1(d) & 1)
+                             ^~~~~~~~~~~~~~~~~~
+dtoa.c:1733:9: note: place parentheses around the '&&' expression to silence this
+      warning
+                             && !(word1(d) & 1)
+                             ^
+dtoa.c:1738:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                                        if ((j1 > 0 || j1 == 0 && dig & 1)
+                                                    ~~ ~~~~~~~~^~~~~~~~~~
+dtoa.c:1738:29: note: place parentheses around the '&&' expression to silence this
+      warning
+                                        if ((j1 > 0 || j1 == 0 && dig & 1)
+                                                               ^
+                                                       (                 )
+dtoa.c:1777:22: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if (j > 0 || j == 0 && dig & 1) {
+                  ~~ ~~~~~~~^~~~~~~~~~
+dtoa.c:1777:22: note: place parentheses around the '&&' expression to silence this
+      warning
+        if (j > 0 || j == 0 && dig & 1) {
+                            ^
+                     (                )
+21 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os fdim.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os FPcontrol-MacOSX.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os gemm.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+gemm.c:15:52: warning: '&&' within '||' [-Wlogical-op-parentheses]
+    if(m == 0 || n == 0 || (alpha == 0. || k == 0) && beta == 1.){
+                        ~~ ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+gemm.c:15:52: note: place parentheses around the '&&' expression to silence this
+      warning
+    if(m == 0 || n == 0 || (alpha == 0. || k == 0) && beta == 1.){
+                                                   ^
+                           (                                    )
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os g_fmt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+g_fmt.c:55:14: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while(*b++ = *s++);
+                      ~~~~~^~~~~~
+g_fmt.c:55:14: note: place parentheses around the assignment to silence this
+      warning
+                while(*b++ = *s++);
+                           ^
+                      (          )
+g_fmt.c:55:14: note: use '==' to turn this assignment into an equality comparison
+                while(*b++ = *s++);
+                           ^
+                           ==
+g_fmt.c:62:13: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                        while(*b = *s++)
+                              ~~~^~~~~~
+g_fmt.c:62:13: note: place parentheses around the assignment to silence this
+      warning
+                        while(*b = *s++)
+                                 ^
+                              (        )
+g_fmt.c:62:13: note: use '==' to turn this assignment into an equality comparison
+                        while(*b = *s++)
+                                 ^
+                                 ==
+g_fmt.c:88:14: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while(*b++ = *s++);
+                      ~~~~~^~~~~~
+g_fmt.c:88:14: note: place parentheses around the assignment to silence this
+      warning
+                while(*b++ = *s++);
+                           ^
+                      (          )
+g_fmt.c:88:14: note: use '==' to turn this assignment into an equality comparison
+                while(*b++ = *s++);
+                           ^
+                           ==
+g_fmt.c:91:12: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while(*b = *s++) {
+                      ~~~^~~~~~
+g_fmt.c:91:12: note: place parentheses around the assignment to silence this
+      warning
+                while(*b = *s++) {
+                         ^
+                      (        )
+g_fmt.c:91:12: note: use '==' to turn this assignment into an equality comparison
+                while(*b = *s++) {
+                         ^
+                         ==
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os gfltconv.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os pow10.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_acos.o -Ifdlibm fdlibm/e_acos.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_acosh.o -Ifdlibm fdlibm/e_acosh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_asin.o -Ifdlibm fdlibm/e_asin.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_asin.c:79:6: warning: variable 't' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+                if(Huge+x>one) return x;/* return x with inexact if x!=0*/
+                   ^~~~~~~~~~
+fdlibm/e_asin.c:82:7: note: uninitialized use occurs here
+                p = t*(pS0+t*(pS1+t*(pS2+t*(pS3+t*(pS4+t*pS5)))));
+                    ^
+fdlibm/e_asin.c:79:3: note: remove the 'if' if its condition is always true
+                if(Huge+x>one) return x;/* return x with inexact if x!=0*/
+                ^~~~~~~~~~~~~~~
+fdlibm/e_asin.c:68:10: note: initialize the variable 't' to silence this warning
+        double t,w,p,q,c,r,s;
+                ^
+                 = 0.0
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_atan2.o -Ifdlibm fdlibm/e_atan2.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_atanh.o -Ifdlibm fdlibm/e_atanh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_cosh.o -Ifdlibm fdlibm/e_cosh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_cosh.c:73:24: warning: '&&' within '||' [-Wlogical-op-parentheses]
+              (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
+              ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fdlibm/e_cosh.c:73:24: note: place parentheses around the '&&' expression to
+      silence this warning
+              (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
+                              ^
+              (                                           )
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_exp.o -Ifdlibm fdlibm/e_exp.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_exp.c:133:9: warning: variable 'k' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+            if(Huge+x>one) return one+x;/* trigger inexact */
+               ^~~~~~~~~~
+fdlibm/e_exp.c:140:5: note: uninitialized use occurs here
+        if(k==0)        return one-((x*c)/(c-2.0)-x); 
+           ^
+fdlibm/e_exp.c:133:6: note: remove the 'if' if its condition is always true
+            if(Huge+x>one) return one+x;/* trigger inexact */
+            ^~~~~~~~~~~~~~~
+fdlibm/e_exp.c:102:7: note: initialize the variable 'k' to silence this warning
+        int k,xsb;
+             ^
+              = 0
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_fmod.o -Ifdlibm fdlibm/e_fmod.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_hypot.o -Ifdlibm fdlibm/e_hypot.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_j0.o -Ifdlibm fdlibm/e_j0.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_j0.c:276:10: warning: variable 'p' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = pR2; q= pS2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j0.c:278:6: note: uninitialized use occurs here
+        r = p[0]+z*(p[1]+z*(p[2]+z*(p[3]+z*(p[4]+z*p[5]))));
+            ^
+fdlibm/e_j0.c:276:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = pR2; q= pS2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j0.c:269:17: note: initialize the variable 'p' to silence this warning
+        const double *p,*q;
+                       ^
+                        = NULL
+fdlibm/e_j0.c:276:10: warning: variable 'q' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = pR2; q= pS2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j0.c:279:13: note: uninitialized use occurs here
+        s = one+z*(q[0]+z*(q[1]+z*(q[2]+z*(q[3]+z*q[4]))));
+                   ^
+fdlibm/e_j0.c:276:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = pR2; q= pS2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j0.c:269:20: note: initialize the variable 'q' to silence this warning
+        const double *p,*q;
+                          ^
+                           = NULL
+fdlibm/e_j0.c:370:10: warning: variable 'p' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = qR2; q= qS2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j0.c:372:6: note: uninitialized use occurs here
+        r = p[0]+z*(p[1]+z*(p[2]+z*(p[3]+z*(p[4]+z*p[5]))));
+            ^
+fdlibm/e_j0.c:370:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = qR2; q= qS2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j0.c:363:17: note: initialize the variable 'p' to silence this warning
+        const double *p,*q;
+                       ^
+                        = NULL
+fdlibm/e_j0.c:370:10: warning: variable 'q' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = qR2; q= qS2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j0.c:373:13: note: uninitialized use occurs here
+        s = one+z*(q[0]+z*(q[1]+z*(q[2]+z*(q[3]+z*(q[4]+z*q[5])))));
+                   ^
+fdlibm/e_j0.c:370:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = qR2; q= qS2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j0.c:363:20: note: initialize the variable 'q' to silence this warning
+        const double *p,*q;
+                          ^
+                           = NULL
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_j1.o -Ifdlibm fdlibm/e_j1.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_j1.c:270:17: warning: variable 'p' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = pr2; q= ps2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j1.c:272:13: note: uninitialized use occurs here
+        r = p[0]+z*(p[1]+z*(p[2]+z*(p[3]+z*(p[4]+z*p[5]))));
+            ^
+fdlibm/e_j1.c:270:14: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = pr2; q= ps2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j1.c:263:17: note: initialize the variable 'p' to silence this warning
+        const double *p,*q;
+                       ^
+                        = NULL
+fdlibm/e_j1.c:270:17: warning: variable 'q' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = pr2; q= ps2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j1.c:273:20: note: uninitialized use occurs here
+        s = one+z*(q[0]+z*(q[1]+z*(q[2]+z*(q[3]+z*q[4]))));
+                   ^
+fdlibm/e_j1.c:270:14: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = pr2; q= ps2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j1.c:263:20: note: initialize the variable 'q' to silence this warning
+        const double *p,*q;
+                          ^
+                           = NULL
+fdlibm/e_j1.c:365:10: warning: variable 'p' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = qr2; q= qs2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j1.c:367:6: note: uninitialized use occurs here
+        r = p[0]+z*(p[1]+z*(p[2]+z*(p[3]+z*(p[4]+z*p[5]))));
+            ^
+fdlibm/e_j1.c:365:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = qr2; q= qs2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j1.c:358:17: note: initialize the variable 'p' to silence this warning
+        const double *p,*q;
+                       ^
+                        = NULL
+fdlibm/e_j1.c:365:10: warning: variable 'q' is used uninitialized whenever 'if'
+      condition is false [-Wsometimes-uninitialized]
+        else if(ix>=0x40000000){p = qr2; q= qs2;}
+                ^~~~~~~~~~~~~~
+fdlibm/e_j1.c:368:13: note: uninitialized use occurs here
+        s = one+z*(q[0]+z*(q[1]+z*(q[2]+z*(q[3]+z*(q[4]+z*q[5])))));
+                   ^
+fdlibm/e_j1.c:365:7: note: remove the 'if' if its condition is always true
+        else if(ix>=0x40000000){p = qr2; q= qs2;}
+             ^~~~~~~~~~~~~~~~~~
+fdlibm/e_j1.c:358:20: note: initialize the variable 'q' to silence this warning
+        const double *p,*q;
+                          ^
+                           = NULL
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_jn.o -Ifdlibm fdlibm/e_jn.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_lgamma_r.o -Ifdlibm fdlibm/e_lgamma_r.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_log.o -Ifdlibm fdlibm/e_log.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_log.c:107:41: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+            if(f==zero) if(k==0) return zero;  else {dk=(double)k;
+                                               ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_log10.o -Ifdlibm fdlibm/e_log10.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_pow.o -Ifdlibm fdlibm/e_pow.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_rem_pio2.o -Ifdlibm fdlibm/e_rem_pio2.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_remainder.o -Ifdlibm fdlibm/e_remainder.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_sinh.o -Ifdlibm fdlibm/e_sinh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/e_sinh.c:66:39: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if (ix<0x408633CE || (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
+                          ~~ ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+fdlibm/e_sinh.c:66:39: note: place parentheses around the '&&' expression to
+      silence this warning
+        if (ix<0x408633CE || (ix==0x408633ce)&&(lx<=(unsigned)0x8fb9f87d)) {
+                                             ^
+                             (                                           )
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o e_sqrt.o -Ifdlibm fdlibm/e_sqrt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o k_cos.o -Ifdlibm fdlibm/k_cos.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o k_rem_pio2.o -Ifdlibm fdlibm/k_rem_pio2.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o k_sin.o -Ifdlibm fdlibm/k_sin.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o k_tan.o -Ifdlibm fdlibm/k_tan.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_asinh.o -Ifdlibm fdlibm/s_asinh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_atan.o -Ifdlibm fdlibm/s_atan.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_cbrt.o -Ifdlibm fdlibm/s_cbrt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_ceil.o -Ifdlibm fdlibm/s_ceil.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_copysign.o -Ifdlibm fdlibm/s_copysign.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_cos.o -Ifdlibm fdlibm/s_cos.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_erf.o -Ifdlibm fdlibm/s_erf.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_expm1.o -Ifdlibm fdlibm/s_expm1.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/s_expm1.c:189:10: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                else          return  one+2.0*(x-e);
+                ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_fabs.o -Ifdlibm fdlibm/s_fabs.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_finite.o -Ifdlibm fdlibm/s_finite.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_floor.o -Ifdlibm fdlibm/s_floor.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_ilogb.o -Ifdlibm fdlibm/s_ilogb.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_isnan.o -Ifdlibm fdlibm/s_isnan.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_log1p.o -Ifdlibm fdlibm/s_log1p.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/s_log1p.c:147:4: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                        else {c += k*ln2_lo; return k*ln2_hi+c;}
+                        ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_nextafter.o -Ifdlibm fdlibm/s_nextafter.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_rint.o -Ifdlibm fdlibm/s_rint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_scalbn.o -Ifdlibm fdlibm/s_scalbn.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+fdlibm/s_scalbn.c:51:6: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+            else return tiny*copysign(tiny,x);  /*underflow*/
+            ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_sin.o -Ifdlibm fdlibm/s_sin.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_tan.o -Ifdlibm fdlibm/s_tan.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o s_tanh.o -Ifdlibm fdlibm/s_tanh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmath.a blas.o dtoa.o fdim.o FPcontrol-MacOSX.o gemm.o g_fmt.o gfltconv.o pow10.o e_acos.o e_acosh.o e_asin.o e_atan2.o e_atanh.o e_cosh.o e_exp.o e_fmod.o e_hypot.o e_j0.o e_j1.o e_jn.o e_lgamma_r.o e_log.o e_log10.o e_pow.o e_rem_pio2.o e_remainder.o e_sinh.o e_sqrt.o k_cos.o k_rem_pio2.o k_sin.o k_tan.o s_asinh.o s_atan.o s_cbrt.o s_ceil.o s_copysign.o s_cos.o s_erf.o s_expm1.o s_fabs.o s_finite.o s_floor.o s_ilogb.o s_isnan.o s_log1p.o s_nextafter.o s_rint.o s_scalbn.o s_sin.o s_tan.o s_tanh.o
+r - blas.o
+r - dtoa.o
+r - fdim.o
+r - FPcontrol-MacOSX.o
+r - gemm.o
+r - g_fmt.o
+r - gfltconv.o
+r - pow10.o
+r - e_acos.o
+r - e_acosh.o
+r - e_asin.o
+r - e_atan2.o
+r - e_atanh.o
+r - e_cosh.o
+r - e_exp.o
+r - e_fmod.o
+r - e_hypot.o
+r - e_j0.o
+r - e_j1.o
+r - e_jn.o
+r - e_lgamma_r.o
+r - e_log.o
+r - e_log10.o
+r - e_pow.o
+r - e_rem_pio2.o
+r - e_remainder.o
+r - e_sinh.o
+r - e_sqrt.o
+r - k_cos.o
+r - k_rem_pio2.o
+r - k_sin.o
+r - k_tan.o
+r - s_asinh.o
+r - s_atan.o
+r - s_cbrt.o
+r - s_ceil.o
+r - s_copysign.o
+r - s_cos.o
+r - s_erf.o
+r - s_expm1.o
+r - s_fabs.o
+r - s_finite.o
+r - s_floor.o
+r - s_ilogb.o
+r - s_isnan.o
+r - s_log1p.o
+r - s_nextafter.o
+r - s_rint.o
+r - s_scalbn.o
+r - s_sin.o
+r - s_tan.o
+r - s_tanh.o
+(cd mk; mk  all)
+DIR: mk
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o arc.o arc.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o archive.o archive.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o bufblock.o bufblock.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o env.o env.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o file.o file.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o graph.o graph.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+graph.c:40:53: warning: '/*' within block comment [-Wcomment]
+/*      print("applyrules(%lux='%s')\n", target, target);/**/
+                                                         ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o job.o job.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o lex.o lex.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o main.o main.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+main.c:25:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+main.c:5:14: warning: unused variable 'version' [-Wunused-variable]
+static char *version = "@(#)mk general release 4 (plan 9)";
+             ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o match.o match.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o mk.o mk.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+mk.c:71:81: warning: '/*' within block comment [-Wcomment]
+  ...flags=0x%x time=%ld\n", node->name, node->flags, node->time);/**/
+                                                                  ^
+mk.c:183:84: warning: '/*' within block comment [-Wcomment]
+  ...%s time=%ld flags=0x%x\n", node->name, node->time, node->flags);/**/
+                                                                     ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o parse.o parse.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o Posix.o Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o recipe.o recipe.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+recipe.c:102:92: warning: '/*' within block comment [-Wcomment]
+  ...lp=%s\n",wtos(head.next, ' '),wtos(ln.next, ' '),wtos(lp.next, ' '));/**/
+                                                                          ^
+recipe.c:112:16: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(lw = w; w = w->next; lw = w){
+                    ~~^~~~~~~~~
+recipe.c:112:16: note: place parentheses around the assignment to silence this
+      warning
+        for(lw = w; w = w->next; lw = w){
+                      ^
+                    (          )
+recipe.c:112:16: note: use '==' to turn this assignment into an equality comparison
+        for(lw = w; w = w->next; lw = w){
+                      ^
+                      ==
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o rule.o rule.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+rule.c:17:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if(sym = symlook(head, S_TARGET, 0)){
+           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+rule.c:17:9: note: place parentheses around the assignment to silence this warning
+        if(sym = symlook(head, S_TARGET, 0)){
+               ^
+           (                               )
+rule.c:17:9: note: use '==' to turn this assignment into an equality comparison
+        if(sym = symlook(head, S_TARGET, 0)){
+               ^
+               ==
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o run.o run.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+run.c:185:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if(sym = symlook("NPROC", S_VAR, 0)) {
+           ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+run.c:185:9: note: place parentheses around the assignment to silence this warning
+        if(sym = symlook("NPROC", S_VAR, 0)) {
+               ^
+           (                               )
+run.c:185:9: note: use '==' to turn this assignment into an equality comparison
+        if(sym = symlook("NPROC", S_VAR, 0)) {
+               ^
+               ==
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o sh.o sh.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o shprint.o shprint.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o symtab.o symtab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o var.o var.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o varsub.o varsub.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o word.o word.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+word.c:81:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(v = w){
+              ~~^~~
+word.c:81:10: note: place parentheses around the assignment to silence this warning
+        while(v = w){
+                ^
+              (    )
+word.c:81:10: note: use '==' to turn this assignment into an equality comparison
+        while(v = w){
+                ^
+                ==
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out arc.o archive.o bufblock.o env.o file.o graph.o job.o lex.o main.o match.o mk.o parse.o Posix.o recipe.o rule.o run.o sh.o shprint.o symtab.o var.o varsub.o word.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libregexp.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd lex; mk  all)
+DIR: lex
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o lmain.o lmain.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+lmain.c:94:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+lmain.c:129:4: warning: variable '_argt' is uninitialized when used here
+      [-Wuninitialized]
+        } ARGEND
+          ^~~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:464:33: note: expanded from
+      macro 'ARGEND'
+#define ARGEND          SET(_argt);USED(_argt);USED(_argc);...
+                                        ^~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:66:21: note: expanded from
+      macro 'USED'
+#define USED(x)         if(x){}else{}
+                           ^
+lmain.c:108:2: note: variable '_argt' is declared here
+        ARGBEGIN {
+        ^
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:455:5: note: expanded from
+      macro 'ARGBEGIN'
+                                char *_args, *_argt;\
+                                ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o y.tab.o y.tab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+parser.y:863:9: warning: array index -1 is before the beginning of the array
+      [-Warray-bounds]
+        yyp = &yys[-1];
+               ^   ~~
+parser.y:843:2: note: array 'yys' declared here
+        struct
+        ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o sub1.o sub1.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+sub1.c:224:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while( c=gch() ){
+                       ~^~~~~~
+sub1.c:224:11: note: place parentheses around the assignment to silence this
+      warning
+                while( c=gch() ){
+                        ^
+                       (      )
+sub1.c:224:11: note: use '==' to turn this assignment into an equality comparison
+                while( c=gch() ){
+                        ^
+                        ==
+sub1.c:244:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while( c=gch() ){
+                       ~^~~~~~
+sub1.c:244:11: note: place parentheses around the assignment to silence this
+      warning
+                while( c=gch() ){
+                        ^
+                       (      )
+sub1.c:244:11: note: use '==' to turn this assignment into an equality comparison
+                while( c=gch() ){
+                        ^
+                        ==
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o sub2.o sub2.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+sub2.c:324:14: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(j < NCH && j == c
+                   ~~~~~~~~^~~~~~~~~
+sub2.c:324:14: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(j < NCH && j == c
+                           ^
+                   (                )
+sub2.c:325:16: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                || j == RSTR && c == right[curpos]
+                ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+sub2.c:325:16: note: place parentheses around the '&&' expression to silence this
+      warning
+                || j == RSTR && c == right[curpos]
+                             ^
+                   (                              )
+sub2.c:326:16: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                || j == RCCL && member(c, ptr[curpos])){
+                ~~ ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+sub2.c:326:16: note: place parentheses around the '&&' expression to silence this
+      warning
+                || j == RCCL && member(c, ptr[curpos])){
+                             ^
+                   (                                  )
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o header.o header.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out lmain.o y.tab.o sub1.o sub2.o header.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd yacc; mk  all)
+DIR: yacc
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -DROOT="/Users/yoann.padioleau/kencc" -DPARSER="yaccpar" -DPARSERS="yaccpar" -o yacc.o yacc.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+yacc.c:326:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char**);
+^
+yacc.c:377:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+yacc.c:506:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(c = *q) {
+              ~~^~~~
+yacc.c:506:10: note: place parentheses around the assignment to silence this
+      warning
+        while(c = *q) {
+                ^
+              (     )
+yacc.c:506:10: note: use '==' to turn this assignment into an equality comparison
+        while(c = *q) {
+                ^
+                ==
+yacc.c:2080:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                while(c = Bgetrune(finput)) {
+                      ~~^~~~~~~~~~~~~~~~~~
+yacc.c:2080:11: note: place parentheses around the assignment to silence this
+      warning
+                while(c = Bgetrune(finput)) {
+                        ^
+                      (                   )
+yacc.c:2080:11: note: use '==' to turn this assignment into an equality comparison
+                while(c = Bgetrune(finput)) {
+                        ^
+                        ==
+yacc.c:2661:16: warning: '/*' within block comment [-Wcomment]
+/*                      j -= k;                 /* call scj */
+                                                ^
+5 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out yacc.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd cc; mk  all)
+DIR: cc
+iyacc -d cc.y
+
+conflicts: 3 shift/reduce
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os acid.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from acid.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os bits.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from bits.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+bits.c:67:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(b = a.b[i])
+                   ~~^~~~~~~~
+bits.c:67:8: note: place parentheses around the assignment to silence this warning
+                if(b = a.b[i])
+                     ^
+                   (         )
+bits.c:67:8: note: use '==' to turn this assignment into an equality comparison
+                if(b = a.b[i])
+                     ^
+                     ==
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os com.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from com.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+com.c:619:16: warning: incompatible pointer types passing 'int [1]' to parameter of
+      type 'ushort *' (aka 'unsigned short *') [-Wincompatible-pointer-types]
+                                outlstring(L"", sizeof(ushort));
+                                           ^~~
+./cc.h:734:24: note: passing argument to parameter here
+long    outlstring(ushort*, long);
+                          ^
+com.c:945:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os com64.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from com64.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from Posix.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dcl.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from dcl.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+dcl.c:543:6: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                                        else
+                                        ^
+dcl.c:564:5: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                                else
+                                ^
+dcl.c:1343:35: warning: '/*' within block comment [-Wcomment]
+/*print("merge  %T; %T\n", t1, t2);/**/
+                                   ^
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os dpchk.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from dpchk.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+dpchk.c:395:3: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                else
+                ^
+dpchk.c:417:3: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                else
+                ^
+dpchk.c:439:3: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                else
+                ^
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os funct.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from funct.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+funct.c:228:13: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(i=0; c = t->tag->name[i]; i++) {
+                 ~~^~~~~~~~~~~~~~~~~
+funct.c:228:13: note: place parentheses around the assignment to silence this
+      warning
+        for(i=0; c = t->tag->name[i]; i++) {
+                   ^
+                 (                  )
+funct.c:228:13: note: use '==' to turn this assignment into an equality comparison
+        for(i=0; c = t->tag->name[i]; i++) {
+                   ^
+                   ==
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os '-DCPP="/bin/cpp"' lex.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from lex.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+lex.c:33:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+lex.c:84:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(p = getenv("NPROC"))
+                   ~~^~~~~~~~~~~~~~~~~
+lex.c:84:8: note: place parentheses around the assignment to silence this warning
+                if(p = getenv("NPROC"))
+                     ^
+                   (                  )
+lex.c:84:8: note: use '==' to turn this assignment into an equality comparison
+                if(p = getenv("NPROC"))
+                     ^
+                     ==
+lex.c:152:9: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                        if(p = utfrrune(outfile, '.'))
+                           ~~^~~~~~~~~~~~~~~~~~~~~~~~
+lex.c:152:9: note: place parentheses around the assignment to silence this warning
+                        if(p = utfrrune(outfile, '.'))
+                             ^
+                           (                         )
+lex.c:152:9: note: use '==' to turn this assignment into an equality comparison
+                        if(p = utfrrune(outfile, '.'))
+                             ^
+                             ==
+lex.c:169:7: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        if(p = getenv("INCLUDE")) {
+           ~~^~~~~~~~~~~~~~~~~~~
+lex.c:169:7: note: place parentheses around the assignment to silence this warning
+        if(p = getenv("INCLUDE")) {
+             ^
+           (                    )
+lex.c:169:7: note: use '==' to turn this assignment into an equality comparison
+        if(p = getenv("INCLUDE")) {
+             ^
+             ==
+lex.c:886:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(c = *s++) {
+              ~~^~~~~~
+lex.c:886:10: note: place parentheses around the assignment to silence this warning
+        while(c = *s++) {
+                ^
+              (       )
+lex.c:886:10: note: use '==' to turn this assignment into an equality comparison
+        while(c = *s++) {
+                ^
+                ==
+lex.c:902:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(c = *s++) {
+              ~~^~~~~~
+lex.c:902:10: note: place parentheses around the assignment to silence this warning
+        while(c = *s++) {
+                ^
+              (       )
+lex.c:902:10: note: use '==' to turn this assignment into an equality comparison
+        while(c = *s++) {
+                ^
+                ==
+lex.c:915:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(c = *s++) {
+              ~~^~~~~~
+lex.c:915:10: note: place parentheses around the assignment to silence this warning
+        while(c = *s++) {
+                ^
+              (       )
+lex.c:915:10: note: use '==' to turn this assignment into an equality comparison
+        while(c = *s++) {
+                ^
+                ==
+lex.c:1360:13: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                        while(t1 = t1->down) {
+                              ~~~^~~~~~~~~~
+lex.c:1360:13: note: place parentheses around the assignment to silence this
+      warning
+                        while(t1 = t1->down) {
+                                 ^
+                              (            )
+lex.c:1360:13: note: use '==' to turn this assignment into an equality comparison
+                        while(t1 = t1->down) {
+                                 ^
+                                 ==
+9 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os mac.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from mac.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+In file included from mac.c:3:
+./macbody:787:5: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                } else
+                  ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os mpatof.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from mpatof.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+mpatof.c:174:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(x = *a1++) {
+                   ~~^~~~~~~
+mpatof.c:174:8: note: place parentheses around the assignment to silence this
+      warning
+                if(x = *a1++) {
+                     ^
+                   (        )
+mpatof.c:174:8: note: use '==' to turn this assignment into an equality comparison
+                if(x = *a1++) {
+                     ^
+                     ==
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os pickle.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from pickle.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os scon.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from scon.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os sub.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from sub.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+sub.c:1148:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else
+                ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os y.tab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from cc.y:2:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+cc.y:158:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+cc.y:1688:9: warning: array index -1 is before the beginning of the array
+      [-Warray-bounds]
+        yyp = &yys[-1];
+               ^   ~~
+cc.y:1668:2: note: array 'yys' declared here
+        struct
+        ^
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os machcap.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from machcap.c:1:
+./cc.h:544:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+ar ruvs /Users/yoann.padioleau/kencc/MacOSX/386/lib/libcc.a acid.o bits.o com.o com64.o Posix.o dcl.o dpchk.o funct.o lex.o mac.o mpatof.o pickle.o scon.o sub.o y.tab.o machcap.o
+r - acid.o
+r - bits.o
+r - com.o
+r - com64.o
+r - Posix.o
+r - dcl.o
+r - dpchk.o
+r - funct.o
+r - lex.o
+r - mac.o
+r - mpatof.o
+r - pickle.o
+r - scon.o
+r - sub.o
+r - y.tab.o
+r - machcap.o
+(cd 0a; mk  all)
+DIR: 0a
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o y.tab.o y.tab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+a.y:399:9: warning: array index -1 is before the beginning of the array
+      [-Warray-bounds]
+        yyp = &yys[-1];
+               ^   ~~
+a.y:379:2: note: array 'yys' declared here
+        struct
+        ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o lex.o lex.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+lex.c:6:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+lex.c:50:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(p = getenv("NPROC"))
+                   ~~^~~~~~~~~~~~~~~~~
+lex.c:50:8: note: place parentheses around the assignment to silence this warning
+                if(p = getenv("NPROC"))
+                     ^
+                   (                  )
+lex.c:50:8: note: use '==' to turn this assignment into an equality comparison
+                if(p = getenv("NPROC"))
+                     ^
+                     ==
+In file included from lex.c:696:
+./../cc/lexbody:177:16: warning: using the result of an assignment as a condition
+      without parentheses [-Wparentheses]
+        for(p=symb; c = *p; p++)
+                    ~~^~~~
+./../cc/lexbody:177:16: note: place parentheses around the assignment to silence
+      this warning
+        for(p=symb; c = *p; p++)
+                      ^
+                    (     )
+./../cc/lexbody:177:16: note: use '==' to turn this assignment into an equality
+      comparison
+        for(p=symb; c = *p; p++)
+                      ^
+                      ==
+./../cc/lexbody:644:7: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                                } else
+                                  ^
+In file included from lex.c:697:
+./../cc/macbody:787:5: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                } else
+                  ^
+5 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out y.tab.o lex.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libcc.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd 0c; mk  all)
+DIR: 0c
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o cgen.o cgen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from cgen.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o enam.o enam.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o list.o list.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from list.c:2:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+list.c:167:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(c >= 'a' && c <= 'z' ||
+                   ~~~~~~~~~^~~~~~~~~~~ ~~
+list.c:167:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(c >= 'a' && c <= 'z' ||
+                            ^
+                   (                   )
+list.c:168:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= 'A' && c <= 'Z' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:168:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= 'A' && c <= 'Z' ||
+                            ^
+                   (                   )
+list.c:169:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= '0' && c <= '9' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:169:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= '0' && c <= '9' ||
+                            ^
+                   (                   )
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o peep.o peep.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from peep.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o reg.o reg.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from reg.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o sgen.o sgen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from sgen.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o swt.o swt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from swt.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+swt.c:139:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o txt.o txt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from txt.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o mul.o mul.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from mul.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out cgen.o enam.o list.o peep.o reg.o sgen.o swt.o txt.o mul.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libcc.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd 0l; mk  all)
+DIR: 0l
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o asm.o asm.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o list.o list.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+list.c:227:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(c >= 'a' && c <= 'z' ||
+                   ~~~~~~~~~^~~~~~~~~~~ ~~
+list.c:227:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(c >= 'a' && c <= 'z' ||
+                            ^
+                   (                   )
+list.c:228:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= 'A' && c <= 'Z' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:228:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= 'A' && c <= 'Z' ||
+                            ^
+                   (                   )
+list.c:229:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= '0' && c <= '9' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:229:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= '0' && c <= '9' ||
+                            ^
+                   (                   )
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o noop.o noop.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o sched.o sched.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o obj.o obj.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+obj.c:24:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+obj.c:218:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else
+                ^
+obj.c:578:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(l = curhist) {
+              ~~^~~~~~~~~
+obj.c:578:10: note: place parentheses around the assignment to silence this warning
+        while(l = curhist) {
+                ^
+              (          )
+obj.c:578:10: note: use '==' to turn this assignment into an equality comparison
+        while(l = curhist) {
+                ^
+                ==
+obj.c:1034:16: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(p=symb; c = *p; p++)
+                    ~~^~~~
+obj.c:1034:16: note: place parentheses around the assignment to silence this
+      warning
+        for(p=symb; c = *p; p++)
+                      ^
+                    (     )
+obj.c:1034:16: note: use '==' to turn this assignment into an equality comparison
+        for(p=symb; c = *p; p++)
+                      ^
+                      ==
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o optab.o optab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o pass.o pass.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+pass.c:115:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(s = p->from.sym) {
+                   ~~^~~~~~~~~~~~~
+pass.c:115:8: note: place parentheses around the assignment to silence this warning
+                if(s = p->from.sym) {
+                     ^
+                   (              )
+pass.c:115:8: note: use '==' to turn this assignment into an equality comparison
+                if(s = p->from.sym) {
+                     ^
+                     ==
+pass.c:238:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if((p->mark&NOSCHED) || q && (q->mark&NOSCHED)){
+                                     ~~ ~~^~~~~~~~~~~~~~~~~~~~
+pass.c:238:29: note: place parentheses around the '&&' expression to silence this
+      warning
+                if((p->mark&NOSCHED) || q && (q->mark&NOSCHED)){
+                                          ^
+                                        (                     )
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o span.o span.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include ../0c/enam.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I /Users/yoann.padioleau/kencc/include -o Posix.o Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out asm.o list.o noop.o sched.o obj.o optab.o pass.o span.o enam.o Posix.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd 8a; mk  all)
+DIR: 8a
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o y.tab.o y.tab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+a.y:354:9: warning: array index -1 is before the beginning of the array
+      [-Warray-bounds]
+        yyp = &yys[-1];
+               ^   ~~
+a.y:334:2: note: array 'yys' declared here
+        struct
+        ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o lex.o lex.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+lex.c:6:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+lex.c:50:8: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                if(p = getenv("NPROC"))
+                   ~~^~~~~~~~~~~~~~~~~
+lex.c:50:8: note: place parentheses around the assignment to silence this warning
+                if(p = getenv("NPROC"))
+                     ^
+                   (                  )
+lex.c:50:8: note: use '==' to turn this assignment into an equality comparison
+                if(p = getenv("NPROC"))
+                     ^
+                     ==
+In file included from lex.c:894:
+./../cc/lexbody:177:16: warning: using the result of an assignment as a condition
+      without parentheses [-Wparentheses]
+        for(p=symb; c = *p; p++)
+                    ~~^~~~
+./../cc/lexbody:177:16: note: place parentheses around the assignment to silence
+      this warning
+        for(p=symb; c = *p; p++)
+                      ^
+                    (     )
+./../cc/lexbody:177:16: note: use '==' to turn this assignment into an equality
+      comparison
+        for(p=symb; c = *p; p++)
+                      ^
+                      ==
+./../cc/lexbody:644:7: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                                } else
+                                  ^
+In file included from lex.c:895:
+./../cc/macbody:787:5: warning: add explicit braces to avoid dangling else
+      [-Wdangling-else]
+                } else
+                  ^
+5 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out y.tab.o lex.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libcc.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd 8c; mk  all)
+DIR: 8c
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o cgen.o cgen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from cgen.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+cgen.c:1548:36: warning: '/*' within block comment [-Wcomment]
+                        /* prtree(&nod0, "hand craft"); /* */
+                                                        ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o enam.o enam.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o list.o list.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from list.c:2:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+list.c:249:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(c >= 'a' && c <= 'z' ||
+                   ~~~~~~~~~^~~~~~~~~~~ ~~
+list.c:249:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(c >= 'a' && c <= 'z' ||
+                            ^
+                   (                   )
+list.c:250:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= 'A' && c <= 'Z' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:250:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= 'A' && c <= 'Z' ||
+                            ^
+                   (                   )
+list.c:251:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= '0' && c <= '9') {
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:251:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= '0' && c <= '9') {
+                            ^
+                   (                   )
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o sgen.o sgen.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from sgen.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o swt.o swt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from swt.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+swt.c:135:4: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                        else
+                        ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o txt.o txt.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from txt.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o reg.o reg.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from reg.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+reg.c:1069:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(b = bb & ~(bb-1)) {
+              ~~^~~~~~~~~~~~~~
+reg.c:1069:10: note: place parentheses around the assignment to silence this
+      warning
+        while(b = bb & ~(bb-1)) {
+                ^
+              (               )
+reg.c:1069:10: note: use '==' to turn this assignment into an equality comparison
+        while(b = bb & ~(bb-1)) {
+                ^
+                ==
+reg.c:1088:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(b = bb & ~(bb-1)) {
+              ~~^~~~~~~~~~~~~~
+reg.c:1088:10: note: place parentheses around the assignment to silence this
+      warning
+        while(b = bb & ~(bb-1)) {
+                ^
+              (               )
+reg.c:1088:10: note: use '==' to turn this assignment into an equality comparison
+        while(b = bb & ~(bb-1)) {
+                ^
+                ==
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o peep.o peep.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from peep.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o machcap.o machcap.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from machcap.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o cgen64.o cgen64.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from cgen64.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+cgen64.c:193:1: warning: unused function 'cast' [-Wunused-function]
+cast(Node *n, Type *t, Node *nn)
+^
+cgen64.c:213:1: warning: unused function 'swappairs' [-Wunused-function]
+swappairs(Node *a, Node *b)
+^
+cgen64.c:229:1: warning: unused function 'saveit' [-Wunused-function]
+saveit(Node *n, Node *t, Node *r)
+^
+cgen64.c:246:1: warning: unused function 'restoreit' [-Wunused-function]
+restoreit(Node *n, Node *t, Node *r)
+^
+cgen64.c:323:1: warning: unused function 'forcereg' [-Wunused-function]
+forcereg(Node *d, int r, int o, Node *t)
+^
+6 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o div.o div.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from div.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o mul.o mul.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from mul.c:1:
+In file included from ./gc.h:1:
+./../cc/cc.h:544:1: warning: return type of 'main' is not 'int'
+      [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out cgen.o enam.o list.o sgen.o swt.o txt.o reg.o peep.o machcap.o cgen64.o div.o mul.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libcc.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd 8l; mk  all)
+DIR: 8l
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o asm.o asm.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from asm.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o obj.o obj.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from obj.c:2:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+obj.c:45:29: warning: '&&' within '||' [-Wlogical-op-parentheses]
+        if(n == 5 && (buf1[2] == 1 && buf1[3] == '<' || buf1[3] == 1 && buf1[4] ==...
+                      ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~ ~~
+obj.c:45:29: note: place parentheses around the '&&' expression to silence this
+      warning
+        if(n == 5 && (buf1[2] == 1 && buf1[3] == '<' || buf1[3] == 1 &&...
+                                   ^
+                      (                             )
+obj.c:45:63: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  ...== 5 && (buf1[2] == 1 && buf1[3] == '<' || buf1[3] == 1 && buf1[4] == '<'))
+                                             ~~ ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+obj.c:45:63: note: place parentheses around the '&&' expression to silence this
+      warning
+  ...== 5 && (buf1[2] == 1 && buf1[3] == '<' || buf1[3] == 1 && buf1[4] == '<'))
+                                                             ^
+                                                (                             )
+obj.c:56:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+obj.c:350:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else
+                ^
+obj.c:733:10: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(l = curhist) {
+              ~~^~~~~~~~~
+obj.c:733:10: note: place parentheses around the assignment to silence this warning
+        while(l = curhist) {
+                ^
+              (          )
+obj.c:733:10: note: use '==' to turn this assignment into an equality comparison
+        while(l = curhist) {
+                ^
+                ==
+obj.c:1167:16: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for(p=symb; c = *p; p++)
+                    ~~^~~~
+obj.c:1167:16: note: place parentheses around the assignment to silence this
+      warning
+        for(p=symb; c = *p; p++)
+                      ^
+                    (     )
+obj.c:1167:16: note: use '==' to turn this assignment into an equality comparison
+        for(p=symb; c = *p; p++)
+                      ^
+                      ==
+7 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o optab.o optab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from optab.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o pass.o pass.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from pass.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+pass.c:158:11: warning: 323 enumeration values not handled in switch: 'AXXX',
+      'AAAA', 'AAAD'... [-Wswitch]
+                        switch(a) {
+                               ^
+pass.c:681:63: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  ...!= SUNDEF && (nexports == 0 && s->sig != 0 || s->subtype == SEXPORT ||...
+                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~ ~~
+pass.c:681:63: note: place parentheses around the '&&' expression to silence this
+      warning
+  ...s->type != SUNDEF && (nexports == 0 && s->sig != 0 || s->subtype == SEXPORT...
+                                         ^
+                           (                           )
+pass.c:688:63: warning: '&&' within '||' [-Wlogical-op-parentheses]
+  ...!= SUNDEF && (nexports == 0 && s->sig != 0 || s->subtype == SEXPORT ||...
+                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~~ ~~
+pass.c:688:63: note: place parentheses around the '&&' expression to silence this
+      warning
+  ...s->type != SUNDEF && (nexports == 0 && s->sig != 0 || s->subtype == SEXPORT...
+                                         ^
+                           (                           )
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o span.o span.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from span.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+span.c:629:31: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(t == D_NONE || D_CS <= t && t <= D_GS) {
+                               ~~ ~~~~~~~~~~^~~~~~~~~~~~
+span.c:629:31: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(t == D_NONE || D_CS <= t && t <= D_GS) {
+                                            ^
+                                  (                     )
+span.c:897:12: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+                for(; op = o->op[z]; z++)
+                      ~~~^~~~~~~~~~
+span.c:897:12: note: place parentheses around the assignment to silence this
+      warning
+                for(; op = o->op[z]; z++)
+                         ^
+                      (            )
+span.c:897:12: note: use '==' to turn this assignment into an equality comparison
+                for(; op = o->op[z]; z++)
+                         ^
+                         ==
+3 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o list.o list.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from list.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+list.c:238:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                if(c >= 'a' && c <= 'z' ||
+                   ~~~~~~~~~^~~~~~~~~~~ ~~
+list.c:238:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                if(c >= 'a' && c <= 'z' ||
+                            ^
+                   (                   )
+list.c:239:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= 'A' && c <= 'Z' ||
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:239:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= 'A' && c <= 'Z' ||
+                            ^
+                   (                   )
+list.c:240:15: warning: '&&' within '||' [-Wlogical-op-parentheses]
+                   c >= '0' && c <= '9') {
+                   ~~~~~~~~~^~~~~~~~~~~
+list.c:240:15: note: place parentheses around the '&&' expression to silence this
+      warning
+                   c >= '0' && c <= '9') {
+                            ^
+                   (                   )
+4 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os ../8c/enam.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o compat.o compat.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from compat.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+compat.c:65:17: warning: incompatible pointer types passing 'uchar [400]' to
+      parameter of type 'struct stat *' [-Wincompatible-pointer-types]
+        return stat(s, dirbuf/*, sizeof(dirbuf)*/) >= 0;
+                       ^~~~~~
+/usr/include/sys/stat.h:436:37: note: passing argument to parameter here
+int     stat(const char *, struct stat *) __DARWIN_INODE64(stat);
+                                        ^
+2 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o elf.o elf.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from elf.c:5:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o Posix.o Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+In file included from Posix.c:1:
+./l.h:337:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void    main(int, char*[]);
+^
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out asm.o obj.o optab.o pass.o span.o list.o enam.o compat.o elf.o Posix.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd nm; mk  all)
+DIR: nm
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I. -o nm.o nm.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+nm.c:38:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+nm.c:53:4: warning: variable '_argt' is uninitialized when used here
+      [-Wuninitialized]
+        } ARGEND
+          ^~~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:464:33: note: expanded from
+      macro 'ARGEND'
+#define ARGEND          SET(_argt);USED(_argt);USED(_argc);...
+                                        ^~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:66:21: note: expanded from
+      macro 'USED'
+#define USED(x)         if(x){}else{}
+                           ^
+nm.c:46:2: note: variable '_argt' is declared here
+        ARGBEGIN {
+        ^
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:455:5: note: expanded from
+      macro 'ARGBEGIN'
+                                char *_args, *_argt;\
+                                ^
+nm.c:146:3: warning: add explicit braces to avoid dangling else [-Wdangling-else]
+                else
+                ^
+3 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out nm.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd iar; mk  all)
+DIR: iar
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o ar.o ar.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ar.c:140:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+ar.c:328:17: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for (i = 0; bp = getdir(&bar); i++) {
+                    ~~~^~~~~~~~~~~~~~
+ar.c:328:17: note: place parentheses around the assignment to silence this warning
+        for (i = 0; bp = getdir(&bar); i++) {
+                       ^
+                    (                )
+ar.c:328:17: note: use '==' to turn this assignment into an equality comparison
+        for (i = 0; bp = getdir(&bar); i++) {
+                       ^
+                       ==
+ar.c:356:12: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while (bp = getdir(&bar)) {
+               ~~~^~~~~~~~~~~~~~
+ar.c:356:12: note: place parentheses around the assignment to silence this warning
+        while (bp = getdir(&bar)) {
+                  ^
+               (                )
+ar.c:356:12: note: use '==' to turn this assignment into an equality comparison
+        while (bp = getdir(&bar)) {
+                  ^
+                  ==
+ar.c:397:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(bp = getdir(&bar)) {
+              ~~~^~~~~~~~~~~~~~
+ar.c:397:11: note: place parentheses around the assignment to silence this warning
+        while(bp = getdir(&bar)) {
+                 ^
+              (                )
+ar.c:397:11: note: use '==' to turn this assignment into an equality comparison
+        while(bp = getdir(&bar)) {
+                 ^
+                 ==
+ar.c:426:17: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        for (i = 0; bp = getdir(&bar); i++) {
+                    ~~~^~~~~~~~~~~~~~
+ar.c:426:17: note: place parentheses around the assignment to silence this warning
+        for (i = 0; bp = getdir(&bar); i++) {
+                       ^
+                    (                )
+ar.c:426:17: note: use '==' to turn this assignment into an equality comparison
+        for (i = 0; bp = getdir(&bar); i++) {
+                       ^
+                       ==
+ar.c:463:11: warning: using the result of an assignment as a condition without
+      parentheses [-Wparentheses]
+        while(bp = getdir(&bar)) {
+              ~~~^~~~~~~~~~~~~~
+ar.c:463:11: note: place parentheses around the assignment to silence this warning
+        while(bp = getdir(&bar)) {
+                 ^
+              (                )
+ar.c:463:11: note: use '==' to turn this assignment into an equality comparison
+        while(bp = getdir(&bar)) {
+                 ^
+                 ==
+6 warnings generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o Posix.o Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out ar.o Posix.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd kprof; mk  all)
+DIR: kprof
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o kprof.o kprof.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+kprof.c:55:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+kprof.c:145:39: warning: incompatible pointer types passing 'int (void *, void *)'
+      to parameter of type 'int (*)(const void *, const void *)'
+      [-Wincompatible-pointer-types]
+        qsort(cp, k, sizeof(struct COUNTER), compar);
+                                             ^~~~~~
+/usr/include/stdlib.h:175:12: note: passing argument to parameter here
+            int (*)(const void *, const void *));
+                  ^
+2 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out kprof.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd ksize; mk  all)
+DIR: ksize
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o ksize.o ksize.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ksize.c:29:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+ksize.c:39:4: warning: variable '_argt' is uninitialized when used here
+      [-Wuninitialized]
+        } ARGEND;
+          ^~~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:464:33: note: expanded from
+      macro 'ARGEND'
+#define ARGEND          SET(_argt);USED(_argt);USED(_argc);...
+                                        ^~~~~
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:66:21: note: expanded from
+      macro 'USED'
+#define USED(x)         if(x){}else{}
+                           ^
+ksize.c:35:2: note: variable '_argt' is declared here
+        ARGBEGIN {
+        ^
+/Users/yoann.padioleau/kencc/MacOSX/386/include/lib9.h:455:5: note: expanded from
+      macro 'ARGBEGIN'
+                                char *_args, *_argt;\
+                                ^
+2 warnings generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out ksize.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd kstrip; mk  all)
+DIR: kstrip
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o kstrip.o kstrip.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+kstrip.c:124:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out kstrip.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd ndate; mk  all)
+DIR: ndate
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -o ndate.o ndate.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+ndate.c:3:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+1 warning generated.
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out ndate.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
+(cd acid; mk  all)
+DIR: acid
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o main.o main.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+main.c:30:1: warning: return type of 'main' is not 'int' [-Wmain-return-type]
+void
+^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o y.tab.o y.tab.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+dbg.y:368:9: warning: array index -1 is before the beginning of the array
+      [-Warray-bounds]
+        yyp = &yys[-1];
+               ^   ~~
+dbg.y:348:2: note: array 'yys' declared here
+        struct
+        ^
+1 warning generated.
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o lex.o lex.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o util.o util.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o exec.o exec.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o expr.o expr.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o list.o list.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o builtin.o builtin.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o proc.o proc.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o dot.o dot.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o print.o print.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o os-Posix.o os-Posix.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -c -arch i386 -mmacosx-version-min=10.4 -Wno-deprecated-declarations -Wuninitialized -Wunused -Wreturn-type -Wimplicit -Wno-four-char-constants -Wno-unknown-pragmas -pipe -fno-strict-aliasing -no-cpp-precomp -mno-fused-madd -I/Users/yoann.padioleau/kencc/MacOSX/386/include -I/Users/yoann.padioleau/kencc/include -Os -I/Users/yoann.padioleau/kencc/include -o rdebug.o rdebug.c
+clang: warning: argument unused during compilation: '-mno-fused-madd'
+cc -arch i386 -mmacosx-version-min=10.4 -multiply_defined suppress -o o.out main.o y.tab.o lex.o util.o exec.o expr.o list.o builtin.o proc.o dot.o print.o os-Posix.o rdebug.o /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmach.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libmath.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libbio.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/libregexp.a /Users/yoann.padioleau/kencc/MacOSX/386/lib/lib9.a 
