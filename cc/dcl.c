@@ -537,6 +537,8 @@ suallign(Type *t)
 				l->offset = o;
 			} else {
 				if(l->width < 0 ||
+                                   //PAD: backport of latest plan9,
+                                   // to avoid errors about incomplete array when last field of a structure
 				   l->width == 0 && l->down != T)
 					if(l->sym)
 						diag(Z, "incomplete structure element: %s",
