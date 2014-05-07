@@ -17,6 +17,8 @@ typedef	struct	Term	Term;
 typedef	struct	Init	Init;
 typedef	struct	Bits	Bits;
 
+typedef	Rune	TRune;	/* target system type */
+
 #define	NHUNK		50000L
 #define	BUFSIZ		8192
 #define	NSYMB		500
@@ -48,7 +50,7 @@ struct	Node
 	double	fconst;		/* fp constant */
 	vlong	vconst;		/* non fp const */
 	char*	cstring;	/* character string */
-	ushort*	rstring;	/* rune string */
+	TRune*	rstring;	/* rune string */
 
 	Sym*	sym;
 	Type*	type;
@@ -333,6 +335,9 @@ enum
 	TFILE,
 	TOLD,
 	NALLTYPES,
+
+	/* adapt size of Rune to target system's size */
+	TRUNE = sizeof(TRune)==4? TUINT: TUSHORT,
 };
 enum
 {
@@ -731,7 +736,7 @@ void	gclean(void);
 void	gextern(Sym*, Node*, long, long);
 void	ginit(void);
 long	outstring(char*, long);
-long	outlstring(ushort*, long);
+long	outlstring(TRune*, long);
 void	sextern(Sym*, Node*, long, long);
 void	xcom(Node*);
 long	exreg(Type*);
