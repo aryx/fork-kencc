@@ -1,1 +1,5 @@
 
+todo: remove 5xx and vxxx stuff? after all I already do that in my plan9/,
+people should use my kencc fork really just to bootstrap plan9.
+
+todo: same way no need acid? kprof? libregexp?
