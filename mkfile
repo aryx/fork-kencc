@@ -17,9 +17,6 @@ DIRS=\
 	5a\
 	5c\
 	5l\
-	va\
-	vc\
-	vl\
 	nm\
 	ar\
 	kprof\

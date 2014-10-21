@@ -6,14 +6,11 @@ OFILES=\
         5.$O\
 	6.$O\
 	8.$O\
-	v.$O\
 	5db.$O\
 	8db.$O\
-	vdb.$O\
 	5obj.$O\
 	6obj.$O\
 	8obj.$O\
-	vobj.$O\
 	obj.$O\
 	map.$O\
 	swap.$O\
@@ -22,7 +19,6 @@ OFILES=\
 	machdata.$O\
 	setmach.$O\
 	executable.$O\
-	vcodas.$O
 
 HFILES=\
 	$ROOT/include/mach.h\
@@ -34,7 +30,6 @@ HFILES=\
 	ureg6.h\
 	ureg8.h\
 	uregk.h\
-	uregv.h\
 	ureg5.h
 
 <$ROOT/mkfiles/mksyslib-$SHELLTYPE
