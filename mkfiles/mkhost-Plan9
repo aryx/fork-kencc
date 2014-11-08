@@ -8,6 +8,5 @@ HOSTMODEL=	Plan9
 OSTARG=		Inferno
 
 DATA2S=	data2s
-NDATE=		date -n
 KSIZE=		size
 AWK=		awk

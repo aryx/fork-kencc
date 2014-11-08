@@ -22,7 +22,6 @@ DIRS=\
 	kprof\
 	ksize\
 	kstrip\
-	ndate\
 	acid\
 
 # mkconfig is included at this point to allow it to override
