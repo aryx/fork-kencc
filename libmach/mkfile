@@ -25,12 +25,9 @@ HFILES=\
 	$ROOT/include/a.out.h\
 	bootexec.h\
 	elf.h\
-	ureg2.h\
-	ureg4.h\
+	ureg5.h\
 	ureg6.h\
 	ureg8.h\
-	uregk.h\
-	ureg5.h
 
 <$ROOT/mkfiles/mksyslib-$SHELLTYPE
 CFLAGS= $CFLAGS -I..
