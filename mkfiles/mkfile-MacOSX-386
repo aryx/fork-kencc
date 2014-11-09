@@ -34,6 +34,7 @@ CFLAGS= 	-arch i386\
 LD=		cc -arch i386
 LDFLAGS=\
 		-multiply_defined suppress
+# -static, but not supported apparently on macos
 
 SYSLIBS=
 
