@@ -5,6 +5,7 @@
 
 #include	"elf.h"
 typedef u32int uint32;
+typedef int int32;
 #include	"macho.h"
 
 /*
@@ -25,7 +26,7 @@ static	int	common(int, Fhdr*, ExecHdr*);
 static	int	machdotout(int, Fhdr*, ExecHdr*);
 static	int	elfdotout(int, Fhdr*, ExecHdr*);
 static	int	armdotout(int, Fhdr*, ExecHdr*);
-static	void	setsym(Fhdr*, long, long, long, long);
+static	void	setsym(Fhdr*, vlong, int32, vlong, int32, vlong, int32);
 static	void	setdata(Fhdr*, long, long, long, long);
 static	void	settext(Fhdr*, long, long, long, long);
 static	void	hswal(long*, int, long(*)(long));
@@ -143,7 +144,7 @@ adotout(int fd, Fhdr *fp, ExecHdr *hp)
 			hp->e.exec.text, sizeof(Exec));
 	setdata(fp, _round(pgsize+fp->txtsz+sizeof(Exec), pgsize),
 		hp->e.exec.data, fp->txtsz+sizeof(Exec), hp->e.exec.bss);
-	setsym(fp, hp->e.exec.syms, hp->e.exec.spsz, hp->e.exec.pcsz, fp->datoff+fp->datsz);
+	setsym(fp, fp->datoff+fp->datsz, hp->e.exec.syms, 0, hp->e.exec.spsz, 0, hp->e.exec.pcsz);
 	return 1;
 }
 
@@ -536,7 +537,7 @@ machdotout(int fd, Fhdr *fp, ExecHdr *hp)
 	settext(fp, textva+sizeof(Machhdr) + mp->sizeofcmds, textva, textsize, textoff);
 	setdata(fp, datava, datasize, dataoff, bsssize);
 	if(symoff > 0)
-		setsym(fp, symoff, symsize, 0, 0);//TODO, pclnoff, pclnsize);
+		setsym(fp, symoff, symsize, 0, 0, pclnoff, pclnsize);
 	free(cmd);
 	free(cmdbuf);
 	return 1;
@@ -558,7 +559,7 @@ armdotout(int fd, Fhdr *fp, ExecHdr *hp)
 	USED(fd);
 	settext(fp, hp->e.exec.entry, sizeof(Exec), hp->e.exec.text, sizeof(Exec));
 	setdata(fp, fp->txtsz, hp->e.exec.data, fp->txtsz, hp->e.exec.bss);
-	setsym(fp, hp->e.exec.syms, hp->e.exec.spsz, hp->e.exec.pcsz, fp->datoff+fp->datsz);
+	setsym(fp, fp->datoff+fp->datsz, hp->e.exec.syms, 0, hp->e.exec.spsz, 0, hp->e.exec.pcsz);
 
 	kbase = 0xF0000000;
 	if ((fp->entry & kbase) == kbase) {		/* Boot image */
@@ -586,15 +587,22 @@ setdata(Fhdr *fp, long a, long s, long off, long bss)
 	fp->datoff = off;
 	fp->bsssz = bss;
 }
+
 static void
-setsym(Fhdr *fp, long sy, long sppc, long lnpc, long symoff)
+setsym(Fhdr *fp, vlong symoff, int32 symsz, vlong sppcoff, int32 sppcsz, vlong lnpcoff, int32 lnpcsz)
 {
-	fp->symsz = sy;
 	fp->symoff = symoff;
-	fp->sppcsz = sppc;
-	fp->sppcoff = fp->symoff+fp->symsz;
-	fp->lnpcsz = lnpc;
-	fp->lnpcoff = fp->sppcoff+fp->sppcsz;
+	fp->symsz = symsz;
+	
+	if(sppcoff == 0)
+		sppcoff = symoff+symsz;
+	fp->sppcoff = symoff;
+	fp->sppcsz = sppcsz;
+
+	if(lnpcoff == 0)
+		lnpcoff = sppcoff + sppcsz;
+	fp->lnpcoff = lnpcoff;
+	fp->lnpcsz = lnpcsz;
 }
 
 

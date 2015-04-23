@@ -15,8 +15,8 @@ struct machtab
 	Machdata	*machdata;		/* machine functions */
 };
 
-extern	Mach		mmips, mi386, marm;
-extern	Machdata	mipsmach, i386mach, armmach;
+extern	Mach		mi386, marm;
+extern	Machdata	i386mach, armmach;
 
 /*
  *	machine selection table.  machines with native disassemblers should
@@ -25,12 +25,6 @@ extern	Machdata	mipsmach, i386mach, armmach;
  */
 Machtab	machines[] =
 {
-	{	"mips",				/*plan 9 mips*/
-		FMIPS,
-		FMIPSB,
-		AMIPS,
-		&mmips,
-		&mipsmach, 	},
 	{	"386",				/*plan 9 386*/
 		FI386,
 		FI386B,
@@ -77,9 +71,9 @@ machbyname(char *name)
 	Machtab *mp;
 
 	if (!name) {
-		asstype = AMIPS;
-		machdata = &mipsmach;
-		mach = &mmips;
+		asstype = AI386;
+		machdata = &i386mach;
+		mach = &mi386;
 		return 1;
 	}
 	for (mp = machines; mp->name; mp++){

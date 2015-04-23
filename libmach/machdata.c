@@ -10,9 +10,9 @@
 #define PROFSYM		"_mainp"
 #define	FRAMENAME	".frame"
 
-extern	Machdata	mipsmach;
+extern	Machdata	i386mach;
 
-int	asstype = AMIPS;		/* disassembler type */
+int	asstype = AI386;		/* disassembler type */
 Machdata *machdata;		/* machine-dependent functions */
 
 int

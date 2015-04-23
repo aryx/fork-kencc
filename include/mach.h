@@ -61,17 +61,8 @@ enum
 	AARM,
 	APOWER,
 				/* object file types */
-	Obj68020 = 0,		/* .2 */
-	ObjSparc,		/* .k */
-	ObjMips,		/* .v */
-	Obj386,			/* .8 */
-	Obj960,			/* retired */
-	Obj3210,		/* .x */
-	ObjMips2,		/* .4 */
-	Obj29000,		/* retired */
+	Obj386 = 0,			/* .8 */
 	ObjArm,			/* .5 */
-	ObjPower,		/* .q */
-	ObjMips2le,		/* .0 */
 	Maxobjtype,
 
 	CNONE  = 0,		/* symbol table classes */
