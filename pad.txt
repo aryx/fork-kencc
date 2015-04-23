@@ -3,3 +3,5 @@ less: remove 5xx and vxxx stuff? after all I already do that in my plan9/,
 people should use my kencc fork really just to bootstrap plan9.
 
 less: same way no need acid? kprof? libregexp?
+
+see install.txt for instructions on how to compile and install.
