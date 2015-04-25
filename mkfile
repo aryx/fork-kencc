@@ -23,6 +23,7 @@ DIRS=\
 	ksize\
 	kstrip\
 	acid\
+    pcc\
 
 # mkconfig is included at this point to allow it to override
 # the preceding declarations if need be
