@@ -222,5 +222,11 @@ outofdate(Node *node, Arc *arc, int eval)
 	} else if(strchr(arc->n->name, '(') && arc->n->time == 0)  /* missing archive member */
 		return 1;
 	else
+        /*
+         * Treat equal times as out-of-date.
+         * It's a race, and the safer option is to do
+         * extra building rather than not enough.
+         */
+        //pad: except it's annoying when a machine compiles really really fast
 		return node->time <= arc->n->time;
 }
