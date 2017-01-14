@@ -16,6 +16,9 @@ complex(Node *n)
 	if(debug['t'])
 		if(n->op != OCONST)
 			prtree(n, "t complex");
+//PAD
+if(!debug['N']) {
+
 	ccom(n);
 	if(debug['t'])
 		if(n->op != OCONST)
@@ -24,6 +27,8 @@ complex(Node *n)
 	if(debug['t'])
 		if(n->op != OCONST)
 			prtree(n, "a complex");
+}
+
 	xcom(n);
 	if(debug['t'])
 		if(n->op != OCONST)
