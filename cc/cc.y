@@ -100,6 +100,12 @@ xdecl:
 		n = revertdcl();
 		if(n)
 			$6 = new(OLIST, n, $6);
+//PAD
+if(debug['x']) {
+    prtree($2, "func");
+    prtree($6, "body");
+}
+
 		if(!debug['a'] && !debug['Z'])
 			codgen($6, $2);
 	}
