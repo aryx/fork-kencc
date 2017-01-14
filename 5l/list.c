@@ -227,12 +227,12 @@ Dconv(Fmt *fp)
 		if(curp->cond != P) {
 			v = curp->cond->pc;
 			if(a->sym != S)
-				sprint(str, "%s+%.5lux(BRANCH)", a->sym->name, v);
+				sprint(str, "{%s}%.5lux(BRANCH)", a->sym->name, v);
 			else
 				sprint(str, "%.5lux(BRANCH)", v);
 		} else
 			if(a->sym != S)
-				sprint(str, "%s+%ld(APC)", a->sym->name, a->offset);
+				sprint(str, "{%s}%ld(APC)", a->sym->name, a->offset);
 			else
 				sprint(str, "%ld(APC)", a->offset);
 		break;
@@ -270,14 +270,14 @@ Nconv(Fmt *fp)
 		if(s == S)
 			sprint(str, "%ld(SB)", a->offset);
 		else
-			sprint(str, "%s+%ld(SB)", s->name, a->offset);
+			sprint(str, "{%s}%.5lux+%ld(SB)", s->name, s->value, a->offset);
 		break;
 
 	case D_STATIC:
 		if(s == S)
 			sprint(str, "<>+%ld(SB)", a->offset);
 		else
-			sprint(str, "%s<>+%ld(SB)", s->name, a->offset);
+			sprint(str, "{%s<>}%.5lux+%ld(SB)", s->name, s->value, a->offset);
 		break;
 
 	case D_AUTO:
