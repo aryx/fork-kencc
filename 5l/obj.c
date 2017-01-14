@@ -18,6 +18,8 @@ char	*thestring 	= "arm";
  *	-H4				is IXP1200 (raw)
  *	-H5 -T0xC0008010 -R1024		is ipaq
  */
+// *	-H6 -R4096			   no header with segments padded to pages
+
 
 static int
 isobjfile(char *f)
@@ -129,6 +131,7 @@ main(int argc, char *argv[])
 		diag("unknown -H option");
 		errorexit();
 	case 0:	/* no header */
+    case 6:	/* no header, padded segments */
 		HEADR = 0L;
 		if(INITTEXT == -1)
 			INITTEXT = 0;
