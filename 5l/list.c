@@ -56,14 +56,6 @@ Pconv(Fmt *fp)
 		sprint(str, "(%ld)	%A%C	%D/%d,%D",
 			p->line, a, p->scond, &p->from, p->reg, &p->to);
 		break;
-
-	case AWORD:
-		sprint(str, "WORD %ld", p->to.offset);
-		break;
-
-	case ADWORD:
-		sprint(str, "DWORD %ld %ld", p->from.offset, p->to.offset);
-		break;
 	}
 	return fmtstrcpy(fp, str);
 }
@@ -227,12 +219,12 @@ Dconv(Fmt *fp)
 		if(curp->cond != P) {
 			v = curp->cond->pc;
 			if(a->sym != S)
-				sprint(str, "{%s}%.5lux(BRANCH)", a->sym->name, v);
+				sprint(str, "%s+%.5lux(BRANCH)", a->sym->name, v);
 			else
 				sprint(str, "%.5lux(BRANCH)", v);
 		} else
 			if(a->sym != S)
-				sprint(str, "{%s}%ld(APC)", a->sym->name, a->offset);
+				sprint(str, "%s+%ld(APC)", a->sym->name, a->offset);
 			else
 				sprint(str, "%ld(APC)", a->offset);
 		break;
@@ -270,14 +262,14 @@ Nconv(Fmt *fp)
 		if(s == S)
 			sprint(str, "%ld(SB)", a->offset);
 		else
-			sprint(str, "{%s}%.5lux+%ld(SB)", s->name, s->value, a->offset);
+			sprint(str, "%s+%ld(SB)", s->name, a->offset);
 		break;
 
 	case D_STATIC:
 		if(s == S)
 			sprint(str, "<>+%ld(SB)", a->offset);
 		else
-			sprint(str, "{%s<>}%.5lux+%ld(SB)", s->name, s->value, a->offset);
+			sprint(str, "%s<>+%ld(SB)", s->name, a->offset);
 		break;
 
 	case D_AUTO:
