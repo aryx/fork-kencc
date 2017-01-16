@@ -21,15 +21,16 @@ typedef	Rune	TRune;	/* target system type */
 
 #define	NHUNK		50000L
 #define	BUFSIZ		8192
-#define	NSYMB		500
+#define	NSYMB		1500
 #define	NHASH		1024
 #define	STRINGSZ	200
 #define	HISTSZ		20
-#define YYMAXDEPTH	500
+#define YYMAXDEPTH	1500
 #define	NTERM		10
 #define	MAXALIGN	7
 
-#define	SIGN(n)		((vlong)1<<(n-1))
+//#define	SIGN(n)		(1ULL<<(n-1)) // in plan9-github
+#define	SIGN(n)		((uvlong)1<<(n-1))
 #define	MASK(n)		(SIGN(n)|(SIGN(n)-1))
 
 #define	BITS	5
@@ -56,9 +57,8 @@ struct	Node
 	Type*	type;
 	long	lineno;
 	char	op;
-
 	char	oldop;
-	char	xcast;
+	char xcast;
 	char	class;
 	char	etype;
 	char	complex;
@@ -123,7 +123,7 @@ struct	Type
 	long	width;
 	long	offset;
 	long	lineno;
-	char	shift;
+	schar	shift;
 	char	nbits;
 	char	etype;
 	char	garb;
@@ -294,6 +294,7 @@ enum
 	OINDEX,
 	OFAS,
 	OREGPAIR,
+	OEXREG,
 
 	OEND
 };
@@ -319,6 +320,7 @@ enum
 	TSTRUCT,
 	TUNION,
 	TENUM,
+	TDOT,
 	NTYPE,
 
 	TAUTO	= NTYPE,
@@ -331,7 +333,6 @@ enum
 	TVOLATILE,
 	TUNSIGNED,
 	TSIGNED,
-	TDOT,
 	TFILE,
 	TOLD,
 	NALLTYPES,
@@ -435,8 +436,9 @@ EXTERN	Type*	firstargtype;
 EXTERN	Decl*	firstdcl;
 EXTERN	int	fperror;
 EXTERN	Sym*	hash[NHASH];
+EXTERN	int	hasdoubled;
 EXTERN	char*	hunk;
-EXTERN	char*	include[20];
+EXTERN	char**	include;
 EXTERN	Io*	iofree;
 EXTERN	Io*	ionext;
 EXTERN	Io*	iostack;
@@ -447,6 +449,7 @@ EXTERN	long	lastfield;
 EXTERN	Type*	lasttype;
 EXTERN	long	lineno;
 EXTERN	long	nearln;
+EXTERN	int	maxinclude;
 EXTERN	int	nerrors;
 EXTERN	int	newflag;
 EXTERN	long	nhunk;
@@ -478,6 +481,10 @@ EXTERN	int	nterm;
 EXTERN	int	packflg;
 EXTERN	int	fproundflg;
 EXTERN	int	profileflg;
+EXTERN	int	ncontin;
+EXTERN	int	newvlongcode;
+EXTERN	int	canreach;
+EXTERN	int	warnreach;
 EXTERN	Bits	zbits;
 
 extern	char	*onames[], *tnames[], *gnames[];
@@ -505,6 +512,10 @@ extern	char	typechlv[];
 extern	char	typechlvp[];
 extern	char	typechlp[];
 extern	char	typechlpfd[];
+
+EXTERN	char*	typeswitch;
+EXTERN	char*	typeword;
+EXTERN	char*	typecmplx;
 
 extern	ulong	thash1;
 extern	ulong	thash2;
@@ -615,7 +626,7 @@ int	rsametype(Type*, Type*, int, int);
 int	sametype(Type*, Type*);
 ulong	sign(Sym*);
 ulong	signature(Type*);
-void	suallign(Type*);
+void	sualign(Type*);
 void	tmerge(Type*, Sym*);
 void	walkparam(Node*, int);
 void	xdecl(int, Type*, Sym*);
@@ -633,6 +644,8 @@ int	tcomo(Node*, int);
 int	tcomx(Node*);
 int	tlvalue(Node*);
 void	constas(Node*, Type*, Type*);
+Node*	uncomma(Node*);
+Node*	uncomargs(Node*);
 
 /*
  * con.c
@@ -737,7 +750,6 @@ void	gextern(Sym*, Node*, long, long);
 void	ginit(void);
 long	outstring(char*, long);
 long	outlstring(TRune*, long);
-void	sextern(Sym*, Node*, long, long);
 void	xcom(Node*);
 long	exreg(Type*);
 long	align(long, Type*, int);
