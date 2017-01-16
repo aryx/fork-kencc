@@ -127,6 +127,7 @@ static void
 zapreg(Node *n)
 {
 	if(n->reg != D_NONE) {
+		//prtree(n, "zapreg");
 		regfree(n);
 		n->reg = D_NONE;
 	}
@@ -186,70 +187,6 @@ storepair(Node *n, Node *nn, int f)
 		regfree(&nod);
 	if(f)
 		freepair(n);
-}
-
-/* generate a cast t from n to tt */
-static void
-cast(Node *n, Type *t, Node *nn)
-{
-	Node *r;
-
-	r = new(OCAST, n, Z);
-	r->type = t;
-	sugen(r, nn, 8);
-}
-
-static void
-swapregs(Node *a, Node *b)
-{
-	int t;
-
-	t = a->reg;
-	a->reg = b->reg;
-	b->reg = t;
-}
-
-static void
-swappairs(Node *a, Node *b)
-{
-	swapregs(a->left, b->left);
-	swapregs(a->right, b->right);
-}
-
-static int
-saveme(Node *n)
-{
-	int r;
-
-	r = n->reg;
-	return r >= D_AX && r <= D_DI;
-}
-
-static void
-saveit(Node *n, Node *t, Node *r)
-{
-	Node nod;
-
-	if(saveme(n)) {
-		t->reg = n->reg;
-		gins(AMOVL, t, r);
-		r->xoffset += SZ_LONG;
-		if(n->reg == D_AX) {
-			regalloc(&nod, n, Z);
-			regfree(n);
-			n->reg = nod.reg;
-		}
-	}
-}
-
-static void
-restoreit(Node *n, Node *t, Node *r)
-{
-	if(saveme(n)) {
-		t->reg = n->reg;
-		gins(AMOVL, r, t);
-		r->xoffset += SZ_LONG;
-	}
 }
 
 enum
@@ -317,26 +254,6 @@ vfunc(Node *n, Node *nn)
 	regsalloc(t, nn);
 	sugen(n, t, 8);
 	return t;
-}
-
-static int
-forcereg(Node *d, int r, int o, Node *t)
-{
-	int a;
-
-	if(d->reg != D_NONE)
-		diag(Z, "force alloc");
-	d->reg = r;
-	a = 0;
-	if(reg[r]) {
-		reg[o]++;
-		regalloc(t, d, Z);
-		a = 1;
-		gins(AMOVL, d, t);
-		reg[o]--;
-	}
-	reg[r]++;
-	return a;
 }
 
 /* try to steal a reg */
@@ -2308,6 +2225,7 @@ twoop:
 			t = nn;
 		else
 			t = regpair(Z, n);
+		//print("dr=%d ", dr); prtree(t, "t");
 		c = Z;
 		d = Z;
 		if(!nodreg(&nod1, t->left, D_AX)) {
@@ -2324,10 +2242,12 @@ twoop:
 			}else if(reg[D_DX] == 0)
 				fatal(Z, "vlong mul DX botch");
 		}
+		//prtree(t, "t1"); print("reg/ax = %d reg/dx = %d\n", reg[D_AX], reg[D_DX]);
 		if(m)
 			sugen(l, t, 8);
 		else
 			loadpair(l, t);
+		//prtree(t, "t2"); print("reg/ax = %d reg/dx = %d\n", reg[D_AX], reg[D_DX]);
 		if(t->left->reg != D_AX) {
 			c = &nod3;
 			regsalloc(c, t->left);
@@ -2335,11 +2255,16 @@ twoop:
 			gmove(t->left, &nod1);
 			zapreg(t->left);
 		}
+		//print("reg/ax = %d reg/dx = %d\n", reg[D_AX], reg[D_DX]);
 		if(t->right->reg != D_DX) {
 			d = &nod4;
 			regsalloc(d, t->right);
 			gmove(&nod2, d);
-			gmove(t->right, &nod2);
+			if(t->right->reg == D_AX && c != nil){
+				/* need previous value of AX in DX */
+				gmove(c, &nod2);
+			}else
+				gmove(t->right, &nod2);
 			zapreg(t->right);
 		}
 		if(c != Z || d != Z) {
@@ -2349,6 +2274,8 @@ twoop:
 		}
 		else
 			s = t;
+		reg[D_AX]++;	/* don't allow biggen to allocate AX or DX (smashed by MUL) as temp */
+		reg[D_DX]++;
 		if(r->op == OCONST) {
 			if(hi64v(r) == 0)
 				biggen(s, r, Z, 0, mulc32, nil);
@@ -2358,6 +2285,8 @@ twoop:
 		else
 			biggen(s, r, Z, 0, mull, nil);
 		instpair(t, Z);
+		reg[D_AX]--;
+		reg[D_DX]--;
 		if(c != Z) {
 			gmove(&nod1, t->left);
 			gmove(&nod3, &nod1);
@@ -2366,12 +2295,14 @@ twoop:
 			gmove(&nod2, t->right);
 			gmove(&nod4, &nod2);
 		}
+
 		if(r->op == OREGPAIR)
 			freepair(r);
 		if(!m)
 			storepair(t, l, 0);
 		if(l == &nod5)
 			regfree(l);
+
 		if(!dr) {
 			if(nn != Z)
 				storepair(t, nn, 1);
@@ -2681,7 +2612,19 @@ void
 testv(Node *n, int true)
 {
 	Type *t;
-	Node *nn, nod;
+	Node *nn, nod, *b;
+
+	if(machcap(Z)) {
+		b = &nod;
+		b->op = true ? ONE : OEQ;
+		b->left = n;
+		b->right = new(0, Z, Z);
+		*b->right = *nodconst(0);
+		b->right->type = n->type;
+		b->type = types[TLONG];
+		cgen64(b, Z);
+		return;
+	}
 
 	switch(n->op) {
 	case OINDREG:
