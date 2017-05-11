@@ -63,8 +63,8 @@ main(int argc, char *argv[])
 	oname = ot->oname;
     // /bin/cpp on my mac does the -traditional-cpp which can't expand
     // correctly the code in ocaml/byterun/ because they do 'Foo ()' instead
-    // of Foo() (no space between the macro and the arguments). So
-    // I have to use gcc -E instead of /usr/bin/cpp
+    // of Foo() (no space between the macro and the arguments).
+    // => I have to use gcc -E instead of /usr/bin/cpp
 	append(&cpp, "gcc"); 
 	append(&cpp, "-E");	
 	append(&cpp, "-D__STDC__=1");	/* ANSI says so */
@@ -107,6 +107,10 @@ main(int argc, char *argv[])
 		case 'I':
 		case 'U':
 			append(&cpp, smprint("-%c%s", ARGC(), ARGF()));
+			break;
+        //pad: pcc does not recognize -L
+		case 'L':
+			ARGF();
 			break;
 		case 'v':
 			vflag = 1;
