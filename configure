@@ -21,9 +21,6 @@ then
   SunOS)
    HOST_SYSTEM="Solaris"
    ;;
-  IRIX64)
-   HOST_SYSTEM="Irix"
-   ;;
  esac
 
  if [ "unknown" = "${HOST_ARCH}" ]
@@ -35,7 +32,7 @@ then
   ppc|powerpc)
    HOST_ARCH="power"
    ;;
-  x86|x86_32|i386|i586|i686|486|586|686)
+  x86|x86_32|i386|i586|i686|486|586|686|x86_64)
    HOST_ARCH="386"
    ;;
  esac
@@ -80,9 +77,9 @@ then
 
  Configuration options (in order)
 
-   --host <Host system type>     (eg, MacOSX, Linux, Nt, Solaris, FreeBSD, NetBSD, Irix, Plan9)
+   --host <Host system type>     (eg, MacOSX, Linux, Nt, Solaris, FreeBSD, NetBSD, Plan9)
 
-   --target <Target system type> (eg, MacOSX, Linux, Nt, Solaris, FreeBSD, NetBSD, Irix, Plan9)
+   --target <Target system type> (eg, MacOSX, Linux, Nt, Solaris, FreeBSD, NetBSD, Plan9)
 
    --object <Target object type> (eg, 386, mips, power, sparc)
 
