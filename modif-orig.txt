@@ -1,8 +1,12 @@
 original: https://code.google.com/p/ken-cc/
+now at https://bitbucket.org/plan9-from-bell-labs/9-cc/
 
 partial list of modifications:
+- got rid of old hosts (NetBSD, Irix, etc), except 
+  Linux/386, Macos/386, and Plan9
+- got rid of old targets, except 386 (8) and arm (5)
+- moved src/* and src/cmd/* at the toplevel
 - compiled and commited a correct version of MacOSX/386/bin/iyacc
-- get rid of old hosts (NetBSD, Irix, etc), except Linux/386, Macos/386, and Plan9
-- get rid of old targets, except 386 (8) and arm (5)
-- moved src/* at the toplevel
+- fixed Linux/386/include/lib9.h to comply with recent Linux distributions.
+- created Linux/386/lib/.fake and MacOSX/386/lib/.fake
 

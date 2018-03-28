@@ -1,0 +1,6 @@
+For recent Linux, you need to install first the 'libc6-dev-i386' package,
+otherwise you will get an error about the inexistent sys/cdefs.h and 
+gnu/stub-32.h files.
+
+You also need to install the 'rc' package to produce an 'mk' that
+will use the rc shell, not sh. My plan9 fork assumes an mk-with-rc.
