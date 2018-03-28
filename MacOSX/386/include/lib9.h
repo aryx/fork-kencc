@@ -87,6 +87,7 @@ extern	char*	cistrstr(char*, char*);
 extern	int	tokenize(char*, char**, int);
 extern	vlong	strtoll(const char*, char**, int);
 
+//PAD: I updated this enum
 enum
 {
 	UTFmax		= 4,		/* maximum bytes per rune */
@@ -96,10 +97,11 @@ enum
 	Runemax		= 0x10FFFF,	/* 21-bit rune */
 	Runemask	= 0x1FFFFF,	/* bits used by runes (see grep) */
 
-//PAD:	UTFmax		= 3,		/* maximum bytes per rune */
-//PAD:	Runesync	= 0x80,		/* cannot represent part of a UTF sequence (<) */
-//PAD:	Runeself	= 0x80,		/* rune and UTF sequences are the same (<) */
-//PAD:	Runeerror	= 0x80		/* decoding error in UTF */
+//old:
+//	UTFmax		= 3,		/* maximum bytes per rune */
+//	Runesync	= 0x80,		/* cannot represent part of a UTF sequence (<) */
+//	Runeself	= 0x80,		/* rune and UTF sequences are the same (<) */
+//	Runeerror	= 0x80		/* decoding error in UTF */
 };
 
 /*

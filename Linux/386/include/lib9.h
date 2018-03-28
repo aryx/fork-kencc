@@ -1,11 +1,13 @@
 /* define _BSD_SOURCE to use ISO C, POSIX, and 4.3BSD things. */
 #ifndef _BSD_SOURCE
 #define _BSD_SOURCE
+#define _DEFAULT_SOURCE //PAD: for recent Linux
 #endif
 #define _XOPEN_SOURCE  500
 #define _LARGEFILE_SOURCE	1
 #define _LARGEFILE64_SOURCE	1
 #define _FILE_OFFSET_BITS 64
+
 #include <features.h>
 #include <sys/types.h>
 #include <stdlib.h>
@@ -69,12 +71,21 @@ extern	int	cistrcmp(char*, char*);
 extern	char*	cistrstr(char*, char*);
 extern	int	tokenize(char*, char**, int);
 
+//PAD: I updated this enum
 enum
 {
-	UTFmax		= 3,		/* maximum bytes per rune */
+	UTFmax		= 4,		/* maximum bytes per rune */
 	Runesync	= 0x80,		/* cannot represent part of a UTF sequence (<) */
 	Runeself	= 0x80,		/* rune and UTF sequences are the same (<) */
-	Runeerror	= 0x80		/* decoding error in UTF */
+	Runeerror	= 0xFFFD,	/* decoding error in UTF */
+	Runemax		= 0x10FFFF,	/* 21-bit rune */
+	Runemask	= 0x1FFFFF,	/* bits used by runes (see grep) */
+
+//old:
+//	UTFmax		= 3,		/* maximum bytes per rune */
+//	Runesync	= 0x80,		/* cannot represent part of a UTF sequence (<) */
+//	Runeself	= 0x80,		/* rune and UTF sequences are the same (<) */
+//	Runeerror	= 0x80		/* decoding error in UTF */
 };
 
 /*
