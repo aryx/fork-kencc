@@ -1,5 +1,12 @@
 original: https://code.google.com/p/ken-cc/
-now at https://bitbucket.org/plan9-from-bell-labs/9-cc/
+
+Now at https://bitbucket.org/plan9-from-bell-labs/9-cc/
+but this latest version is worst. Indeed, it does not even compile under
+Linux and some files are actually missing from the repository.
+The repository https://github.com/JehanneOS/devtools-kencc
+fixed some mistakes, but I don't think it's a good starting point.
+Indeed, those repositories do not incorporate the latest patches
+to 5c that enable to compile Raspberry programs.
 
 partial list of modifications:
 - got rid of old hosts (NetBSD, Irix, etc), except 
@@ -7,6 +14,8 @@ partial list of modifications:
 - got rid of old targets, except 386 (8) and arm (5)
 - moved src/* and src/cmd/* at the toplevel
 - compiled and commited a correct version of MacOSX/386/bin/iyacc
+- updated the Rune type to 'unsigned int' so kencc can compile plan9 programs
+  using L"..."
 - fixed Linux/386/include/lib9.h to comply with recent Linux distributions.
-- created Linux/386/lib/.fake and MacOSX/386/lib/.fake
-
+- created Linux/386/lib/.keep and MacOSX/386/lib/.keep, etc. so
+  'ar' can correctly create libraries
