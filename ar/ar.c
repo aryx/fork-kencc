@@ -728,7 +728,7 @@ armove(Biobuf *b, Arfile *ap, Armember *bp)
 	sprint(bp->hdr.date, "%-12ld", 0);//PAD: d->mtime); for reproducible builds
 	sprint(bp->hdr.uid, "%-6d", 0);
 	sprint(bp->hdr.gid, "%-6d", 0);
-	sprint(bp->hdr.mode, "%-8lo", d->mode);
+	sprint(bp->hdr.mode, "%-8lo", 0644); //PAD: d->mode); for reproducible builds
 	sprint(bp->hdr.size, "%-10lld", (vlong)d->length);
 	strncpy(bp->hdr.fmag, ARFMAG, 2);
 	bp->size = d->length;
