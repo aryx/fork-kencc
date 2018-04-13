@@ -218,7 +218,8 @@ EOF
 #   in this directory 
 #   to initialize this development environment
 #
-PATH=${ebp}:\$(echo \${PATH} | sed 's%${ebp}:%%g; s%:${ebp}%%g')
+#pad: put /usr/bin first to get the native ar and yacc
+PATH=/usr/bin:${ebp}:\$(echo \${PATH} | sed 's%${ebp}:%%g; s%:${ebp}%%g')
 #
 # Convenience for running commands outside 'mk'...
 #
