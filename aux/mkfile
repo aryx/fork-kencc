@@ -1,11 +1,11 @@
 #                                              -*-makefile-*-
 <../mkconfig
 
-#TARG=data2s
-#OFILES=	data2s.$O\
+TARG=data2s
+OFILES=	data2s.$O\
 
-TARG=mklatinkbd
-OFILES=mklatinkbd.$O
+#TARG=mklatinkbd
+#OFILES=mklatinkbd.$O
 
 LIBS=	bio 9
 
