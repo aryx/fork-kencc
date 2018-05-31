@@ -24,11 +24,7 @@ DIRS=\
 	acid\
     pcc\
     \
-	nm\
-	kprof\
-	ksize\
-	kstrip\
-    aux
+    utilities
 
 # mkconfig is included at this point to allow it to override
 # the preceding declarations if need be

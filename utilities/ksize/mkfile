@@ -1,5 +1,5 @@
 #                                              -*-makefile-*-
-<../mkconfig
+<../../mkconfig
 
 TARG=ksize
 

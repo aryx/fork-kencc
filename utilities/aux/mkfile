@@ -1,5 +1,5 @@
 #                                              -*-makefile-*-
-<../mkconfig
+<../../mkconfig
 
 TARG=data2s
 OFILES=	data2s.$O\
