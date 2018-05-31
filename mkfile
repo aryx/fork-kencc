@@ -20,11 +20,11 @@ DIRS=\
 	5c\
 	5l\
     \
-	nm\
 	ar\
 	acid\
     pcc\
     \
+	nm\
 	kprof\
 	ksize\
 	kstrip\
