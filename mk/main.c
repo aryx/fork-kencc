@@ -34,6 +34,7 @@ main(int argc, char **argv)
 	Biobuf tb;
 	Bufblock *buf;
 	Bufblock *whatif;
+    Symtab* sym;
 
 	/*
 	 *  start with a copy of the current environment variables
@@ -122,6 +123,16 @@ main(int argc, char **argv)
 	syminit();
 	initenv();
 	usage();
+
+    sym = symlook("MKSHELL", S_VAR, 0);
+    if(sym != NULL) {
+      w = (Word*) sym->value;
+      if(w != NULL && w->s != NULL) {
+        shell = malloc(sizeof(Shell));
+        *shell = rc;
+        shell->shell = w->s;
+      }
+    }
 
 	/*
 		assignment args become null strings

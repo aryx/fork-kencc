@@ -116,7 +116,7 @@ addrules(Word *head, Word *tail, char *body, int attr, int hline, char *prog)
 		/* tuck away first non-meta rule as default target*/
 	if(target1 == 0 && !(attr&REGEXP)){
 		for(w = head; w; w = w->next)
-			if(charin(w->s, "%&"))
+			if(shell->charin(w->s, "%&"))
 				break;
 		if(w == 0)
 			target1 = wdup(head);
@@ -135,7 +135,7 @@ rhead(char *line, Word **h, Word **t, int *attr, char **prog)
 	int n;
 	Word *w;
 
-	p = charin(line,":=<");
+	p = shell->charin(line,":=<");
 	if(p == 0)
 		return('?');
 	sep = *p;
@@ -147,7 +147,7 @@ rhead(char *line, Word **h, Word **t, int *attr, char **prog)
 	*attr = 0;
 	*prog = 0;
 	if(sep == '='){
-		pp = charin(p, termchars);	/* termchars is shell-dependent */
+		pp = shell->charin(p, shell->termchars);	/* termchars is shell-dependent */
 		if (pp && *pp == '=') {
 			while (p != pp) {
 				n = chartorune(&r, p);

@@ -15,7 +15,7 @@ shprint(char *s, Envy *env, Bufblock *buf)
 		else {
 			rinsert(buf, r);
 			s += n;
-			s = copyq(s, r, buf);	/*handle quoted strings*/
+			s = shell->copyq(s, r, buf);	/*handle quoted strings*/
 		}
 	}
 	insert(buf, 0);

@@ -1,8 +1,5 @@
 #include	"mk.h"
 
-char	*termchars = "'= \t";	/*used in parse.c to isolate assignment attribute*/
-char	*shflags = "-I";	/* rc flag to force non-interactive mode */
-int	IWS = '\1';		/* inter-word separator in env - not used in plan 9 */
 
 /*
  *	This file contains functions that depend on rc's syntax.  Most
@@ -37,7 +34,7 @@ squote(char *cp)
  *	search a string for characters in a pattern set
  *	characters in quotes and variable generators are escaped
  */
-char *
+static char *
 charin(char *cp, char *pat)
 {
 	Rune r;
@@ -81,7 +78,7 @@ charin(char *cp, char *pat)
  *	double-quote,and backslash.  Only the first is valid for rc. the
  *	others are just inserted into the receiving buffer.
  */
-char*
+static char*
 expandquote(char *s, Rune r, Bufblock *b)
 {
 	if (r != '\'') {
@@ -107,7 +104,7 @@ expandquote(char *s, Rune r, Bufblock *b)
  *	double-quote and backslash.  Only the first is a valid escape for
  *	rc; the others are just inserted into the receiving buffer.
  */
-int
+static int
 escapetoken(Biobuf *bp, Bufblock *buf, int preserve, int esc)
 {
 	int c, line;
@@ -154,7 +151,7 @@ copysingle(char *s, Bufblock *buf)
  *	check for quoted strings.  backquotes are handled here; single quotes above.
  *	s points to char after opening quote, q.
  */
-char *
+static char *
 copyq(char *s, Rune q, Bufblock *buf)
 {
 	if(q == '\'')				/* copy quoted string */
@@ -173,3 +170,16 @@ copyq(char *s, Rune q, Bufblock *buf)
 	}
 	return s;
 }
+
+Shell rc = {
+  .shell =	"/bin/rc",
+  .shellname =	"rc",
+  .termchars = "'= \t",	/*used in parse.c to isolate assignment attribute*/
+  .shflags = "-I",	/* rc flag to force non-interactive mode */
+  .IWS = '\1',		/* inter-word separator in env - not used in plan 9 */
+
+  .charin = &charin,
+  .expandquote = &expandquote,
+  .escapetoken = &escapetoken,
+  .copyq = &copyq,
+};

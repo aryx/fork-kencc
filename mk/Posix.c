@@ -5,8 +5,7 @@
 #include	<utime.h>
 #include	<stdio.h>
 
-char 	*shell =	"/bin/sh";
-char 	*shellname =	"sh";
+Shell *shell = &sh;
 
 extern char **environ;
 
@@ -47,7 +46,7 @@ exportenv(Envy *e)
 	for(i = 0; e->name; e++, i++) {
 		p = (char**) Realloc(p, (i+2)*sizeof(char*));
 		if (e->values)
-			values = wtos(e->values, IWS);
+			values = wtos(e->values, shell->IWS);
 		else
 			values = "";
 		p[i] = malloc(strlen(e->name) + strlen(values) + 2);
@@ -123,11 +122,11 @@ execsh(char *args, char *cmd, Bufblock *buf, Envy *e)
 			close(in[1]);
 			if (e)
 				exportenv(e);
-			if(shflags)
-				execl(shell, shellname, shflags, args, nil);
+			if(shell->shflags)
+				execl(shell->shell, shell->shellname, shell->shflags, args, nil);
 			else
-				execl(shell, shellname, args, nil);
-			perror(shell);
+				execl(shell->shell, shell->shellname, args, nil);
+			perror(shell->shell);
 			_exits("exec");
 		}
 		close(out[1]);
@@ -188,11 +187,11 @@ pipecmd(char *cmd, Envy *e, int *fd)
 		}
 		if(e)
 			exportenv(e);
-		if(shflags)
-			execl(shell, shellname, shflags, "-c", cmd, nil);
+		if(shell->shflags)
+			execl(shell->shell, shell->shellname, shell->shflags, "-c", cmd, nil);
 		else
-			execl(shell, shellname, "-c", cmd, nil);
-		perror(shell);
+			execl(shell->shell, shell->shellname, "-c", cmd, nil);
+		perror(shell->shell);
 		_exits("exec");
 	}
 	if(fd){

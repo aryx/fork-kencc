@@ -24,7 +24,7 @@ match(char *name, char *template, char *stem)
 	strncpy(stem, name, n);
 	stem[n] = 0;
 	if(*template == '&')
-		return !charin(stem, "./");
+		return !shell->charin(stem, "./");
 	return 1;
 }
 

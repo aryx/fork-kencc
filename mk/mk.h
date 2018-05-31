@@ -145,11 +145,6 @@ extern	int	mkinline;
 extern	char	*infile;
 extern	int	nreps;
 extern	char	*explain;
-extern	char	*termchars;
-extern	int	IWS;
-extern	char 	*shell;
-extern	char 	*shellname;
-extern	char 	*shflags;
 
 #define	SYNERR(l)	(fprint(2, "mk: %s:%d: syntax error; ", infile, ((l)>=0)?(l):mkinline))
 #define	RERR(r)		(fprint(2, "mk: %s:%d: rule error; ", (r)->file, (r)->line))
@@ -167,5 +162,35 @@ extern	char 	*shflags;
 #define	LSEEK(f,o,p)	seek(f,o,p)
 
 #define	PERCENT(ch)	(((ch) == '%') || ((ch) == '&'))
+
+//pad: Shell below allows to change the shell used by mk at runtime.
+// Thus, mk of kencc can be used to compile kencc itself and fork-plan9,
+// which have different requirements. I did that in mk-in-ocaml first.
+typedef struct Shell {
+    char* shell;
+    char* shellname;
+    char *shflags;
+
+    int IWS;
+    char* termchars;
+
+    // methods
+    char* (*charin)(char *cp, char *pat);
+    char* (*expandquote)(char *s, Rune r, Bufblock *b);
+    int (*escapetoken)(Biobuf *bp, Bufblock *buf, int preserve, int esc);
+    char* (*copyq)(char *s, Rune q, Bufblock *buf);
+} Shell;
+//old:
+//extern	char	*termchars;
+//extern	int	IWS;
+//extern	char 	*shell;
+//extern	char 	*shellname;
+//extern	char 	*shflags;
+
+extern Shell sh;
+extern Shell rc;
+
+// either sh or rc
+extern Shell *shell;
 
 #include	"fns.h"

@@ -42,7 +42,7 @@ addrule(char *head, Word *tail, char *body, Word *ahead, int attr, int hline, ch
 	}
 	if(!reuse)
 		r->next = 0;
-	if((attr&REGEXP) || charin(head, "%&")){
+	if((attr&REGEXP) || shell->charin(head, "%&")){
 		r->attr |= META;
 		if(reuse)
 			return;

@@ -1,8 +1,5 @@
 #include	"mk.h"
 
-char	*termchars = "\"'= \t";	/*used in parse.c to isolate assignment attribute*/
-char	*shflags = 0;
-int	IWS = ' ';		/* inter-word separator in env */
 
 /*
  *	This file contains functions that depend on the shell's syntax.  Most
@@ -34,7 +31,7 @@ squote(char *cp, int c)
 /*
  *	search a string for unescaped characters in a pattern set
  */
-char *
+static char *
 charin(char *cp, char *pat)
 {
 	Rune r;
@@ -82,7 +79,7 @@ charin(char *cp, char *pat)
  *	extract an escaped token.  Possible escape chars are single-quote,
  *	double-quote,and backslash.
  */
-char*
+static char*
 expandquote(char *s, Rune esc, Bufblock *b)
 {
 	Rune r;
@@ -110,7 +107,7 @@ expandquote(char *s, Rune esc, Bufblock *b)
  *	Input an escaped token.  Possible escape chars are single-quote,
  *	double-quote and backslash.
  */
-int
+static int
 escapetoken(Biobuf *bp, Bufblock *buf, int preserve, int esc)
 {
 	int c, line;
@@ -168,7 +165,7 @@ copysingle(char *s, Rune q, Bufblock *buf)
  *	check for quoted strings.  backquotes are handled here; single quotes above.
  *	s points to char after opening quote, q.
  */
-char *
+static char *
 copyq(char *s, Rune q, Bufblock *buf)
 {
 	if(q == '\'' || q == '"')		/* copy quoted string */
@@ -187,3 +184,17 @@ copyq(char *s, Rune q, Bufblock *buf)
 	}
 	return s;
 }
+
+
+Shell sh = {
+  .shell = "/bin/sh",
+  .shellname = "sh",
+  .shflags = 0,
+  .IWS = ' ',		/* inter-word separator in env */
+  .termchars = "\"'= \t",	/*used in parse.c to isolate assignment attribute*/
+
+  .charin = &charin,
+  .expandquote = &expandquote,
+  .escapetoken = &escapetoken,
+  .copyq = &copyq,
+};

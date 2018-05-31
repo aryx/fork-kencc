@@ -1,7 +1,6 @@
 #include	"mk.h"
 
-char 	*shell =	"/bin/rc";
-char 	*shellname =	"rc";
+Shell shell = &rc;
 
 static	Word	*encodenulls(char*, int);
 

@@ -19,12 +19,16 @@ OFILES=	arc.$O\
 	recipe.$O\
 	rule.$O\
 	run.$O\
-	$TARGSHTYPE.$O\
+    rc.$O\
+    sh.$O\
 	shprint.$O\
 	symtab.$O\
 	var.$O\
 	varsub.$O\
 	word.$O\
+#old: there was	$TARGSHTYPE.$O instead of rc.$O and sh.$O but
+# I now support both
+
 
 HFILES=	fns.h\
 	${ROOT}/libmach/ar.h\
