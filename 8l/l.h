@@ -195,11 +195,12 @@ EXTERN union
 		char	obuf[MAXIO];			/* output buffer */
 		uchar	ibuf[MAXIO];			/* input buffer */
 	} u;
-	char	dbuf[1];
+	//char	dbuf[1];
 } buf;
 
 #define	cbuf	u.obuf
 #define	xbuf	u.ibuf
+#define	dbuf	u.obuf
 
 #pragma	varargck	type	"A"	int
 #pragma	varargck	type	"A"	uint

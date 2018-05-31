@@ -72,6 +72,24 @@ main(int argc, char *argv[])
 	INITDAT = -1;
 	INITRND = -1;
 	INITENTRY = 0;
+    //PAD: for valgrind
+    memset(hash, 0, sizeof(hash));
+    memset(&zprg, 0, sizeof(zprg));
+    memset(&undefp, 0, sizeof(undefp));
+    memset(&buf, 0, sizeof(buf));
+
+	zprg.link = P;
+	zprg.pcond = P;
+	zprg.back = 2;
+	zprg.as = AGOK;
+	zprg.from.type = D_NONE;
+	zprg.from.index = D_NONE;
+	zprg.from.scale = 1;
+	zprg.to = zprg.from;
+    //PAD: missing fields
+    zprg.pcond = nil;
+
+
 	ARGBEGIN {
 	default:
 		c = ARGC();
@@ -281,14 +299,6 @@ main(int argc, char *argv[])
 			reg[i] = (i-D_F0) & 7;
 	}
 
-	zprg.link = P;
-	zprg.pcond = P;
-	zprg.back = 2;
-	zprg.as = AGOK;
-	zprg.from.type = D_NONE;
-	zprg.from.index = D_NONE;
-	zprg.from.scale = 1;
-	zprg.to = zprg.from;
 
 	pcstr = "%.6lux ";
 	nuxiinit();
@@ -709,6 +719,7 @@ addhist(long line, int type)
 	u = malloc(sizeof(Auto));
 	s = malloc(sizeof(Sym));
 	s->name = malloc(2*(histfrogp+1) + 1);
+    memset(s->name, 0, 2*(histfrogp+1) + 1);
 
 	u->asym = s;
 	u->type = type;
@@ -925,6 +936,8 @@ loop:
 	r += zaddr(bloc+r, &p->to, h);
 	bloc += r;
 	c -= r;
+	p->link = P;
+    p->pcond = nil;
 
 	if(debug['W'])
 		print("%P\n", p);
@@ -1180,7 +1193,7 @@ lookup(char *symb, int v)
 	nhunk -= sizeof(Sym);
 	hunk += sizeof(Sym);
 
-	s->name = malloc(l + 1);
+	s->name = malloc(l);
 	memmove(s->name, symb, l);
 
 	s->link = hash[h];
@@ -1248,6 +1261,8 @@ gethunk(void)
 		errorexit();
 	}
 	hunk = h;
+    //PAD: for valgrind
+    memset(hunk, 0, nh);
 	nhunk = nh;
 	thunk += nh;
 }

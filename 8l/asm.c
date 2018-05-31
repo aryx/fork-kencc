@@ -440,7 +440,10 @@ datblk(long s, long n)
 				Bprint(&bso, "\t%P\n", curp);
 			}
 			for(; i<c; i++) {
-				buf.dbuf[l] = p->to.scon[i];
+                //print("%c", p->to.scon[i]);
+				//buf.dbuf[l] = p->to.scon[i];
+                buf.u.obuf[l] = p->to.scon[i];
+                //print("%c", buf.dbuf[l]);
 				l++;
 			}
 			break;
