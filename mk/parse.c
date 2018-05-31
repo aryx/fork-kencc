@@ -211,6 +211,9 @@ rhead(char *line, Word **h, Word **t, int *attr, char **prog)
 			case 'V':
 				*attr |= VIR;
 				break;
+            //PAD: this is an extension in mk-in-ocaml that I ignore here
+			case 'I':
+                break;
 			}
 		}
 		if (*p++ != ':') {
