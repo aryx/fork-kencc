@@ -1,0 +1,4 @@
+You can also just /bin/sed under Linux with the -E option.
+
+#!/bin/sh
+/bin/sed -E "$@"

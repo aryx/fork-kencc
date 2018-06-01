@@ -1,0 +1,10 @@
+The programs in this directory are not needed to cross compile C code,
+but they are needed to build a few programs under fork-plan9
+(especially the kernel).
+
+The following programs are also assumed; most distributions
+come with a compatible version:
+ - ls (was originally needing the -p flag, but I've removed its need
+   in the fork-plan9 mkfiles)
+ - awk??
+
