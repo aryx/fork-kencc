@@ -195,11 +195,14 @@ EXTERN union
 		char	obuf[MAXIO];			/* output buffer */
 		uchar	ibuf[MAXIO];			/* input buffer */
 	} u;
-	//char	dbuf[1];
+    //pad: this does not work under recent gcc versions
+	//old: char	dbuf[1];
+    //pad: see also https://bitbucket.org/inferno-os/inferno-os/pull-requests/21/fixed-compilation-of-9load-for-x86-with/diff#comment-60946786
 } buf;
 
 #define	cbuf	u.obuf
 #define	xbuf	u.ibuf
+//pad: simpler
 #define	dbuf	u.obuf
 
 #pragma	varargck	type	"A"	int
