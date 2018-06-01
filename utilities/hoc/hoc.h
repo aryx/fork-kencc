@@ -56,7 +56,7 @@ extern	void define(Symbol*, Formal*), verify(Symbol*);
 extern	Datum pop(void);
 extern	void initcode(void), push(Datum), xpop(void), constpush(void);
 extern	void varpush(void);
-extern	void eval(void), add(void), sub(void), mul(void), div(void), mod(void);
+extern	void eval(void), add(void), sub(void), mul(void), div_(void), mod(void);
 extern	void negate(void), power(void);
 extern	void addeq(void), subeq(void), muleq(void), diveq(void), modeq(void);
 

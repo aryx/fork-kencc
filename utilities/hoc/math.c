@@ -1,7 +1,23 @@
-#include <u.h>
-#include <libc.h>
+#include <lib9.h>
 
 #include "hoc.h"
+#include "mathi.h"
+
+#define asin __ieee754_asin
+#define acos __ieee754_acos
+#define sinh __ieee754_sinh
+#define cosh __ieee754_cosh
+
+#define log __ieee754_log
+#define log10 __ieee754_log10
+#define exp __ieee754_exp
+#define pow __ieee754_pow
+
+#define isNaN isnan
+
+double sqrt(double x) { return __ieee754_sqrt(x); }
+double fmod(double x, double y) { return __ieee754_fmod(x, y); }
+int isInf(double x, int y) { return 0; }
 
 double	errcheck(double, char*);
 

@@ -91,7 +91,7 @@ expr:	  NUMBER { $$ = code2(constpush, (Inst)$1); }
 	| expr '+' expr	{ code(add); }
 	| expr '-' expr	{ code(sub); }
 	| expr '*' expr	{ code(mul); }
-	| expr '/' expr	{ code(div); }
+	| expr '/' expr	{ code(div_); }
 	| expr '%' expr	{ code(mod); }
 	| expr '^' expr	{ code (power); }
 	| '-' expr   %prec UNARYMINUS   { $$=$2; code(negate); }
@@ -133,8 +133,7 @@ arglist:  /* nothing */ 	{ $$ = 0; }
 	;
 %%
 	/* end of grammar */
-#include <u.h>
-#include <libc.h>
+#include <lib9.h>
 #include <bio.h>
 #include <ctype.h>
 char	*progname;

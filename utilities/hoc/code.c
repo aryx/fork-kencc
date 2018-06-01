@@ -1,5 +1,4 @@
-#include <u.h>
-#include <libc.h>
+#include <lib9.h>
 #include <bio.h>
 #include "hoc.h"
 #include "y.tab.h"
@@ -289,8 +288,9 @@ mul(void)
 	push(d1);
 }
 
+//pad: div() is already defined in /usr/include/stdlib.h on Linux
 void
-div(void)
+div_(void)
 {
 	Datum d1, d2;
 	d2 = pop();
@@ -583,7 +583,8 @@ printtop(void)	/* pop top value from stack, print it */
 	if (s == 0)
 		s = install("_", VAR, 0.0);
 	d = pop();
-	print("%.12g\n", d.val);
+    //pad: weird but print does not work and just print a %g
+	printf("%.12g\n", d.val);
 	s->u.val = d.val;
 }
 

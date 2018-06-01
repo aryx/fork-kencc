@@ -1,5 +1,5 @@
-TOP=../..
-<$TOP/mkfiles/$objtype/mkfile
+#                                              -*-makefile-*-
+<../../mkconfig
 
 TARG=hoc
 
@@ -16,4 +16,8 @@ HFILES=\
 
 YFILES=hoc.y
 
-<$TOP/mkfiles/mkone
+LIBS=math bio 9		# order is important
+
+BIN=$ROOT/$OBJDIR/bin
+
+<$ROOT/mkfiles/mkone-$SHELLTYPE

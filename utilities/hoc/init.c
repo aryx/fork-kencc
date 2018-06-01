@@ -1,5 +1,4 @@
-#include <u.h>
-#include <libc.h>
+#include <lib9.h>
 #include "hoc.h"
 #include "y.tab.h"
 
