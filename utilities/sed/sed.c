@@ -112,7 +112,7 @@ struct {				/* Sed program input control block */
 	union PCTL {			/* Pointer to data */
 		Biobuf	*bp;
 		char	*curr;
-	};
+	} u;
 } prog;
 
 Rune	genbuf[LBSIZE];			/* Miscellaneous buffer */
@@ -148,7 +148,9 @@ Biobuf	*fcode[MAXFILES];		/* File ID cache */
 int	nfiles = 0;			/* Cache fill point */
 
 Biobuf	fout;				/* Output stream */
-Biobuf	stdin;				/* Default input */
+//pad: was stdin, but causes some segfault when you pipe things to sed
+// found fix in inferno-os/utils/sed/
+Biobuf	bstdin;				/* Default input */
 Biobuf*	f = 0;				/* Input data */
 
 Label	ltab[LABSIZE];			/* Label name symbol table */
@@ -684,8 +686,8 @@ void
 newfile(enum PTYPE type, char *name)
 {
 	if (type == P_ARG)
-		prog.curr = name;
-	else if ((prog.bp = Bopen(name, OREAD)) == 0)
+		prog.u.curr = name;
+	else if ((prog.u.bp = Bopen(name, OREAD)) == 0)
 		quit("Cannot open pattern-file: %s\n", name);
 	prog.type = type;
 }
@@ -723,18 +725,18 @@ getrune(void)
 	char *p;
 
 	if (prog.type == P_ARG) {
-		if ((p = prog.curr) != 0) {
+		if ((p = prog.u.curr) != 0) {
 			if (*p) {
-				prog.curr += chartorune(&r, p);
+				prog.u.curr += chartorune(&r, p);
 				c = r;
 			} else {
 				c = '\n';	/* fake an end-of-line */
-				prog.curr = 0;
+				prog.u.curr = 0;
 			}
 		} else
 			c = -1;
-	} else if ((c = Bgetrune(prog.bp)) < 0)
-		Bterm(prog.bp);
+	} else if ((c = Bgetrune(prog.u.bp)) < 0)
+		Bterm(prog.u.bp);
 	return c;
 }
 
@@ -995,11 +997,11 @@ match(Reprog *pattern, Rune *buf)
 {
 	if (!pattern)
 		return 0;
-	subexp[0].rsp = buf;
-	subexp[0].ep = 0;
+	subexp[0].s.rsp = buf;
+	subexp[0].e.ep = 0;
 	if (rregexec(pattern, linebuf, subexp, MAXSUB) > 0) {
-		loc1 = subexp[0].rsp;
-		loc2 = subexp[0].rep;
+		loc1 = subexp[0].s.rsp;
+		loc2 = subexp[0].e.rep;
 		return 1;
 	}
 	loc1 = loc2 = 0;
@@ -1054,8 +1056,8 @@ dosub(Rune *rhsbuf)
 		}
 		if (c == Runemax && (c = *rp++) >= '1' && c < MAXSUB + '0') {
 			n = c-'0';
-			if (subexp[n].rsp && subexp[n].rep) {
-				sp = place(sp, subexp[n].rsp, subexp[n].rep);
+			if (subexp[n].s.rsp && subexp[n].e.rep) {
+				sp = place(sp, subexp[n].s.rsp, subexp[n].e.rep);
 				continue;
 			}
 			else {
@@ -1451,8 +1453,8 @@ opendata(void)
 		if ((f = Bopen(fhead->name, OREAD)) == nil)
 			quit("Can't open %s", fhead->name);
 	} else {
-		Binit(&stdin, 0, OREAD);
-		f = &stdin;
+		Binit(&bstdin, 0, OREAD);
+		f = &bstdin;
 	}
 	fhead = fhead->next;
 	return 1;

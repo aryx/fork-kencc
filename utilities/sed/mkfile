@@ -6,7 +6,7 @@ TARG=sed
 OFILES=\
 	sed.$O\
 
-LIBS=bio 9		# order is important.
+LIBS=bio regexp 9		# order is important.
 
 BIN=$ROOT/$OBJDIR/bin
 
