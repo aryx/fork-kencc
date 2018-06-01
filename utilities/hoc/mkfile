@@ -1,0 +1,19 @@
+TOP=../..
+<$TOP/mkfiles/$objtype/mkfile
+
+TARG=hoc
+
+OFILES=\
+	y.tab.$O\
+	code.$O\
+	init.$O\
+	math.$O\
+	symbol.$O\
+
+HFILES=\
+	y.tab.h\
+	hoc.h\
+
+YFILES=hoc.y
+
+<$TOP/mkfiles/mkone
