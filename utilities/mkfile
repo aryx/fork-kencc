@@ -1,0 +1,36 @@
+# -*-makefile-*-
+
+DIRS=\
+	nm\
+    \
+	kprof\
+	ksize\
+	kstrip\
+    \
+    date\
+    sed\
+    xd\
+    \
+    aux
+
+<../mkconfig
+
+all:V:		all-$HOSTMODEL
+clean:V:	clean-$HOSTMODEL
+install:V:	install-$HOSTMODEL
+installall:V:	installall-$HOSTMODEL
+nuke:V:		nuke-$HOSTMODEL
+
+&-Posix:QV:
+	for j in $DIRS
+	do
+		echo "(cd $j; mk $MKFLAGS $stem)"
+		(cd $j; mk $MKFLAGS $stem) || exit 1
+	done
+
+&-Plan9:QV:
+	for (j in $DIRS)
+	{
+		echo '@{builtin cd' $j '; mk $MKFLAGS $stem}'
+		@{builtin cd $j; mk $MKFLAGS $stem }
+	}
