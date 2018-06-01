@@ -1,11 +1,10 @@
-#include	<u.h>
-#include	<libc.h>
+#include	"lib9.h"
 #include	<bio.h>
 
 static int
 fmtBflush(Fmt *f)
 {
-	Biobufhdr *bp;
+	Biobuf *bp;
 
 	bp = f->farg;
 	bp->ocount = (char*)f->to - (char*)f->stop;
@@ -18,7 +17,7 @@ fmtBflush(Fmt *f)
 }
 
 int
-Bvprint(Biobufhdr *bp, char *fmt, va_list arg)
+Bvprint(Biobuf *bp, char *fmt, va_list arg)
 {
 	int n;
 	Fmt f;

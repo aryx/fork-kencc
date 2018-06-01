@@ -12,6 +12,7 @@ OFILES=\
 	binit.$O\
 	boffset.$O\
 	bprint.$O\
+	bvprint.$O\
 	bputrune.$O\
 	bputc.$O\
 	brdline.$O\

@@ -62,6 +62,7 @@ int	Blinelen(Biobuf*);
 long	Boffset(Biobuf*);
 Biobuf*	Bopen(char*, int);
 int	Bprint(Biobuf*, char*, ...);
+int	Bvprint(Biobuf*, char*, va_list);
 int	Bputc(Biobuf*, int);
 int	Bputrune(Biobuf*, long);
 void*	Brdline(Biobuf*, int);
