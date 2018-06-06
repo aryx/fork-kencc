@@ -16,6 +16,7 @@
 #define F_SETFD
 #define FD_CLOEXEC
 #else
+#include <lib9.h>
 #include "unix.h"
 #endif
 

@@ -4,8 +4,6 @@
 #include "io.h"
 #include "fns.h"
 
-#include "unix.h"
-
 int havefork = 1;
 
 // in unix.c

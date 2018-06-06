@@ -7,9 +7,8 @@ Porting rc to kencc was surprisingly difficult. I tried many things:
  - I copied rc/ from the latest plan9 which had a unix.c, but
    havefork.c was not compiling originally under kencc. I tried
    to use haventfork.c and fix it, but again pipes in the end were not working
- - I used havefork.c, but it was needing libstring/ which was not in kencc.
-   I tried to provide a stripped-down libstring but it pulled too many
-   dependencies (locking, utf8)
- - I finally copy-pasted code from plan9port regarding the import
-   of PATH and the management of Xbackq without the need for libstring
-
+ - I finally used havefork.c, but it was needing libstring/ 
+   which was not in kencc. I tried to provide a stripped-down libstring
+   but it pulled too many dependencies (locking, utf8)
+ - I finally copy-pasted some code from plan9port regarding the import
+   of PATH and the management of Xbackq which did not require libstring

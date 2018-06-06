@@ -35,7 +35,6 @@ BIN=$ROOT/$OBJDIR/bin
 
 <$ROOT/mkfiles/mkone-$SHELLTYPE
 
-CFLAGS=	$CFLAGS '-DROOT="'$ROOT'"' 
-#does not work: -DUnix
+CFLAGS=	$CFLAGS '-DROOT="'$ROOT'"' -DUnix
 
 install:V:	$ROOT/lib/rcmain
