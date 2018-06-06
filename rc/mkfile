@@ -19,7 +19,6 @@ OFILES=	\
 	tree.$O\
 	var.$O\
 	y.tab.$O\
-	unix.$O\
 	havefork.$O\
 	$TARGMODEL.$O\
 
