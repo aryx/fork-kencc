@@ -32,12 +32,12 @@ struct builtin Builtin[] = {
 char **environp;
 
 struct word*
-enval(s)
-register char *s;
+enval(char *s)
 {
 	char *t, c;
 	struct word *v;
-	for(t = s;*t && *t!=SEP;t++);
+	for(t = s;*t && *t!=SEP;t++)
+      ;
 	c=*t;
 	*t='\0';
 	v = newword(s, c=='\0'?(struct word *)0:enval(t+1));
@@ -206,7 +206,7 @@ char *sigmsg[] = {
 /* 20 SIGCHLD */ "Child death",
 };
 
-void
+int
 Waitfor(int pid, int persist)
 {
 	int wpid, sig;
@@ -251,6 +251,7 @@ Waitfor(int pid, int persist)
 				}
 		}
 	}
+    return 0;
 }
 
 char **
@@ -354,13 +355,14 @@ char *name;
 }
 
 int
-Readdir(int f, char *p, int onlydirs)
+Readdir(int f, void *p, int onlydirs)
 {
+  char *pp = p;
 	struct dirent *dp = readdir(dirlist[f]);
 
 	if(dp==0)
 		return 0;
-	strcpy(p, dp->d_name);
+	strcpy(pp, dp->d_name);
 	return 1;
 }
 
@@ -416,40 +418,49 @@ Trapinit(void)
 	}
 }
 
-Unlink(name)
-char *name;
+void
+Unlink(char *name)
 {
 	return unlink(name);
 }
-Write(fd, buf, cnt)
-char *buf;
+
+long
+Write(int fd, void *buf, long cnt)
 {
 	return write(fd, buf, cnt);
 }
-Read(fd, buf, cnt)
-char *buf;
+
+long
+Read(int fd, void *buf, long cnt)
 {
 	return read(fd, buf, cnt);
 }
-Seek(fd, cnt, whence)
-long cnt;
+
+long
+Seek(int fd, long cnt, long whence)
 {
 	return lseek(fd, cnt, whence);
 }
-Executable(file)
-char *file;
+
+int
+Executable(char *file)
 {
 	return(access(file, 01)==0);
 }
-Creat(file)
-char *file;
+
+int
+Creat(char* file)
 {
 	return creat(file, 0666);
 }
-Dup(a, b){
+
+int
+Dup(int a, int b){
 	return dup2(a, b);
 }
-Dup1(a){
+
+int
+Dup1(int a){
 	return dup(a);
 }
 /*
@@ -470,21 +481,25 @@ Exit(char *stat)
 	}
 	exit(n);
 }
-Eintr(){
+
+int
+Eintr(void){
 	return errno==EINTR;
 }
 
 void
-Noerror()
+Noerror(void)
 {
 	errno = 0;
 }
-Isatty(fd){
+
+int
+Isatty(int fd){
 	return isatty(fd);
 }
 
 void
-Abort()
+Abort(void)
 {
 	abort();
 }
@@ -517,22 +532,22 @@ execumask(void)		/* wrong -- should fork before writing */
 }
 
 void
-Memcpy(a, b, n)
-char *a, *b;
+Memcpy(void *a, void *b, long n)
 {
 	memmove(a, b, n);
 }
 
 void*
-Malloc(unsigned long n)
+Malloc(ulong n)
 {
 	return (void *)malloc(n);
 }
 
-void
-errstr(char *buf, int len)
+int
+errstr(char *buf, uint len)
 {
 	strncpy(buf, strerror(errno), len);
+    return 0;
 }
 
 int
