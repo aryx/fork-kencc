@@ -7,7 +7,7 @@ int debug;
 Rule *rules, *metarules;
 int nflag = 0;
 int tflag = 0;
-int iflag = 0;
+int iflag = 1; //pad: I prefer to have mk -i by default 
 int kflag = 0;
 int aflag = 0;
 int uflag = 0;
@@ -77,6 +77,10 @@ main(int argc, char **argv)
 			break;
 		case 'i':
 			iflag = 1;
+			break;
+        //pad:
+		case 'I':
+			iflag = 0;
 			break;
 		case 'k':
 			kflag = 1;
