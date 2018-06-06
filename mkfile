@@ -24,6 +24,7 @@ DIRS=\
 	acid\
     pcc\
     \
+    rc\
     utilities
 
 # mkconfig is included at this point to allow it to override
