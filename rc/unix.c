@@ -7,6 +7,8 @@
 #include "io.h"
 #include "exec.h"
 #include "getflags.h"
+#include "fns.h"
+
 #include <errno.h>
 
 char *Rcmain = "/usr/lib/rcmain";
@@ -61,6 +63,7 @@ Vinit(void)
 		case '=':
 			*s='\0';
 			setvar(*env, enval(s+1));
+            //vlook(*env)->changed = 0;
 			*s='=';
 			break;
 		case '(':	/* ignore functions for now */
