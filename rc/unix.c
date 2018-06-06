@@ -682,11 +682,17 @@ void
 pathinit(void)
 {
 	var *v;
+    char* s;
 
 	//v = gvlook("path");
 	//v->changefn = littlepath;
 	v = gvlook("PATH");
 	//v->changefn = bigpath;
 	bigpath(v);
+
+    s = getenv("RCMAIN");
+    if (s != nil) {
+      Rcmain = s;
+    }
 }
 

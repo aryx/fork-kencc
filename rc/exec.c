@@ -143,14 +143,17 @@ main(int argc, char *argv[])
 	if(flag['I'])
 		flag['i'] = 0;
 	else if(flag['i']==0 && argc==1 && Isatty(0)) flag['i'] = flagset;
-	rcmain = flag['m']?flag['m'][0]:Rcmain; 
 	err = openfd(2);
 	kinit();
 	Trapinit();
 	Vinit();
 	inttoascii(num, mypid = getpid());
+
     // from plan9port
 	pathinit();
+    //pad: need to be after pathinit now
+	rcmain = flag['m']?flag['m'][0]:Rcmain; 
+
 	setvar("pid", newword(num, (word *)0));
 	setvar("cflag", flag['c']?newword(flag['c'][0], (word *)0)
 				:(word *)0);
