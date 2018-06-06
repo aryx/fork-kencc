@@ -47,7 +47,7 @@ typedef unsigned int		uint;
 typedef unsigned long		ulong;
 typedef unsigned long long	uvlong;
 
-#define OREAD	O_RDONLY
-#define OWRITE	O_WRONLY
-#define ORDWR	O_RDWR
-#define OCEXEC	0
+//#define OREAD	O_RDONLY
+//#define OWRITE	O_WRONLY
+//#define ORDWR	O_RDWR
+//#define OCEXEC	0
