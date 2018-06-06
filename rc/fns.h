@@ -65,3 +65,5 @@ int	wordchr(int);
 void	yyerror(char*);
 int	yylex(void);
 int	yyparse(void);
+
+void	pathinit(void);

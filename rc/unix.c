@@ -590,3 +590,85 @@ havewaitpid(int pid)
 			return 1;
 	return 0;
 }
+
+int
+ForkExecute(char *file, char **argv, int sin, int sout, int serr)
+{
+	int pid;
+
+	if(access(file, 1) != 0)
+		return -1;
+	switch(pid = fork()){
+	case -1:
+		return -1;
+	case 0:
+		if(sin >= 0)
+			dup2(sin, 0);
+		else
+			close(0);
+		if(sout >= 0)
+			dup2(sout, 1);
+		else
+			close(1);
+		if(serr >= 0)
+			dup2(serr, 2);
+		else
+			close(2);
+		execv(file, argv);
+		exits(file);
+	}
+	return pid;
+}
+
+void _assert(char *x) {
+}
+
+// from plan9port/sys/.../rc/var.c
+void
+bigpath(var *v)
+{
+	/* convert $PATH to $path */
+	char *p, *q;
+	word **l, *w;
+
+	if(v->val == nil){
+		setvar("path", nil);
+		return;
+	}
+	p = v->val->word;
+	w = nil;
+	l = &w;
+	/*
+	 * Doesn't handle escaped colon nonsense.
+	 */
+	if(p[0] == 0)
+		p = nil;
+	while(p){
+		q = strchr(p, ':');
+		if(q)
+			*q = 0;
+		*l = newword(p[0] ? p : ".", nil);
+		l = &(*l)->next;
+		if(q){
+			*q = ':';
+			p = q+1;
+		}else
+			p = nil;
+	}
+	setvar("path", w);
+}
+
+
+// from plan9port (I commented some parts)
+void
+pathinit(void)
+{
+	var *v;
+
+	//v = gvlook("path");
+	//v->changefn = littlepath;
+	v = gvlook("PATH");
+	//v->changefn = bigpath;
+	bigpath(v);
+}
+

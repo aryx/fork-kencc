@@ -149,6 +149,8 @@ main(int argc, char *argv[])
 	Trapinit();
 	Vinit();
 	inttoascii(num, mypid = getpid());
+    // from plan9port
+	pathinit();
 	setvar("pid", newword(num, (word *)0));
 	setvar("cflag", flag['c']?newword(flag['c'][0], (word *)0)
 				:(word *)0);
