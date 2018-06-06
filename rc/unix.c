@@ -424,7 +424,7 @@ Trapinit(void)
 void
 Unlink(char *name)
 {
-	return unlink(name);
+	unlink(name);
 }
 
 long
