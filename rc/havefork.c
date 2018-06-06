@@ -3,9 +3,13 @@
 #include "exec.h"
 #include "io.h"
 #include "fns.h"
-#include <String.h>
+
+#include "unix.h"
 
 int havefork = 1;
+
+// in unix.c
+extern int rfork(int);
 
 void
 Xasync(void)
@@ -13,6 +17,7 @@ Xasync(void)
 	int null = open("/dev/null", 0);
 	int pid;
 	char npid[10];
+
 	if(null<0){
 		Xerror("Can't open /dev/null\n");
 		return;
@@ -75,21 +80,21 @@ Xpipe(void)
 /*
  * Who should wait for the exit from the fork?
  */
-
+// adapted from plan9port, to avoid dependencies to libString lib and utf8
 void
 Xbackq(void)
 {
-	int n, pid;
-	int pfd[2];
-	char *stop;
-	char utf[UTFmax+1];
+	struct thread *p = runq;
+	char wd[8193];
+	int c, n;
+	char *s, *ewd=&wd[8192], *stop, *q;
 	struct io *f;
 	var *ifs = vlook("ifs");
 	word *v, *nextv;
+	int pfd[2];
+	int pid;
 	Rune r;
-	String *word;
-
-	stop = ifs->val? ifs->val->word: "";
+	stop = ifs->val?ifs->val->word:"";
 	if(pipe(pfd)<0){
 		Xerror("can't make pipe");
 		return;
@@ -110,26 +115,31 @@ Xbackq(void)
 		addwaitpid(pid);
 		close(pfd[PWR]);
 		f = openfd(pfd[PRD]);
-		word = s_new();
-		v = nil;
-		/* rutf requires at least UTFmax+1 bytes in utf */
-		while((n = rutf(f, utf, &r)) != EOF){
-			utf[n] = '\0';
-			if(utfutf(stop, utf) == nil)
-				s_nappend(word, utf, n);
-			else
-				/*
-				 * utf/r is an ifs rune (e.g., \t, \n), thus
-				 * ends the current word, if any.
-				 */
-				if(s_len(word) > 0){
-					v = newword(s_to_c(word), v);
-					s_reset(word);
+		s = wd;
+		v = 0;
+		while((c = rchr(f))!=EOF){
+			if(s != ewd) {
+				*s++ = c;
+				for(q=stop; *q; q+=n) {
+					n = chartorune(&r, q);
+					if(s-wd >= n && memcmp(s-n, q, n) == 0) {
+						s -= n;
+						goto stop;
+					}
 				}
+				continue;
+			}
+		stop:
+			if(s != wd) {
+				*s = '\0';
+				v = newword(wd, v);
+			}
+			s = wd;
 		}
-		if(s_len(word) > 0)
-			v = newword(s_to_c(word), v);
-		s_free(word);
+		if(s!=wd){
+			*s='\0';
+			v = newword(wd, v);
+		}
 		closeio(f);
 		Waitfor(pid, 0);
 		/* v points to reversed arglist -- reverse it onto argv */
@@ -139,7 +149,7 @@ Xbackq(void)
 			runq->argv->words = v;
 			v = nextv;
 		}
-		runq->pc = runq->code[runq->pc].i;
+		p->pc = p->code[p->pc].i;
 		return;
 	}
 }
