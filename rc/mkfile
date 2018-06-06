@@ -1,7 +1,9 @@
-</$objtype/mkfile
+#                                              -*-makefile-*-
+<../mkconfig
 
 TARG=rc
-COMMONOFILES=\
+
+OFILES=	\
 	code.$O\
 	exec.$O\
 	getflags.$O\
@@ -16,48 +18,24 @@ COMMONOFILES=\
 	trap.$O\
 	tree.$O\
 	var.$O\
+	y.tab.$O\
+	unix.$O\
 	havefork.$O\
+	$TARGMODEL.$O\
 
-PLAN9OFILES=plan9.$O\
+#	haventfork.$O\
 
-UNIXOFILES=unix.$O\
+HFILES=	rc.h y.tab.h
 
-OFILES=$COMMONOFILES $PLAN9OFILES y.tab.$O
+YFILES=	syn.y
 
-HFILES=rc.h\
-	x.tab.h\
-	io.h\
-	exec.h\
-	fns.h\
-	getflags.h\
+LIBS=9
 
-YFILES=syn.y
+BIN=$ROOT/$OBJDIR/bin
 
-BIN=/$objtype/bin
+<$ROOT/mkfiles/mkone-$SHELLTYPE
 
-UPDATE=\
-	mkfile\
-	$HFILES\
-	${COMMONOFILES:%.$O=%.c}\
-	${UNIXOFILES:%.$O=%.c}\
-	${PLAN9OFILES:%.$O=%.c}\
-	$YFILES\
-	${TARG:%=/386/bin/%}\
+CFLAGS=	$CFLAGS '-DROOT="'$ROOT'"' 
+#does not work: -DUnix
 
-</sys/src/cmd/mkone
-
-x.tab.h: y.tab.h
-	cmp -s x.tab.h y.tab.h || cp y.tab.h x.tab.h
-
-clean:V:
-	rm -f [$OS].out *.[$OS] [xy].tab.? y.debug $TARG
-
-regress: $O.out
-	cd test
-	mk
-
-unregress:V:
-	for(test in test/*.test) rc $test >$test.out
-
-listing:
-	pr mkfile $HFILES $FILES $FILES9 $FILESUNIX $YFILES|lp -du
+install:V:	$ROOT/lib/rcmain
