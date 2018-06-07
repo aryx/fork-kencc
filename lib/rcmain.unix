@@ -11,7 +11,8 @@ case 1
 if(~ $rcname ?.out) prompt=('broken! ' '	')
 if(flag p) path=/bin
 if not {
-	finit
+    #pad: does not work under cygwin, get some syntax error about '( [SUB]'
+    #finit
 	if(~ $#path 0) path=(. /bin /usr/bin /usr/local/bin)
 }
 fn sigexit

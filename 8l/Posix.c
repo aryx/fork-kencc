@@ -4,6 +4,7 @@
 #undef getwd
 #include <unistd.h>	/* For sysconf() and _SC_CLK_TCK */
 
+#ifndef CYGWIN
 /*
  * fake malloc
  */
@@ -46,6 +47,7 @@ realloc(void *p, size_t n)
 	abort();
 	return 0;
 }
+#endif
 
 void*
 mysbrk(ulong size)

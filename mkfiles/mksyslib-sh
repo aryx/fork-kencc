@@ -33,8 +33,11 @@ $LIBRARY(%.$O):N:	%.$O
 %.$O:	%.s
 	$AS $ASFLAGS $stem.s
 
-%.$O:	%.S$MACOSINF
-	$AS $ASFLAGS -o $target $stem.S
+#pad: under cygwin this rule adds an ambiguity for mk.
+# It should not, because only one non-vacuous node should remain
+# but maybe because under cygwin the filesystem is case insensitive?
+#%.$O:	%.S$MACOSINF
+#	$AS $ASFLAGS -o $target $stem.S
 
 y.tab.h y.tab.c:	$YFILES
 	$YACC $YFLAGS $prereq
