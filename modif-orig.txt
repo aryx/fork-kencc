@@ -19,3 +19,4 @@ partial list of modifications:
 - fixed Linux/386/include/lib9.h to comply with recent Linux distributions.
 - created Linux/386/lib/.keep and MacOSX/386/lib/.keep, etc. so
   'ar' can correctly create libraries
+- added the Cygwin host (mostly a copy of Linux)

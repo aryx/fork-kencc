@@ -4,8 +4,6 @@ Installation
      These notes employ the name 'ken-cc' for "the directory containing
      this file".
 
-     (!) See TODO.REBUILD for need to rebuild yacc to complete the install.
-
 
   On unixen including linuxen and macosen the configure script will
   generate 'mkconfig' and 'env'

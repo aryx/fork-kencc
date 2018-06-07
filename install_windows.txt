@@ -1,0 +1,10 @@
+To compile kencc you will need to install the 32bits cygwin environment
+(see https://www.cygwin.com/ and setup-x86.exe (not setup-x86_64.exe)).
+
+Then, you will need to add a few cygwin packages:
+ - gcc-core
+ - qemu
+
+After that, you can follow install.txt
+
+

@@ -6,13 +6,13 @@ then
  #
  # Rewrite uname values to a pair from these sets
  #
- #  HOST_SYSTEM := { MacOSX, Linux, Nt, Plan9 }
+ #  HOST_SYSTEM := { MacOSX, Linux, Cygwin, Plan9 }
  #
  #  HOST_ARCH := { 386}
  #
  case ${HOST_SYSTEM} in
-  Windows*|CYGWIN*|MINGW*)
-   HOST_SYSTEM="Nt"
+  CYGWIN*)
+   HOST_SYSTEM="Cygwin"
    ;;
   Darwin)
    HOST_SYSTEM="MacOSX"
@@ -70,9 +70,9 @@ then
 
  Configuration options (in order)
 
-   --host <Host system type>     (eg, MacOSX, Linux, Nt, Plan9)
+   --host <Host system type>     (eg, MacOSX, Linux, Cygwin, Plan9)
 
-   --target <Target system type> (eg, MacOSX, Linux, Nt, Plan9)
+   --target <Target system type> (eg, MacOSX, Linux, Cygwin, Plan9)
 
    --object <Target object type> (eg, 386)
 
