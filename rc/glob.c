@@ -1,6 +1,7 @@
 #include "rc.h"
 #include "exec.h"
 #include "fns.h"
+
 char *globname;
 struct word *globv;
 /*
@@ -100,7 +101,9 @@ glob(void *ap)
 		globv = newword((char *)p, globv);
 		return;
 	}
-	globname = emalloc(globlen);
+    //PAD: was emalloc(globlen);, but on Linux this causes some segfaults
+    //TODO: fix it, but this require to understand the code :)
+	globname = emalloc(globlen * 2);
 	globname[0]='\0';
 	globdir(p, (uchar *)globname);
 	efree(globname);
