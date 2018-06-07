@@ -1,0 +1,12 @@
+#                                              -*-makefile-*-
+
+#	Variables for host system type = Linux
+
+SHELLTYPE=	sh
+SHELLNAME=	/bin/sh
+HOSTMODEL=	Posix
+OSTARG=		os
+
+DATA2S=		data2s
+KSIZE=		ksize
+AWK=		awk

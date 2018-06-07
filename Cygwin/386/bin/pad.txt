@@ -1,0 +1,15 @@
+It was difficult to get a working mk.exe that would work
+under cygwin. The mk in the original kencc in Nt/386/bin/mk.exe
+was compiled with a shell (rcsh) that was hard to find.
+It was looking for c:/inferno/Nt/386/bin/rcsh.exe
+but even after setting up this dir, mk would still
+sometimes exit saying it could find a shell.
+
+In the end I produce myself Cygwin/386/bin/mk.exe
+by compiling directly all the necessary source
+(see the mk.sh scripts in lib9/, libbio/, libregexp/, and mk/).
+I just saved the compiling trace under Linux and adapted
+it for cygwin.
+
+Once I had a working mk.exe under cygwin, I could compile
+all the rest.
