@@ -25,4 +25,3 @@ including mk.
 
 The only requirement to compile kencc is to have a working C compiler
 and C standard library (e.g., gcc and the GNU libc).
-
