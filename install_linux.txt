@@ -1,5 +1,5 @@
-For recent Linux versions you need to install a few packages to be able
-to produce 32bits binaries on a 64bits architecture:
+On recent Linux distributions, you need to install a few extra
+packages to be able to produce 32 bits binaries on a 64 bits architecture:
  - libc6-dev-i386, otherwise you will get an error about the inexistent
    sys/cdefs.h and gnu/stub-32.h files
  - linux-libc-dev:i386, otherwise you will get an error about the inexistent
