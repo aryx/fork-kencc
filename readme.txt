@@ -1,8 +1,10 @@
-Highly portable C compiler suite, including supporting tools,
+Kencc is a highly portable C compiler suite, including supporting tools,
 originally developed for Plan 9 from Bell Labs and later also used for
-Inferno.
+Inferno. It was originally developed by Ken Thompson, hence the name
+kencc.
 
-It targets x86 and ARM.
+It targets x86 and ARM (the original kencc has more targets, but
+this fork supports only x86 and ARM).
 
 It is small and fast. It includes a stripped-down preprocessor.
 
