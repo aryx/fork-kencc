@@ -19,3 +19,5 @@ See also...
 
   docs/mk.pdf
 
+See install_linux.txt, install_macos.txt, or install_windows.txt for more
+details for each platform.
