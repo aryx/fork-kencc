@@ -10,18 +10,11 @@
 #dir: cc
 
 #dir: 8a
-dir: 0a
-dir: va
-
 #dir: 8c
-dir: 0c
-dir: vc
 file: 8c/6.out.h.clang2
 #file: 8c/8.out.h.clang2
 
 #dir: 8l
-dir: 0l
-dir: vl
 
 #dir: mk
 #dir: lex
@@ -34,4 +27,3 @@ dir: vl
 #dir: ndate
 
 dir: acid
-

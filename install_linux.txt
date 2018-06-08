@@ -6,4 +6,3 @@ packages to be able to produce 32 bits binaries on a 64 bits architecture:
    asm/errno.h file.
  - gcc-multilib, otherwise you will get an error during linking about a 
    missing libgcc.a
-
