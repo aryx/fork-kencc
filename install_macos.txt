@@ -1,5 +1,6 @@
-Modern macOS should come with a working C compiler (/usr/bin/cc
-should point to the Clang compiler), so you do not need to install
-anything to be able to compile kencc.
+Modern macOS should come with a working C compiler (/usr/bin/cc should
+point to the Clang compiler). If not, install Xcode from the App
+store. You do not need to install anything else to be able to compile
+kencc.
 
 Just follow install.txt.
