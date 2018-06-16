@@ -212,11 +212,14 @@ EXTERN union
 		uchar	obuf[MAXIO];			/* output buffer */
 		uchar	ibuf[MAXIO];			/* input buffer */
 	} u;
-	char	dbuf[1];
+    //pad: this does not work under recent gcc versions
+	//old: char	dbuf[1];
 } buf;
 
 #define	cbuf	u.obuf
 #define	xbuf	u.ibuf
+//pad: simpler
+#define	dbuf	u.obuf
 
 EXTERN	long	HEADR;			/* length of header */
 EXTERN	int	HEADTYPE;		/* type of header */
