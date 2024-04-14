@@ -28,6 +28,19 @@ jobs:
           . ./env
           mk
           mk install
+  build-x86-macos:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          uname -a
+      - name: Build
+        run: |
+          ./configure
+          . ./env
+          mk
+          mk install
 name: build-and-test
 on:
   pull_request: null
