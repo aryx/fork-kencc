@@ -17,7 +17,7 @@ local build_x86_linux_arch_job = {
     {
       name: 'Install dependencies',
       run: |||
-	pacman -S gcc lib32-glibc lib32-gcc-libs
+	pacman -Sy gcc lib32-glibc lib32-gcc-libs
       |||,
     },
     {
