@@ -39,7 +39,9 @@ local build_x86_linux_arch_job = {
 // Alpine
 local build_x86_linux_alpine_job = {
   'runs-on': 'ubuntu-latest',
-  container: 'alpine',
+  // alpine does not support gcc-multilib like ubuntu/arch
+  // so simpler to start from a 32 bits alpine image
+  container: 'i386/alpine',
   steps: [
     checkout,
     {
