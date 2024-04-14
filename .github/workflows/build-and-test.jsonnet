@@ -1,8 +1,9 @@
 // ----------------------------------------------------------------------------
 // The job
 // ----------------------------------------------------------------------------
-local job = {
+local build_x86_linux_arch_job = {
   'runs-on': 'ubuntu-latest',
+  container: 'archlinux',
   steps: [
     {
       uses: 'actions/checkout@v3',
@@ -10,7 +11,7 @@ local job = {
     {
       name: 'Install dependencies',
       run: |||
-	echo TODO
+	pacman -Q
       |||,
     },
     {
@@ -43,6 +44,6 @@ local job = {
     },
   },
   jobs: {
-    job: job,
+    'build-x86-linux-arch': build_x86_linux_arch_job,
   },
 }
