@@ -1,0 +1,35 @@
+# -*- org -*-
+
+* Old todos
+
+** less: I could remove need acid? kprof? libregexp?
+people should use this kencc just to bootstrap plan9. After that
+just use acid/kprof/... under plan9!
+
+** update from inferno-os?
+looks like it contains the latest portable sources
+kencc and 9-cc seems not uptodate
+
+but at the same time, I don't think it has 5a/5c/... synced
+with the latest plan9 versions 
+(which I did sync to get a working raspberry pi build of plan9)
+
+*** less: could copy the makemk.sh from inferno
+so no need to have bootstrapped mk for all platforms in xxx/.../bin/mk
+I started a bit with the mk.sh scripts in lib9/, libbio/ and mk/
+
+** update from plan9port?
+
+** update from plan9?
+
+** less: figure out why cant use union with dbuf,
+why was not working? print & of dbuf and obuf?
+and why was working if you do a print before ...
+really weird, probably bug gcc!
+
+*** try clang under Linux? bug with dbuf too?
+
+*** related to tordvalds recent rant about gcc and union and the C standard?
+
+** less: support also native windows (in Nt/) like
+in the original kencc
