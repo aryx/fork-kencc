@@ -6,6 +6,13 @@ local checkout = {
   uses: 'actions/checkout@v3',
 };
 
+local build_script = |||
+        ./configure
+        . ./env
+        mk
+        mk install
+|||;
+
 // ----------------------------------------------------------------------------
 // The jobs
 // ----------------------------------------------------------------------------
@@ -22,12 +29,25 @@ local build_x86_linux_arch_job = {
     },
     {
       name: 'Build',
+      run: build_script,
+    }
+  ]
+};
+
+local build_x86_linux_ubuntu_job = {
+  'runs-on': 'ubuntu-latest',
+  steps: [
+    checkout,
+    {
+      name: 'Install dependencies',
       run: |||
-        ./configure
-        . ./env
-        mk
-        mk install
+	sudo apt update
+	sudo apt-get install -y gcc-multilib
       |||,
+    },
+    {
+      name: 'Build',
+      run: build_script,
     }
   ]
 };
@@ -51,5 +71,6 @@ local build_x86_linux_arch_job = {
   },
   jobs: {
     'build-x86-linux-arch': build_x86_linux_arch_job,
+    'build-x86-linux-ubuntu': build_x86_linux_ubuntu_job,
   },
 }
