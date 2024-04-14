@@ -34,6 +34,24 @@ local build_x86_linux_arch_job = {
   ]
 };
 
+local build_x86_linux_alpine_job = {
+  'runs-on': 'ubuntu-latest',
+  container: 'alpine',
+  steps: [
+    checkout,
+    {
+      name: 'Install dependencies',
+      run: |||
+	apk add gcc
+      |||,
+    },
+    {
+      name: 'Build',
+      run: build_script,
+    }
+  ]
+};
+
 local build_x86_linux_ubuntu_job = {
   'runs-on': 'ubuntu-latest',
   steps: [
@@ -71,6 +89,7 @@ local build_x86_linux_ubuntu_job = {
   },
   jobs: {
     'build-x86-linux-arch': build_x86_linux_arch_job,
+    'build-x86-linux-alpine': build_x86_linux_alpine_job,
     'build-x86-linux-ubuntu': build_x86_linux_ubuntu_job,
   },
 }
