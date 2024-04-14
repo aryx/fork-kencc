@@ -16,6 +16,8 @@ local build_script = |||
 // ----------------------------------------------------------------------------
 // The jobs
 // ----------------------------------------------------------------------------
+
+// Arch
 local build_x86_linux_arch_job = {
   'runs-on': 'ubuntu-latest',
   container: 'archlinux',
@@ -34,6 +36,7 @@ local build_x86_linux_arch_job = {
   ]
 };
 
+// Alpine
 local build_x86_linux_alpine_job = {
   'runs-on': 'ubuntu-latest',
   container: 'alpine',
@@ -42,7 +45,7 @@ local build_x86_linux_alpine_job = {
     {
       name: 'Install dependencies',
       run: |||
-	apk add gcc
+	apk add bash gcc
       |||,
     },
     {
@@ -52,6 +55,7 @@ local build_x86_linux_alpine_job = {
   ]
 };
 
+// Ubuntu
 local build_x86_linux_ubuntu_job = {
   'runs-on': 'ubuntu-latest',
   steps: [
