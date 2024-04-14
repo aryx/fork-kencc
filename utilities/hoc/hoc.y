@@ -139,7 +139,6 @@ arglist:  /* nothing */ 	{ $$ = 0; }
 char	*progname;
 int	lineno = 1;
 jmp_buf	begin;
-int	indef;
 char	*infile;	/* input file name */
 Biobuf	*bin;		/* input file descriptor */
 Biobuf	binbuf;

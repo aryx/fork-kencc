@@ -62,7 +62,7 @@ tree *mung1(tree*, tree*), *mung2(tree*, tree*, tree*);
 tree *mung3(tree*, tree*, tree*, tree*), *epimung(tree*, tree*);
 tree *simplemung(tree*), *heredoc(tree*);
 void freetree(tree*);
-tree *cmdtree;
+extern tree *cmdtree;
 
 /*
  * The first word of any code vector is a reference count.
@@ -75,12 +75,12 @@ union code{
 	char	*s;
 };
 
-char *promptstr;
-int doprompt;
+extern char *promptstr;
+extern int doprompt;
 
 #define	NTOK	8192		/* maximum bytes in a word (token) */
 
-char tok[NTOK + UTFmax];
+extern char tok[NTOK + UTFmax];
 
 #define	APPEND	1
 #define	WRITE	2
@@ -103,7 +103,7 @@ var *vlook(char*), *gvlook(char*), *newvar(char*, var*);
 
 #define	NVAR	521
 
-var *gvar[NVAR];		/* hash for globals */
+extern var *gvar[NVAR];		/* hash for globals */
 
 #define	new(type)	((type *)emalloc(sizeof(type)))
 
@@ -116,7 +116,7 @@ struct here{
 	char	*name;
 	struct here *next;
 };
-int mypid;
+extern int mypid;
 
 /*
  * Glob character escape in strings:
@@ -128,10 +128,10 @@ int mypid;
  */
 #define	GLOB	'\001'
 
-char **argp;
-char **args;
-int nerror;		/* number of errors encountered during compilation */
-int doprompt;		/* is it time for a prompt? */
+extern char **argp;
+extern char **args;
+extern int nerror;		/* number of errors encountered during compilation */
+extern int doprompt;		/* is it time for a prompt? */
 /*
  * Which fds are the reading/writing end of a pipe?
  * Unfortunately, this can vary from system to system.
@@ -141,12 +141,12 @@ int doprompt;		/* is it time for a prompt? */
 #define	PRD	0
 #define	PWR	1
 
-char *Rcmain, *Fdprefix;
+extern char *Rcmain, *Fdprefix;
 /*
  * How many dot commands have we executed?
  * Used to ensure that -v flag doesn't print rcmain.
  */
-int ndot;
+extern int ndot;
 char *getstatus(void);
-int lastc;
-int lastword;
+extern int lastc;
+extern int lastword;

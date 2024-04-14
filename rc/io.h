@@ -6,7 +6,7 @@ struct io{
 	uchar	*bufp, *ebuf, *strp;
 	uchar	buf[NBUF];
 };
-io *err;
+extern io *err;
 
 io *openfd(int), *openstr(void), *opencore(char *, int);
 int emptybuf(io*);

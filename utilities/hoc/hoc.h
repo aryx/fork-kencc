@@ -80,3 +80,5 @@ extern	void init(void);
 extern	int yyparse(void);
 extern	void execerror(char*, char*);
 extern	void *emalloc(unsigned);
+
+extern int indef; /* 1 if parsing a func or proc */

@@ -20,6 +20,7 @@ OFILES=	\
 	var.$O\
 	y.tab.$O\
 	havefork.$O\
+	globals.$O\
 	$TARGMODEL.$O\
 
 #	haventfork.$O\

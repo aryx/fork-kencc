@@ -606,4 +606,4 @@ Hintab	hintab[] =
 	62750,	"e+f--+g+",
 	64750,	"b+f+d+p-",
 };
-int	hintabsize	= nelem(hintab);
+
