@@ -37,25 +37,26 @@ local build_x86_linux_arch_job = {
 };
 
 // Alpine
-local build_x86_linux_alpine_job = {
-  'runs-on': 'ubuntu-latest',
-  // alpine does not support gcc-multilib like ubuntu/arch
-  // so simpler to start from a 32 bits alpine image
-  container: 'i386/alpine',
-  steps: [
-    checkout,
-    {
-      name: 'Install dependencies',
-      run: |||
-	apk add bash gcc
-      |||,
-    },
-    {
-      name: 'Build',
-      run: build_script,
-    }
-  ]
-};
+//local build_x86_linux_alpine_job = {
+//  'runs-on': 'ubuntu-latest',
+//  // alpine does not support gcc-multilib like ubuntu/arch
+//  // so simpler to start from a 32 bits alpine image
+//  // But this does not seem to work well with GHA :(
+//  container: 'i386/alpine',
+//  steps: [
+//    checkout,
+//    {
+//      name: 'Install dependencies',
+//      run: |||
+//	apk add bash gcc
+//      |||,
+//    },
+//    {
+//      name: 'Build',
+//      run: build_script,
+//    }
+//  ]
+//};
 
 // Ubuntu
 local build_x86_linux_ubuntu_job = {
@@ -95,7 +96,7 @@ local build_x86_linux_ubuntu_job = {
   },
   jobs: {
     'build-x86-linux-arch': build_x86_linux_arch_job,
-    'build-x86-linux-alpine': build_x86_linux_alpine_job,
+    //'build-x86-linux-alpine': build_x86_linux_alpine_job,
     'build-x86-linux-ubuntu': build_x86_linux_ubuntu_job,
   },
 }
