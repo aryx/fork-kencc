@@ -5,11 +5,21 @@ local job = {
   'runs-on': 'ubuntu-latest',
   steps: [
     {
+      uses: 'actions/checkout@v3',
+    },
+    {
+      name: 'Install dependencies',
       run: |||
-	./configure
-	. ./env
-	mk
-	mk install
+	echo TODO
+      |||,
+    },
+    {
+      name: 'Build',
+      run: |||
+        ./configure
+        . ./env
+        mk
+        mk install
       |||,
     }
   ]

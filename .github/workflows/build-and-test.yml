@@ -3,7 +3,12 @@ jobs:
   job:
     runs-on: ubuntu-latest
     steps:
-      - run: |
+      - uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          echo TODO
+      - name: Build
+        run: |
           ./configure
           . ./env
           mk
