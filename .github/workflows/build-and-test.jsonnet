@@ -41,8 +41,8 @@ local build_x86_linux_ubuntu_job = {
     {
       name: 'Install dependencies',
       run: |||
-	apt update
-	apt-get install -y gcc-multilib
+	sudo apt update
+	sudo apt-get install -y gcc-multilib
       |||,
     },
     {
