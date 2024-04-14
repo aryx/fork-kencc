@@ -1,17 +1,23 @@
 // ----------------------------------------------------------------------------
-// The job
+// Helpers
+// ----------------------------------------------------------------------------
+
+local checkout = {
+  uses: 'actions/checkout@v3',
+};
+
+// ----------------------------------------------------------------------------
+// The jobs
 // ----------------------------------------------------------------------------
 local build_x86_linux_arch_job = {
   'runs-on': 'ubuntu-latest',
   container: 'archlinux',
   steps: [
-    {
-      uses: 'actions/checkout@v3',
-    },
+    checkout,
     {
       name: 'Install dependencies',
       run: |||
-	pacman -Q
+	pacman -S gcc lib32-glibc lib32-gcc-libs
       |||,
     },
     {
