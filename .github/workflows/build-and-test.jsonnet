@@ -77,6 +77,24 @@ local build_x86_linux_ubuntu_job = {
   ]
 };
 
+// Macos
+local build_x86_macos_job = {
+  'runs-on': 'macos-latest',
+  steps: [
+    checkout,
+    {
+      name: 'Install dependencies',
+      run: |||
+	uname -a
+      |||,
+    },
+    {
+      name: 'Build',
+      run: build_script,
+    }
+  ]
+};
+
 // ----------------------------------------------------------------------------
 // The workflow
 // ----------------------------------------------------------------------------
@@ -98,5 +116,6 @@ local build_x86_linux_ubuntu_job = {
     'build-x86-linux-arch': build_x86_linux_arch_job,
     //'build-x86-linux-alpine': build_x86_linux_alpine_job,
     'build-x86-linux-ubuntu': build_x86_linux_ubuntu_job,
+    'build-x86-macos': build_x86_macos_job,
   },
 }
