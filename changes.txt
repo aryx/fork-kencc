@@ -18,7 +18,12 @@
 - CI build (GHA)
 - CI Tests
 
-* 0.4 (Q2 2025) (Resume)
+* 0.4 (Q2 2025) (Dockerfile (devops))
+
+** devops
+
+- Dockerfile (Ubuntu) and docker.yml GHA CI
+
 
 * 0.3 (Q2 2024) (Resume)
 

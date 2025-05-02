@@ -90,7 +90,7 @@ local build_x86_linux_ubuntu_job = {
     // and another time once the PR is merged on master
     push: {
       branches: [
-        'master',
+        'masterTODO',
       ],
     },
   },
