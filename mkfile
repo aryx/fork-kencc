@@ -20,8 +20,8 @@ DIRS=\
 	5c\
 	5l\
     \
-	ar\
-	acid\
+    ar\
+    acid\
     pcc\
     \
     rc\
