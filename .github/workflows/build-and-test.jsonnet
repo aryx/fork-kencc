@@ -90,13 +90,13 @@ local build_x86_linux_ubuntu_job = {
     // and another time once the PR is merged on master
     push: {
       branches: [
-        'masterTODO',
+        'master',
       ],
     },
   },
   jobs: {
-    'build-x86-linux-arch': build_x86_linux_arch_job,
-    //'build-x86-linux-alpine': build_x86_linux_alpine_job,
+    //TODO: 'build-x86-linux-arch': build_x86_linux_arch_job,
+    //TODO: 'build-x86-linux-alpine': build_x86_linux_alpine_job,
     'build-x86-linux-ubuntu': build_x86_linux_ubuntu_job,
   },
 }
