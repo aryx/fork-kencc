@@ -33,3 +33,8 @@ push:
 	git push origin `git rev-parse --abbrev-ref HEAD`
 merge:
 	A=`git rev-parse --abbrev-ref HEAD` && git checkout master && git pull && git branch -D $$A
+
+# See https://github.com/aryx/codemap and https://github.com/aryx/fork-efuns
+# TODO? -filter semgrep?
+visual:
+	codemap -screen_size 3 -efuns_client efuns_client -emacs_client /dev/null .
