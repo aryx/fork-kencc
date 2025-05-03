@@ -9,14 +9,13 @@
 - Mach-O support
 
 ** testinfra
+
 - find back some testsuite in Go source? in old plan9 sources?
   no regression suite for 5a/5l/5c ???
 
 ** devops
-- Dockerfile (and docker.yml GHA)
-- Xix (and nix.yml GHA)
-- CI build (GHA)
-- CI Tests
+
+- Nix (and nix.yml GHA)
 
 * 0.4 (Q2 2025) (Dockerfile (devops))
 
@@ -25,7 +24,12 @@
 - Dockerfile (Ubuntu) and docker.yml GHA CI
 
 
-* 0.3 (Q2 2024) (Resume)
+* 0.3 (Q2 2024) (small resume, basic GHA CI)
+
+** devops
+
+- CI build (GHA)
+
 
 * 0.2 (Q2 2018) (Linux and Windows support)
 
