@@ -12,8 +12,7 @@ ARFLAGS=	ruvs
 AS=		cc -c -m32
 ASFLAGS=
 
-# TODO: remove those Wno-xxx and fix the C code instead
-CC=		cc -c -m32 --std=c11 -Wno-implicit-function-declaration -Wno-incompatible-pointer-types -Wno-implicit-int -Wno-int-conversion
+CC=		cc -c -m32 --std=gnu89
 CFLAGS=		-g\
 		-O\
 		-I$ROOT/Linux/386/include\
