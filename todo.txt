@@ -2,10 +2,6 @@
 
 * Old todos
 
-** less: I could remove need acid? kprof? libregexp?
-people should use this kencc just to bootstrap plan9. After that
-just use acid/kprof/... under plan9!
-
 ** update from inferno-os?
 looks like it contains the latest portable sources
 kencc and 9-cc seems not uptodate
