@@ -14,7 +14,7 @@ WORKDIR /src
 # Now let's build from source
 COPY . .
 RUN ./configure
-RUN . ./env && mk
+RUN . ./env && mk && mk install
 
 FROM ubuntu:22.04 as run
 

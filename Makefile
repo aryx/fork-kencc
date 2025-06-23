@@ -22,6 +22,12 @@ all:
 build-docker:
 	docker build -t "kencc" .
 
+# need 'docker login -u padator' first with credentials of
+# https://hub.docker.com/r/padator/ stored in ~/.docker/config.json
+push-docker:
+	docker tag "kencc" padator/kencc:latest
+	docker push padator/kencc:latest
+
 ###############################################################################
 # Pad's target
 ###############################################################################
