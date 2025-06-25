@@ -1,22 +1,24 @@
 # -*- org -*-
+#note: !Goken9cc is the futur though so prioritize goken over kencc when possible!
+
+* Infra
+
+** Build infra
+
+*** port kencc to amd64? or switch to goken?
+9cc-colombier did but I had to revert it because I failed to compile it on my
+Linux. Still, probably need to port all the uintptr and va_list fixes!
+
+note that goken is working on amd64 (actually it currently only builds on amd64)
+
+*** try to compile kencc from macbook black arm64
+should work no? we just use gcc/clang or 64 bit issue?
+maybe first port kencc to amd64
+
+*** still? run compiled kencc on kencc/ source? works?
+better to get boostrapping on goken
 
 * Old todos
-
-** update from inferno-os?
-looks like it contains the latest portable sources
-kencc and 9-cc seems not uptodate
-
-but at the same time, I don't think it has 5a/5c/... synced
-with the latest plan9 versions 
-(which I did sync to get a working raspberry pi build of plan9)
-
-*** less: could copy the makemk.sh from inferno
-so no need to have bootstrapped mk for all platforms in xxx/.../bin/mk
-I started a bit with the mk.sh scripts in lib9/, libbio/ and mk/
-
-** update from plan9port?
-
-** update from plan9?
 
 ** less: figure out why cant use union with dbuf,
 why was not working? print & of dbuf and obuf?
@@ -26,6 +28,3 @@ really weird, probably bug gcc!
 *** try clang under Linux? bug with dbuf too?
 
 *** related to tordvalds recent rant about gcc and union and the C standard?
-
-** less: support also native windows (in Nt/) like
-in the original kencc
