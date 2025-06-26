@@ -63,7 +63,7 @@ mulcon0(long v)
 	mulval = v;
 
 	/*
-	 * look in execption hint table
+	 * look in exception hint table
 	 */
 	a1 = 0;
 	a2 = hintabsize;
@@ -607,3 +607,4 @@ Hintab	hintab[] =
 	64750,	"b+f+d+p-",
 };
 
+int	hintabsize	= nelem(hintab);
