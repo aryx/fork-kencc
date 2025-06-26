@@ -129,6 +129,8 @@ struct	Rgn
 	short	regno;
 };
 
+// EXTERN is set to nothing in list.c so
+// list.c is defining all those globals
 EXTERN	long	breakpc;
 EXTERN	long	nbreak;
 EXTERN	Case*	cases;
@@ -142,7 +144,8 @@ EXTERN	Prog*	lastp;
 EXTERN	long	maxargsafe;
 EXTERN	int	mnstring;
 EXTERN	Multab	multab[20];
-EXTERN	int	hintabsize;
+// this one is defined in mul.c
+extern int	hintabsize;
 EXTERN	Node*	nodrat;
 EXTERN	Node*	nodret;
 EXTERN	Node*	nodsafe;
@@ -256,7 +259,7 @@ void	gpseudo(int, Sym*, Node*);
 /*
  * swt.c
  */
-int	swcmp(void*, void*);
+int	swcmp(const void*, const void*);
 void	doswit(Node*);
 void	swit1(C1*, int, long, Node*);
 void	swit2(C1*, int, long, Node*, Node*);
