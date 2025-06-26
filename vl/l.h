@@ -313,7 +313,7 @@ void	lput(long);
 void	lputl(long);
 void	bput(long);
 void	mkfwd(void);
-void*	mysbrk(usize);
+void*	mysbrk(ulong);
 void	names(void);
 void	nocache(Prog*);
 void	noops(void);

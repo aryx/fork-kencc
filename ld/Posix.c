@@ -6,7 +6,7 @@
 #include <unistd.h>	/* For sysconf() and _SC_CLK_TCK */
 
 void*
-mysbrk(usize size)
+mysbrk(ulong size)
 {
 	return (void*)sbrk(size);
 }
