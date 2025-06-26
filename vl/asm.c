@@ -1,5 +1,13 @@
 #include	"l.h"
 
+/* can't include a.out.h due to name clashes, but these are taken from it */
+#define	_MAGIC(f, b)	((f)|((((4*(b))+0)*(b))+7))
+#define	V_MAGIC		_MAGIC(0, 16)		/* mips 3000 BE */
+#define	M_MAGIC		_MAGIC(0, 18)		/* mips 4000 BE */
+#define	N_MAGIC		_MAGIC(0, 22)		/* mips 4000 LE */
+#define	P_MAGIC		_MAGIC(0, 24)		/* mips 3000 LE */
+
+
 long	OFFSET;
 /*
 long	BADOFFSET	=	-1;
@@ -174,6 +182,8 @@ asmb(void)
 	Prog *p;
 	long t, etext;
 	Optab *o;
+	long tm;
+	ulong rndtxtsz;
 
 	if(debug['v'])
 		Bprint(&bso, "%5.2f asm\n", cputime());
@@ -276,6 +286,10 @@ asmb(void)
 	Bflush(&bso);
 	OFFSET = 0;
 	seek(cout, OFFSET, 0);
+
+	rndtxtsz = rnd(HEADR+textsize, (INITRND > 0? INITRND: 4096));
+	tm = time(0);
+
 	switch(HEADTYPE) {
 	case 0:
 		lput(0x160L<<16);		/* magic and sections */
@@ -323,10 +337,10 @@ asmb(void)
 		break;
 	case 2:
 		if (little)
-			t = 24;
+			lput(P_MAGIC);		/* mips 3000 LE */
 		else
-			t = 16;
-		lput(((((4*t)+0)*t)+7));	/* magic */
+			lput(V_MAGIC);		/* mips 3000 BE */
+		//lput(((((4*t)+0)*t)+7));	/* magic */
 		lput(textsize);			/* sizes */
 		lput(datsize);
 		lput(bsssize);
