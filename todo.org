@@ -1,6 +1,23 @@
 # -*- org -*-
 #note: !Goken9cc is the futur though so prioritize goken over kencc when possible!
 
+* Last
+
+*** fix segfault with rc in kencc
+still useful goal? anyway, want to move to goken no?
+update: goken might be further away to compile principia so let's not
+ abandon completely kencc
+
+we need a working mk/rc to compile principia, and can use MKSHELL
+and 9base to use plan9port rc, but a but annoying
+=> better to fix rc in kencc
+OR better to port mk/rc from principia to goken?
+
+use gdb
+recompile with -O0 and -fno-inline if needed
+
+*** RELAX shell.nix and nix.yml
+
 * Infra
 
 ** Build infra
