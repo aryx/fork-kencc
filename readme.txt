@@ -1,3 +1,6 @@
+UPDATE: FORK-KENCC IS DEPRECATED IN FAVOR OF GOKEN9CC.
+
+
 Kencc is a highly portable C compiler suite, including supporting tools,
 originally developed for Plan 9 from Bell Labs and later also used for
 Inferno. It was originally developed by Ken Thompson, hence the name
